@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucash2022/Portfolio_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucash2022/Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/Lucash2022/Portfolio_Website#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
