@@ -387,18 +387,20 @@ h1 {
   align-items: flex-start;
   gap: 15px;
 }
-.footer{
+
+.footer {
   background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
   background-size: cover;
   background-color: #6070ff;
-  padding: 100px 20px;
+  padding: 120px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
   justify-content: center;
   border-top-left-radius: 70px;
-  gap: 20px;
+  gap: 120px;
 }
+
 .form_header {
   color: white;
   font-weight: 600;
@@ -406,11 +408,41 @@ h1 {
   margin: 0;
   height: fit-content;
   padding: 5px 0;
+  text-align: center;
 }
-.contact_paragraph {
+
+.form_paragraph {
   color: #fff;
   text-align: center;
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
+}
+
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_input {
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.form_button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
