@@ -387,3 +387,30 @@ h1 {
   align-items: flex-start;
   gap: 15px;
 }
+.footer{
+  background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
+  background-size: cover;
+  background-color: #6070ff;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+  border-top-left-radius: 70px;
+  gap: 20px;
+}
+.form_header {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+  height: fit-content;
+  padding: 5px 0;
+}
+.contact_paragraph {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
