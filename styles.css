@@ -12,6 +12,10 @@ a {
   color: inherit;
   cursor: auto;
 }
+.links:hover{
+  border-bottom: 3px blue solid;
+}
+
 
 * {
   margin: 0;
@@ -123,16 +127,15 @@ h1 {
   grid-template-columns: 100%;
 }
 
-@media (max-width: 600px) {
+@media (min-width:768px) {
   .introduction {
     display: flex;
     padding: 0 10px;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
-    justify-content: flex-start;
     width: 100%;
     height: fit-content;
-    min-height: 500;
+    min-height: 600;
   }
 
   h1 {
@@ -148,13 +151,14 @@ h1 {
   }
 
   .description {
-    width: 100%;
+    width: 90%;
     height: 98px;
     font-style: normal;
     font-weight: lighter;
     font-size: 14px;
     line-height: 20px;
     overflow-wrap: break-word;
+    text-align: left;
   }
 
   .headline {
@@ -202,7 +206,7 @@ h1 {
     width: 100%;
     background-color: white;
   }
-
+ 
   body {
     margin: 0;
     padding: 0;
@@ -226,6 +230,7 @@ h1 {
     line-height: 44px;
     margin-bottom: 10px;
   }
+
 }
 
 .list_items {
@@ -339,13 +344,13 @@ h1 {
 
 .tags {
   margin-bottom: 20px;
-  float: right;
+  float: left;
 }
 
 .first_project,
 .second_project,
 .third_project,
-.forth_project {
+.foruth_project {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,7 +361,7 @@ h1 {
   background-color: #fff;
 }
 
-.forth_project {
+.foruth_project {
   margin-bottom: 40px;
 }
 
