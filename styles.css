@@ -440,6 +440,7 @@ h1 {
   line-height: 24px;
   width: fit-content;
 }
+
 .form_button:hover {
   background-color: #6070ff;
   color: white;
