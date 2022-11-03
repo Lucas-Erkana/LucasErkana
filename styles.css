@@ -171,7 +171,7 @@ h1 {
     position: relative;
     padding: 0;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 
   html {
