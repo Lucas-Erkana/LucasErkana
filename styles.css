@@ -359,7 +359,7 @@
 }
 
 .first_project,
-.second_project,
+/* .second_project, */
 .third_project,
 .foruth_project {
   display: flex;
@@ -371,7 +371,21 @@
   padding: 15px 15px;
   background-color: #fff;
 }
+.second_project{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 20px;
+  height:max-content;
+}
 
+.grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(300px,auto);
+  }
+ 
+}
 .foruth_project {
   margin-bottom: 40px;
 }
