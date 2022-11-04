@@ -38,7 +38,8 @@ nav {
   /* Adjust flex layout */
   display: flex;
   flex-direction: row;
-}
+  /* Adjust flex item to start */
+  align-items: flex-start;
 
 /*Apply display, flex direction, gap and list-style propeties to ul selector  */
 ul {
