@@ -23,6 +23,14 @@ a {
   color: inherit;
   cursor: auto;
 }
+/* Set margin and PAdding to zero, and box-sizing to border box for all content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 
 
 
