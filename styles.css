@@ -1,3 +1,4 @@
+/* Add margin 0, padding 0, box-sizing and background color */
 body {
   margin: 0;
   padding: 0;
@@ -5,4 +6,16 @@ body {
   overflow-y: none;
   background-color: #f7f7f9;
 }
-/* Add margin 0, padding 0, box-sizing and background color */
+/*Add styles(font-style,font-weight,size.line-height,color,list-style,width,display to .logo selector  */
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  list-style: none;
+  width: 100px;
+  display: inline-block;
+}
+
+/* Add media query for screen width 768 */
