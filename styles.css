@@ -149,11 +149,7 @@ h1 {
   .first_project,
   .second_project,
   .third_project,
-  .fourth_project,
-  .fifth_project,
-  .sixth_project,
-  .seventh_project,
-  .eighth_project {
+  .fourth_project {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -231,6 +227,7 @@ h1 {
     height: 2px;
     background-color: #6070ff;
   }
+
   .Availabiity,
   .Explore,
   .Nature {
@@ -293,6 +290,7 @@ h1 {
   font-size: 20px;
   line-height: 24px;
 }
+
 /* Dorpdown */
 .dropdown {
   width: 100%;
@@ -359,8 +357,9 @@ h1 {
 .tags {
   margin-bottom: 20px;
 }
-/* second ,third, sizth and seventh */
-.third_project {
+
+/* second ,third, sixth and seventh */
+.second_project {
   margin-bottom: 40px;
 }
 
@@ -432,7 +431,6 @@ h1 {
   align-items: center;
 }
 
-
 .form_input {
   padding: 15px 10px;
   border-radius: 10px;
@@ -449,13 +447,11 @@ h1 {
   width: fit-content;
 }
 
-
 form {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 
 .form_button:hover {
   background-color: #6070ff;
@@ -467,7 +463,6 @@ form {
   color: white;
 }
 
-
 .form_button:disabled {
   background-color: #fff;
   color: #5e6c84;
@@ -475,3 +470,162 @@ form {
 }
 
 /* Add media query for screen width 768 */
+@media (min-width: 768px) {
+  .first_project,
+  .second_project,
+  .third_project,
+  .fourth_project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 15px 35px;
+    background-color: #fff;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: white;
+    padding: 30px 154px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 850px;
+  }
+
+  .dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .Nature,
+  .Professional,
+  .Explore {
+    width: 600px;
+    height: 400px;
+  }
+
+  .flex_list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .project_description {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .About_Section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 100px 120px;
+  }
+
+  .About_Section_description {
+    width: 400px;
+  }
+
+  .About_Section_flex {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .About_Section_flexx {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 122px;
+    height: 120px;
+  }
+
+  .about_section_lists {
+    min-width: 700px;
+  }
+
+  .form_header {
+    align-self: center;
+  }
+
+  .form_input {
+    min-width: 447px;
+  }
+
+  .footer {
+    background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
+    background-size: cover;
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 70px;
+    gap: 120px;
+    min-height: 846px;
+  }
+
+  .footer_section {
+    background-color: white;
+  }
+
+  .headline {
+    background-image: url(/svg_files/Background.png);
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10%;
+  }
+
+  .project_section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    padding: 0 100px;
+    margin-bottom: 100px;
+  }
+}
