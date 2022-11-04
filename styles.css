@@ -34,32 +34,23 @@ body {
   background-color: #f7f7f7;
 }
 
+/* Adjust flex layout */
 nav {
-  /* Adjust flex layout */
-
   display: flex;
   flex-direction: row;
-  /* Adjust flex item to start */
-
   align-items: flex-start;
-/* Adust width to 100% to nav selector */
-
   width: 100%;
-  /* Apply justify content with space in between to nav selector */
-
   justify-content: space-between;
-/* Apply white background color */
-
   background-color: white;
-
+  padding: 10px 20px;
 }
-/*Apply display, flex direction, gap and list-style propeties to ul selector  */
+
+/* Apply display, flex direction, gap and list-style propeties to ul selector  */
 ul {
   display: flex;
   flex-direction: row;
   gap: 50px;
   list-style: none;
 }
-
 
 /* Add media query for screen width 768 */
