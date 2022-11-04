@@ -36,11 +36,15 @@ body {
 
 nav {
   /* Adjust flex layout */
+
   display: flex;
   flex-direction: row;
   /* Adjust flex item to start */
-  align-items: flex-start;
 
+  align-items: flex-start;
+/* Adust width to 100% to nav selector */
+  width: 100%;
+}
 /*Apply display, flex direction, gap and list-style propeties to ul selector  */
 ul {
   display: flex;
