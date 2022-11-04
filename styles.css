@@ -53,4 +53,16 @@ ul {
   list-style: none;
 }
 
+/*Add background image to healine selector */
+.headline {
+  background-image: url(./svg_files/Background.png);
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10%;
+}
+
 /* Add media query for screen width 768 */
