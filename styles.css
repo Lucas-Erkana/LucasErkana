@@ -87,7 +87,15 @@ h1 {
   letter-spacing: 0.37px;
 }
 
-
-
+/* Aoply font to ddescription selector */
+.description {
+  width: 920px;
+  height: 98px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  overflow-wrap: break-word;
+}
 
 /* Add media query for screen width 768 */
