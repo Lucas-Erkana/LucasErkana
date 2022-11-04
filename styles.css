@@ -65,4 +65,15 @@ ul {
   border-bottom-left-radius: 10%;
 }
 
+/* Adjust flext layout to introduction selector */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20%;
+  width: 100%;
+}
+
 /* Add media query for screen width 768 */
