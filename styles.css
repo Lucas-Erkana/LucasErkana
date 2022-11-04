@@ -249,7 +249,7 @@ h1 {
   }
 }
 
-/* Apply fonts to list and list items selector*/
+/* Apply fonts to list and list items selector */
 .list_items {
   list-style-type: circle;
   width: 88px;
@@ -260,6 +260,7 @@ h1 {
   line-height: 16px;
   color: #7a869a;
 }
+
 .list {
   width: 100%;
   display: flex;
@@ -281,6 +282,7 @@ h1 {
 .spacer {
   margin-top: 15px;
 }
+
 .about_section_lists {
   display: block;
 }
@@ -302,27 +304,22 @@ h1 {
   border-bottom: 1px solid #dfe1e6;
 }
 
-
 .dropdown span {
   font-weight: bolder;
   transform: rotate(90deg);
 }
 
-
 .dropdown:first-child {
   border: none;
 }
-
 
 .dropdown:last-child {
   margin-bottom: 40px;
 }
 
-
 .dropdown:first-child span {
   transform: rotate(180deg);
 }
-
 
 .btn {
   padding: 20px;
@@ -341,18 +338,15 @@ h1 {
   transition: all 0.4s ease-in-out;
 }
 
-
 .btn:hover {
   background-color: #6070ff;
   color: white;
 }
 
-
 .btn:active {
   background-color: #2230d2;
   color: white;
 }
-
 
 .btn:disabled {
   background-color: #fff;
@@ -360,16 +354,13 @@ h1 {
   border-color: #5e6c84;
 }
 
-
 .tags {
   margin-bottom: 20px;
 }
 
-
 .forth_project {
   margin-bottom: 40px;
 }
-
 
 .About_Section {
   display: flex;
@@ -381,19 +372,7 @@ h1 {
   padding-top: 90px;
 }
 
-
-.dropdown {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 20px;
-  margin-top: 20px;
-  justify-content: space-between;
-  border-bottom: 1px solid #dfe1e6;
-}
-
-/* Apply flex layout to conatiner and languages selector */
+/* Adjust flex layout to conatiner and languages selector */
 .container {
   display: flex;
   align-items: center;
@@ -411,7 +390,5 @@ h1 {
   align-items: flex-start;
   gap: 15px;
 }
-
-
 
 /* Add media query for screen width 768 */
