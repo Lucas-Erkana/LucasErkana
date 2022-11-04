@@ -249,6 +249,7 @@ h1 {
   }
 }
 
+/* Apply fonts to list and list items selector*/
 .list_items {
   list-style-type: circle;
   width: 88px;
@@ -258,6 +259,46 @@ h1 {
   font-size: 12px;
   line-height: 16px;
   color: #7a869a;
+}
+.list {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  color: #6070ff;
+  border-radius: 12px;
+  background-color: #ebebff;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.spacer {
+  margin-top: 15px;
+}
+.about_section_lists {
+  display: block;
+}
+
+.section_header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 /* Add media query for screen width 768 */
