@@ -45,4 +45,13 @@ nav {
   padding: 10px 20px;
 }
 
+/*Apply display, flex direction, gap and list-style propeties to ul selector  */
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style: none;
+}
+
+
 /* Add media query for screen width 768 */
