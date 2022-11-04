@@ -34,15 +34,10 @@ body {
   background-color: #f7f7f7;
 }
 
-/* Apply display, flex direction, align-item, width, jusity-content, background-color and padding properties to nav selector */
 nav {
+  /* Adjust flex layout */
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  justify-content: space-between;
-  background-color: white;
-  padding: 10px 20px;
 }
 
 /*Apply display, flex direction, gap and list-style propeties to ul selector  */
