@@ -1,12 +1,5 @@
-/* Add margin 0, padding 0, box-sizing and background color */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-y: none;
-  background-color: #f7f7f9;
-}
-/*Add styles(font-style,font-weight,size.line-height,color,list-style,width,display to .logo selector  */
+
+/* Add styles(font-style,font-weight,size.line-height,color,list-style,width,display to .logo selector  */
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -17,12 +10,14 @@ body {
   width: 100px;
   display: inline-block;
 }
+
 /* Apply text decoration to all anchor selectors, plus color to inherit, plus cursor to auto  */
 a {
   text-decoration: inherit;
   color: inherit;
   cursor: auto;
 }
+
 /* Set margin and PAdding to zero, and box-sizing to border box for all content */
 * {
   margin: 0;
@@ -30,8 +25,24 @@ a {
   box-sizing: border-box;
 }
 
+/* Apply font-family,width,height,overflow-x and background color to body selector */
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
 
-
-
+/* Apply display, flex direction, align-item, width, jusity-content, background-color and padding properties to nav selector */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+}
 
 /* Add media query for screen width 768 */
