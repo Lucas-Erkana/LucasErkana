@@ -277,6 +277,7 @@ h1 {
   line-height: 16px;
 }
 
+/* Apply styles to About section */
 .spacer {
   margin-top: 15px;
 }
@@ -300,5 +301,117 @@ h1 {
   justify-content: space-between;
   border-bottom: 1px solid #dfe1e6;
 }
+
+
+.dropdown span {
+  font-weight: bolder;
+  transform: rotate(90deg);
+}
+
+
+.dropdown:first-child {
+  border: none;
+}
+
+
+.dropdown:last-child {
+  margin-bottom: 40px;
+}
+
+
+.dropdown:first-child span {
+  transform: rotate(180deg);
+}
+
+
+.btn {
+  padding: 20px;
+  width: fit-content;
+  height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  font-style: normal;
+  border: 1px solid #396df2;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+
+.btn:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+
+.btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border-color: #5e6c84;
+}
+
+
+.tags {
+  margin-bottom: 20px;
+}
+
+
+.forth_project {
+  margin-bottom: 40px;
+}
+
+
+.About_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top-right-radius: 10%;
+  padding: 0 24px;
+  padding-top: 90px;
+}
+
+
+.dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+/* Apply flex layout to conatiner and languages selector */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  width: 303px;
+  height: 66.72px;
+  border-radius: 10px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+
 
 /* Add media query for screen width 768 */
