@@ -87,7 +87,7 @@ h1 {
   letter-spacing: 0.37px;
 }
 
-/* Aoply font to ddescription selector */
+/* Aoply font to description selector */
 .description {
   width: 920px;
   height: 98px;
@@ -96,6 +96,24 @@ h1 {
   font-size: 20px;
   line-height: 28px;
   overflow-wrap: break-word;
+}
+
+.links-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Appply styles project_section selectors */
+.project_section {
+  padding: 0 16px;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
 }
 
 /* Add media query for screen width 768 */
