@@ -17,5 +17,13 @@ body {
   width: 100px;
   display: inline-block;
 }
+/* Apply text decoration to all anchor selectors, plus color to inherit, plus cursor to auto  */
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+
 
 /* Add media query for screen width 768 */
