@@ -43,7 +43,15 @@ nav {
 
   align-items: flex-start;
 /* Adust width to 100% to nav selector */
+
   width: 100%;
+  /* Apply justify content with space in between to nav selector */
+
+  justify-content: space-between;
+/* Apply white background color */
+
+  background-color: white;
+
 }
 /*Apply display, flex direction, gap and list-style propeties to ul selector  */
 ul {
