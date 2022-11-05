@@ -87,7 +87,7 @@ h1 {
   letter-spacing: 0.37px;
 }
 
-/* Aoply font to description selector */
+/* Apply font to description selector */
 .description {
   width: 920px;
   height: 98px;
@@ -673,5 +673,15 @@ form {
     font-size: 15px;
     line-height: 24px;
     width: fit-content;
+  }
+
+  .form_paragraph {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    width: 518px;
+    align-self: center;
   }
 }
