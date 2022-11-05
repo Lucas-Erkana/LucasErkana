@@ -485,6 +485,10 @@ h1 {
   line-height: 24px;
 }
 
+.form_paragraph:hover {
+  transform: translateX(200px);
+}
+
 .form_inputs {
   display: flex;
   flex-direction: column;
