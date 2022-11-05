@@ -160,6 +160,18 @@ h1 {
     width: fit-content;
     justify-content: space-between;
   }
+  /* Mobile tonic */
+  .Tonic {
+    width: 295px;
+    height: 220px;
+    align-self: center;
+    visibility: visible;
+  }
+
+  /* Remove Nature */
+  .Nature{
+    display: none;
+  }
 
   .icons-section {
     display: flex;
@@ -228,14 +240,6 @@ h1 {
     background-color: #6070ff;
   }
 
-  .Availabiity,
-  .Explore,
-  .Nature {
-    width: 225px;
-    height: 180px;
-    align-self: center;
-  }
-
   h2 {
     width: 295px;
     height: 36px;
@@ -245,6 +249,26 @@ h1 {
     line-height: 44px;
     margin-bottom: 10px;
   }
+
+  /* Mobile Addition */
+  .navbar {
+    padding: 20px 10px;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .second_project,
+  .third_project,
+  .fourth_project{
+    display: none;
+  }
+  .Tonic,
+  .Availability {
+    width: 295px;
+    height: 220px;
+    align-self: center;
+  }
+  
 }
 
 /* Apply fonts to list and list items selector */
@@ -394,7 +418,7 @@ h1 {
 
 /* Apply styles to form */
 .footer {
-  background-image: url(./svg_files/contact_background2x.sv);
+  background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
   background-size: cover;
   background-color: #6070ff;
   padding: 140px 20px 20px 20px;
@@ -416,7 +440,7 @@ h1 {
   text-align: center;
 }
 
-.contact_paragraph {
+.form_paragraph {
   color: #fff;
   text-align: center;
   font-weight: 300;
@@ -505,6 +529,12 @@ form {
     gap: 850px;
   }
 
+  /* Remove tonic nad Nature */
+  .Tonic,
+  .Tonic_project,
+  .Multi_project {
+  display: none;
+  }
   .dropdown {
     width: 100%;
     display: flex;
@@ -519,8 +549,9 @@ form {
 
   .Nature,
   .Professional,
-  .Explore {
-    width: 600px;
+  .Explore,
+  .Availability{
+    width: 400px;
     height: 400px;
   }
 
@@ -594,7 +625,7 @@ form {
   }
 
   .footer {
-    background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
+    background-image: url(./svg_files/contact_background2x.svg);
     background-size: cover;
     background-color: #6070ff;
     display: flex;
@@ -603,7 +634,7 @@ form {
     justify-content: flex-start;
     border-top-left-radius: 70px;
     gap: 120px;
-    min-height: 846px;
+    min-height: 200px;
   }
 
   .footer_section {
@@ -628,4 +659,15 @@ form {
     padding: 0 100px;
     margin-bottom: 100px;
   }
+  .form_button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #6070ff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: fit-content;
+  }
+  
 }
