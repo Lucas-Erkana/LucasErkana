@@ -420,8 +420,8 @@ h1 {
 
 /* Apply styles to form */
 .footer {
-  background-image: url(/svg_files/contact/contact\ form\ shapes-mobile.svg);
-  background-size: cover;
+  background-image: url(./svg_files/contact/contact\ form\ shapes-mobile.svg);
+  background-size: contain;
   background-color: #6070ff;
   padding: 140px 20px 20px 20px;
   display: flex;
@@ -629,7 +629,7 @@ form {
   }
 
   .footer {
-    background-image: url(./svg_files/contact_background2x.svg);
+    background-image: url(./svg_files/contact/contact_background.svg);
     background-size: cover;
     background-color: #6070ff;
     display: flex;
