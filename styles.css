@@ -421,7 +421,7 @@ h1 {
 /* Apply styles to form */
 .footer {
   background-image: url(./svg_files/contact/contact\ form\ shapes-mobile.svg);
-  background-size: contain;
+  background-size: cover;
   background-color: #6070ff;
   padding: 140px 20px 20px 20px;
   display: flex;
