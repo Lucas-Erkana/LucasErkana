@@ -462,6 +462,12 @@ h1 {
   border-radius: 10px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .form_button {
   padding: 10px 20px;
   border-radius: 12px;
@@ -471,12 +477,7 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   width: fit-content;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  margin: auto;
 }
 
 .form_button:hover {
@@ -554,7 +555,7 @@ form {
   .Professional,
   .Explore,
   .Availability {
-    width:700px;
+    width: 700px;
     height: 448px;
   }
 
