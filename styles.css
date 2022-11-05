@@ -160,6 +160,7 @@ h1 {
     width: fit-content;
     justify-content: space-between;
   }
+
   /* Mobile tonic */
   .Tonic {
     width: 295px;
@@ -169,7 +170,7 @@ h1 {
   }
 
   /* Remove Nature */
-  .Nature{
+  .Nature {
     display: none;
   }
 
@@ -257,18 +258,19 @@ h1 {
     width: 100%;
     background-color: white;
   }
+
   .second_project,
   .third_project,
-  .fourth_project{
+  .fourth_project {
     display: none;
   }
+
   .Tonic,
   .Availability {
     width: 295px;
     height: 220px;
     align-self: center;
   }
-  
 }
 
 /* Apply fonts to list and list items selector */
@@ -533,8 +535,9 @@ form {
   .Tonic,
   .Tonic_project,
   .Multi_project {
-  display: none;
+    display: none;
   }
+
   .dropdown {
     width: 100%;
     display: flex;
@@ -550,7 +553,7 @@ form {
   .Nature,
   .Professional,
   .Explore,
-  .Availability{
+  .Availability {
     width: 400px;
     height: 400px;
   }
@@ -659,6 +662,7 @@ form {
     padding: 0 100px;
     margin-bottom: 100px;
   }
+
   .form_button {
     padding: 10px 20px;
     border-radius: 12px;
@@ -669,5 +673,4 @@ form {
     line-height: 24px;
     width: fit-content;
   }
-  
 }
