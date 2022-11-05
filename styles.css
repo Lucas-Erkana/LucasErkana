@@ -1,12 +1,5 @@
-/* Add margin 0, padding 0, box-sizing and background color */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-y: none;
-  background-color: #f7f7f9;
-}
-/*Add styles(font-style,font-weight,size.line-height,color,list-style,width,display to .logo selector  */
+
+/* Add styles(font-style,font-weight,size.line-height,color,list-style,width,display to .logo selector  */
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -18,4 +11,677 @@ body {
   display: inline-block;
 }
 
+/* Apply text decoration to all anchor selectors, plus color to inherit, plus cursor to auto  */
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+/* Set margin and PAdding to zero, and box-sizing to border box for all content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply font-family,width,height,overflow-x and background color to body selector */
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+
+/* Adjust flex layout */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+/* Apply display, flex direction, gap and list-style propeties to ul selector  */
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style: none;
+}
+
+/* Add background image to healine selector */
+.headline {
+  background-image: url(./svg_files/Background.png);
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10%;
+}
+
+/* Adjust flext layout to introduction selector */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20%;
+  width: 100%;
+}
+
+/* Apply fonts to h1 selector */
+h1 {
+  width: 920px;
+  height: 122px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+}
+
+/* Apply font to description selector */
+.description {
+  width: 920px;
+  height: 98px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  overflow-wrap: break-word;
+}
+
+.links-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Appply styles project_section selectors */
+.project_section {
+  padding: 0 16px;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+/* Add media query for max-width 600px */
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: none;
+    background-color: #f7f7f9;
+  }
+
+  .introduction {
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    min-height: 500;
+  }
+
+  .project_description {
+    width: 200px;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .first_project,
+  .second_project,
+  .third_project,
+  .fourth_project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 15px 15px;
+    background-color: #fff;
+    width: fit-content;
+    justify-content: space-between;
+  }
+
+  /* Mobile tonic */
+  .Tonic {
+    width: 295px;
+    height: 220px;
+    align-self: center;
+    visibility: visible;
+  }
+
+  /* Remove Nature */
+  .Nature {
+    display: none;
+  }
+
+  .icons-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  h1 {
+    width: 300px;
+    height: 122px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.37px;
+    margin-bottom: 20px;
+    top: 0;
+  }
+
+  .description {
+    width: 100%;
+    height: 98px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+  }
+
+  .headline {
+    background-image: url(./svg_files/header-shapes\ mobile.png);
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 0;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  html {
+    overflow: hidden !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .line {
+    width: 25px;
+    height: 2px;
+    background-color: #6070ff;
+  }
+
+  h2 {
+    width: 295px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+
+  /* Mobile Addition */
+  .navbar {
+    padding: 20px 10px;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  .second_project,
+  .third_project,
+  .fourth_project {
+    display: none;
+  }
+
+  .Tonic,
+  .Availability {
+    width: 295px;
+    height: 220px;
+    align-self: center;
+  }
+}
+
+/* Apply fonts to list and list items selector */
+.list_items {
+  list-style-type: circle;
+  width: 88px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  color: #6070ff;
+  border-radius: 12px;
+  background-color: #ebebff;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Apply styles to About section */
+.spacer {
+  margin-top: 15px;
+}
+
+.about_section_lists {
+  display: block;
+}
+
+.section_header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Dorpdown */
+.dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.dropdown span {
+  font-weight: bolder;
+  transform: rotate(90deg);
+}
+
+.dropdown:first-child {
+  border: none;
+}
+
+.dropdown:last-child {
+  margin-bottom: 40px;
+}
+
+.dropdown:first-child span {
+  transform: rotate(180deg);
+}
+
+/* Buttons */
+.btn {
+  padding: 20px;
+  width: fit-content;
+  height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  font-style: normal;
+  border: 1px solid #396df2;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border-color: #5e6c84;
+}
+
+.tags {
+  margin-bottom: 20px;
+}
+
+/* second ,third, sixth and seventh */
+.second_project {
+  margin-bottom: 40px;
+}
+
+.About_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top-right-radius: 10%;
+  padding: 0 24px;
+  padding-top: 90px;
+}
+
+/* Adjust flex layout to conatiner and languages selector */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  width: 303px;
+  height: 66.72px;
+  border-radius: 10px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* Apply styles to form */
+.footer {
+  background-image: url(./svg_files/contact/contact\ form\ shapes-mobile.svg);
+  background-size: cover;
+  background-color: #6070ff;
+  padding: 140px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 70px;
+  gap: 120px;
+}
+
+.form_header {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+  height: fit-content;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.form_paragraph {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.form_input {
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form_button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: fit-content;
+  margin: auto;
+}
+
+.form_button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.form_button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.form_button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border-color: #5e6c84;
+}
+
 /* Add media query for screen width 768 */
+@media (min-width: 768px) {
+  .first_project,
+  .second_project,
+  .third_project,
+  .fourth_project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 15px 35px;
+    background-color: #fff;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: white;
+    padding: 30px 154px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 850px;
+  }
+
+  /* Remove tonic nad Nature */
+  .Tonic,
+  .Tonic_project,
+  .Multi_project {
+    display: none;
+  }
+
+  .dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .Nature,
+  .Professional,
+  .Explore,
+  .Availability {
+    width: 700px;
+    height: 448px;
+  }
+
+  .flex_list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .project_description {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .About_Section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 100px 120px;
+  }
+
+  .About_Section_description {
+    width: 400px;
+  }
+
+  .About_Section_flex {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .About_Section_flexx {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 122px;
+    height: 120px;
+  }
+
+  .about_section_lists {
+    min-width: 700px;
+  }
+
+  .form_header {
+    align-self: center;
+  }
+
+  .form_input {
+    min-width: 447px;
+  }
+
+  .footer {
+    background-image: url(./svg_files/contact/contact_background.svg);
+    background-size: cover;
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 70px;
+    gap: 120px;
+    min-height: 200px;
+  }
+
+  .footer_section {
+    background-color: white;
+  }
+
+  .headline {
+    background-image: url(/svg_files/Background.png);
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10%;
+  }
+
+  .project_section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    padding: 0 100px;
+    margin-bottom: 100px;
+  }
+
+  .form_button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #6070ff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: fit-content;
+  }
+
+  .form_paragraph {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    width: 518px;
+    align-self: center;
+  }
+}
