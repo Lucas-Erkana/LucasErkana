@@ -59,6 +59,7 @@
   0% { transform: translateY(-100%); }
   100% { transform: translateY(0%); }
 }
+
 /* Apply text decoration to all anchor selectors, plus color to inherit, plus cursor to auto  */
 a {
   text-decoration: inherit;
