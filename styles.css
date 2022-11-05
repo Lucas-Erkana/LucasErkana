@@ -594,6 +594,15 @@ form {
     height: 448px;
   }
 
+  .Nature:hover,
+  .Professional:hover,
+  .Explore:hover,
+  .Availability:hover {
+    transform: scale(1.1);
+    width: 700px;
+    height: 648px;
+  }
+
   .flex_list {
     display: flex;
     flex-direction: column;
