@@ -554,8 +554,8 @@ form {
   .Professional,
   .Explore,
   .Availability {
-    width: 400px;
-    height: 400px;
+    width:700px;
+    height: 448px;
   }
 
   .flex_list {
