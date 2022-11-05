@@ -12,9 +12,9 @@ build the first 2 sections of the mobile website using the template you chose in
 
 - HTML and CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo to Portfolio Website]([https://livedemo.com](https://filedn.com/lvYd2ScBUUoks42n44LxAkQ/Portfolio/))
 
 
 ## Getting Started
