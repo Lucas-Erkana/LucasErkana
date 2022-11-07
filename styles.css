@@ -15,7 +15,7 @@
 a {
   text-decoration: inherit;
   color: inherit;
-  cursor: auto;
+  cursor: grab;
 }
 
 /* Set margin and PAdding to zero, and box-sizing to border box for all content */
