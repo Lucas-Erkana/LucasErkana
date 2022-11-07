@@ -156,6 +156,31 @@ h1 {
   color: #7f8cff;
   margin-top: 20px;
   margin-bottom: 20px;
+  animation-name: links-load;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+@keyframes links-load {
+  0% {
+    transform: translateX(150px);;
+  }
+
+  25% {
+    transform: translateX(150px);
+  }
+
+  50% {
+   transform: translateX(-100px);
+  }
+
+  75% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+   transform: translateX(-100px);
+  }
 }
 
 /* Appply styles project_section selectors */
