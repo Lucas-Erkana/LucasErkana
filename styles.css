@@ -15,7 +15,7 @@
 
 @keyframes logo-load {
   0% {
-    color: red;
+    color: blue;
     left: 0;
     top: 0;
     transform: rotate(0deg);
@@ -29,7 +29,7 @@
   }
 
   50% {
-    color: blue;
+    color: red;
     left: 200px;
     top: 200px;
     transform: rotate(180deg);
@@ -43,7 +43,7 @@
   }
 
   100% {
-    color: red;
+    color: blue;
     left: 0;
     top: 0;
     transform: rotate(360deg);
