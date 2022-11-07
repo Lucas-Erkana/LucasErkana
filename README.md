@@ -14,7 +14,7 @@ build the first 2 sections of the mobile website using the template you chose in
 
 ## Live Demo
 
-[Live Demo to Portfolio Website]([https://livedemo.com](https://filedn.com/lvYd2ScBUUoks42n44LxAkQ/Portfolio/))
+[Portfolio Website]([https://lucash2022.github.io/LucasErkanaPortfolio_Website/))
 
 
 ## Getting Started
@@ -36,6 +36,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
+https://lucash2022.github.io/LucasErkanaPortfolio_Website/
 
 👤 **Author**
 
