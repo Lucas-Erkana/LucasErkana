@@ -14,7 +14,7 @@ build the first 2 sections of the mobile website using the template you chose in
 
 ## Live Demo
 
-[Portfolio Website]([https://lucash2022.github.io/LucasErkanaPortfolio_Website/)
+[Portfolio Website](https://lucash2022.github.io/LucasErkanaPortfolio_Website/)
 
 
 ## Getting Started
