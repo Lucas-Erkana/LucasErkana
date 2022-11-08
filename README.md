@@ -38,6 +38,8 @@ To get a local copy up and running follow these simple example steps.
 ### Deployment
 https://lucash2022.github.io/LucasErkanaPortfolio_Website/
 
+https://lucash2022.github.io/LucasErkanaPortfolio_Website/
+
 👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/Lucash2022)
