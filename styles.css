@@ -103,39 +103,6 @@ ul {
   list-style: none;
 }
 
-/* Adjust flext layout to introduction selector */
-.introduction {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 20%;
-  width: 100%;
-}
-
-/* Apply fonts to h1 selector */
-h1 {
-  width: 920px;
-  height: 122px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
-}
-
-/* Apply font to description selector */
-.description {
-  width: 920px;
-  height: 98px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  overflow-wrap: break-word;
-}
-
 .links-text {
   font-style: normal;
   font-weight: 500;
@@ -231,8 +198,8 @@ h1 {
   }
 
   .description {
-    width: 100%;
-    height: 98px;
+    width: 80%;
+    height: 100%;
     font-style: normal;
     font-weight: lighter;
     font-size: 14px;
@@ -540,6 +507,38 @@ form {
 
 /* Add media query for screen width 768 */
 @media (min-width: 601px) {
+  /* Apply fonts to h1 selector */
+h1 {
+  width: 50%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+}
+
+/* Apply font to description selector */
+.description {
+  width: 50%;
+  height: 100%;
+  top: 1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  overflow-wrap:inherit;
+}
+  /* Adjust flext layout to introduction selector */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+  width: 100%;
+}
+
   .first_project,
   .second_project,
   .third_project,
@@ -571,7 +570,7 @@ form {
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    gap: 850px;
+    gap: auto;
   }
 
   /* Remove tonic nad Nature */
