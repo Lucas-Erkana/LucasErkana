@@ -99,7 +99,7 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 20px;
   list-style: none;
 }
 
@@ -570,7 +570,24 @@ h1 {
     align-items: center;
     width: 90%;
     justify-content: space-between;
-    gap:200px;
+    gap:150px;
+  }
+
+  .links-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+ .icons-section{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    width: 50%;
   }
 
   /* Remove tonic nad Nature */
