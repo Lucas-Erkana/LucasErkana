@@ -508,36 +508,37 @@ form {
 /* Add media query for screen width 768 */
 @media (min-width: 601px) {
   /* Apply fonts to h1 selector */
-h1 {
-  width: 50%;
-  height: 100%;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
-}
+  h1 {
+    width: 50%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
 
-/* Apply font to description selector */
-.description {
-  width: 50%;
-  height: 100%;
-  top: 1px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  overflow-wrap:inherit;
-}
+  /* Apply font to description selector */
+  .description {
+    width: 50%;
+    height: 100%;
+    top: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    overflow-wrap: inherit;
+  }
+
   /* Adjust flext layout to introduction selector */
-.introduction {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:center;
-  position: relative;
-  width: 100%;
-}
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
 
   .first_project,
   .second_project,
@@ -570,7 +571,7 @@ h1 {
     align-items: center;
     width: 90%;
     justify-content: space-between;
-    gap:150px;
+    gap: 150px;
   }
 
   .links-text {
@@ -584,7 +585,7 @@ h1 {
     width: 50%;
   }
 
- .icons-section{
+  .icons-section {
     /* margin-top: 20px;
     margin-bottom: 20px; */
     width: 50%;
@@ -647,16 +648,11 @@ h1 {
     align-content: flex-start;
     justify-content: center;
     column-width: auto;
-    /* padding: 100px 100px; */
-    gap:20px;
+    gap: 20px;
   }
-/* 
-  .About_section_description {
-    width: 100%;
-  } */
 
-.About_Section h1 {
-    width:100%;
+  .About_Section h1 {
+    width: 100%;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -680,7 +676,8 @@ h1 {
     gap: 60px;
     padding: 30px 0;
   }
-  .section_header{
+
+  .section_header {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
