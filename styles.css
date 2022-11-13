@@ -242,3 +242,10 @@ header h3 a {
   line-height: 44px;
   color: #172b4d;
 }
+/* Apply syle to miniheading selector */
+.miniheading {
+  display: flex;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
