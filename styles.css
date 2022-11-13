@@ -653,5 +653,165 @@ form {
   }
 
   /*Apply style to card section desktop version  */
+  .container-2 {
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 80px 0;
+    gap: 88px;
+  }
 
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background: #fff;
+    width: 80%;
+    padding: 16px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .card-one {
+    order: 1;
+  }
+
+  .img {
+    width: 40%;
+  }
+
+  .img:hover {
+    cursor: default;
+    border: 1px solid gray;
+    box-shadow: 1px 2px 15px gray;
+  }
+
+  .used-lang {
+    display: flex;
+    width: fit-content;
+    gap: 12px;
+    padding: 0;
+  }
+
+  .used-lang li {
+    background: #ebebff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
+  .minigead li {
+    padding-right: 10px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+
+  .languages li {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    background: #f7f7f9;
+    gap: 16px;
+    align-items: center;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    width: 15%;
+  }
+
+  .used-lang li:last-child {
+    margin-right: 0;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 60%;
+  }
+
+  .cardheading {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .minihead {
+    display: flex;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+
+  .minihead .cano {
+    color: #344563;
+  }
+
+  .minihead li:last-child {
+    padding-right: 0;
+  }
+
+  .section-content p {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+    width: 75%;
+  }
+
+  .button {
+    padding: 12px;
+    width: fit-content;
+    border-radius: 8px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    border: 1px solid #6070ff;
+    margin-bottom: 8px;
+  }
+
+  .btn {
+    margin-left: 24px;
+  }
+
+  .button:hover {
+    background-color: #0918c0;
+    color: #fff;
+    border: 1px solid #0918c0;
+  }
+
+  .button:focus {
+    background: #0b114d;
+    color: #fff;
+  }
+
+  .button:focus {
+    background: #0b114d;
+    color: #fff;
+  }
 }
