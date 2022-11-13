@@ -108,6 +108,7 @@ header h3 a {
   margin-top: 12px;
 }
 
+
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
   body {
