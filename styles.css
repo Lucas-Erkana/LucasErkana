@@ -333,3 +333,12 @@ header h3 a {
   margin-top: 12px;
   padding-left: 24px;
 }
+
+/* Apply styling to icons_section_about */
+.icons_section_about  {
+  display: flex;
+  padding-left: 24px;
+  width: 50%;
+  gap: 20px;
+  padding-bottom: 106.04px;
+}
