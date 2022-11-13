@@ -890,4 +890,104 @@ form {
     padding-left: 24px;
     margin-bottom: 36px;
   }
+
+  /* Appy styling to contact form */
+  .contact_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 103px;
+    background-color: #6070ff;
+    color: #fff;
+    margin-top: 73px;
+    border-top-left-radius: 75px;
+    background-image: url(./portfolio-images/contact-me-added.png);
+    background-repeat: no-repeat;
+    background-position: top 65% right;
+  }
+
+  .contact-me h2 {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .form_paragraph {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 30%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    gap: 20px;
+  }
+
+  .input {
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    padding: 15px 16px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #0d0d0e;
+    text-decoration: none;
+  }
+
+  .textarea {
+    color: #0d0d0e;
+  }
+
+  .form_button {
+    align-self: center;
+    border: 1px solid #fff;
+    margin-bottom: 40px;
+    margin-left: 0;
+    order: 1;
+  }
+
+  .form_button:hover {
+    background-color: #0918c0;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .form_button:focus {
+    background: #0b114d;
+    color: #fff;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .submitbutton {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 86%;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+  }
 }
