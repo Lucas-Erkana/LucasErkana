@@ -270,3 +270,19 @@ header h3 a {
   color: #344563;
 }
 
+/* Apply style to buttons class */
+.button {
+  padding: 12px;
+  width: fit-content;
+  border-radius: 8px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
