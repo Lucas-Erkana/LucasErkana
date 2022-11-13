@@ -249,3 +249,8 @@ header h3 a {
   padding: 0;
   margin: 0;
 }
+
+/* Apply styling to logo selector */
+.miniheading .logo {
+  color: #344563;
+}
