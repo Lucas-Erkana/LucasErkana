@@ -96,6 +96,18 @@ header h3 a {
   width: 65%;
 }
 
+/* Appy styling to description */
+.description {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 0 24px 0 24px;
+  margin-top: 12px;
+}
+
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
   body {
