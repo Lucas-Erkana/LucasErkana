@@ -120,6 +120,15 @@ header h3 a {
   padding-left: 24px;
 }
 
+/* Apply new styling to icons-section */
+.icons-section {
+  display: flex;
+  padding-left: 24px;
+  width: 50%;
+  gap: 20px;
+  padding-bottom: 106.04px;
+}
+
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
   body {
