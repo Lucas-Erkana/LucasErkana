@@ -108,6 +108,17 @@ header h3 a {
   margin-top: 12px;
 }
 
+/* Apply syling to connector class(Lets connect) */
+.connector {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 12px;
+  padding-left: 24px;
+}
 
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
