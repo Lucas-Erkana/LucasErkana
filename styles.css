@@ -76,6 +76,14 @@ header h3 a {
   position: relative;
 }
 
+
+.introduction {
+  background-image: url(./svg_files/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 95% right;
+}
+
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
   body {
