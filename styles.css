@@ -151,3 +151,11 @@ header h3 a {
   padding: 100px 0;
   gap: 88px;
 }
+
+/* Apply styling to portfolio id selector*/
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
