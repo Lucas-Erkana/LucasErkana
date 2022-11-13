@@ -71,8 +71,6 @@ a {
 /* Set margin and PAdding to zero, and box-sizing to border box for all content */
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* Apply font-family,width,height,overflow-x and background color to body selector */
@@ -119,6 +117,7 @@ ul {
   display: grid;
   grid-template-rows: auto;
   justify-content: center;
+  row-gap: 88px;
 }
 
 /* Add media query for max-width 600px */
@@ -139,7 +138,6 @@ ul {
     justify-content: flex-start;
     width: 100%;
     height: fit-content;
-    min-height: 500;
   }
 
   .project_description {
@@ -402,6 +400,7 @@ ul {
   border-top-right-radius: 10%;
   padding: 0 24px;
   padding-top: 90px;
+  row-gap: 88px;
 }
 
 /* Adjust flex layout to conatiner and languages selector */
