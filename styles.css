@@ -310,3 +310,15 @@ header h3 a {
   padding-left: 24px;
 }
 
+/* Apply styling o the about_section_description */
+.about_section_description {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding: 0 24px 0 24px;
+    margin-top: 12px;
+}
+
