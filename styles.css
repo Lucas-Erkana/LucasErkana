@@ -64,7 +64,7 @@ header h3 a {
   font-size: 18px;
   margin-right: 24px;
 }
-
+/* hide menu items */
 .menu-items{
   display: none;
 }
