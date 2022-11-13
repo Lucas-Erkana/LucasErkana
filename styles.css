@@ -76,12 +76,24 @@ header h3 a {
   position: relative;
 }
 
-
+/* Add background image to the back o introduction */
 .introduction {
   background-image: url(./svg_files/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom 95% right;
+}
+
+/* Appy styling to lucas class*/
+.lucas {
+  padding: 100px 24px 0 24px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 65%;
 }
 
 /* Add media query for max-width 600px */
