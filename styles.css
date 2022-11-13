@@ -128,3 +128,8 @@ header h3 a {
   gap: 20px;
   padding-bottom: 106.04px;
 }
+
+.icons-section li a {
+  text-decoration: none;
+  color: #505f79;
+}
