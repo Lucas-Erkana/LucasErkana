@@ -193,3 +193,14 @@ header h3 a {
   letter-spacing: 0.03em;
   color: #6070ff;
 }
+
+/* Apply style to list contained by minihead selector */
+.minihead li {
+  padding-right: 10px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
