@@ -259,3 +259,14 @@ header h3 a {
 .minihead li:last-child {
   padding-right: 0;
 }
+
+/* Apply style to Section-content selector */
+.section-content p {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
