@@ -243,7 +243,7 @@ header h3 a {
   color: #172b4d;
 }
 /* Apply syle to miniheading selector */
-.miniheading {
+.minihead {
   display: flex;
   width: fit-content;
   padding: 0;
@@ -251,6 +251,11 @@ header h3 a {
 }
 
 /* Apply styling to logo selector */
-.miniheading .logo {
+.minihead .logo {
   color: #344563;
+}
+
+/* Apply style to last child of the list*/
+.minihead li:last-child {
+  padding-right: 0;
 }
