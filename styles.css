@@ -286,3 +286,14 @@ header h3 a {
   margin-bottom: 8px;
   background-color: #fff;
 }
+
+
+/*Apply styling to btn and button selectors  */
+.btn {
+  margin-left: 24px;
+}
+
+.button:focus {
+  background: #0f1ec5;
+  color: #fff;
+}
