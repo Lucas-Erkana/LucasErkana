@@ -204,3 +204,19 @@ header h3 a {
   line-height: 16px;
   color: #344563;
 }
+
+/* Apply style to list items in languages selector  */
+.languages li {
+  display: flex;
+  padding: 9px;
+  background: #f7f7f9;
+  gap: 16px;
+  align-items: center;
+  margin-right: 36px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
