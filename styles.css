@@ -69,6 +69,13 @@ header h3 a {
   display: none;
 }
 
+/* blur out all the section classes */
+.sections.active {
+  filter: blur(10px);
+  z-index: -1;
+  position: relative;
+}
+
 /* Add media query for max-width 600px */
 @media (max-width: 600px) {
   body {
