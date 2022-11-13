@@ -128,8 +128,13 @@ header h3 a {
   gap: 20px;
   padding-bottom: 106.04px;
 }
-
+/* Apply styling to icons-section list links */
 .icons-section li a {
   text-decoration: none;
   color: #505f79;
+}
+
+/* Apply styling to social selector */
+#social {
+  padding-bottom: 12px;
 }
