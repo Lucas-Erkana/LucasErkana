@@ -160,3 +160,14 @@ header h3 a {
   align-items: center;
 }
 
+/* Apply style to card selector */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #fff;
+  width: 80%;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
