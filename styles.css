@@ -621,19 +621,6 @@ form {
     justify-content: flex-start;
   }
 
-  .connector {
-    font-family: var(--header-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 24px;
-    color: #7f8cff;
-    margin-top: 12px;
-    width: 51.5%;
-    display: flex;
-    justify-content: flex-start;
-  }
-
   .icon-section {
     width: 51.5%;
     gap: 20px;
@@ -648,11 +635,7 @@ form {
     color: #505f79;
   }
 
-  #social {
-    padding-bottom: 12px;
-  }
-
-  /*Apply style to card section desktop version  */
+  /* Apply style to card section desktop version  */
   .container-2 {
     background: #e5e5e5;
     display: flex;
@@ -810,8 +793,101 @@ form {
     color: #fff;
   }
 
-  .button:focus {
-    background: #0b114d;
-    color: #fff;
+  /* Apply styling to About section for desktop verson */
+  .About-section {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    border-top-right-radius: 75px;
+  }
+
+  .about-section-top {
+    padding-top: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lucasa {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    width: 50%;
+    padding-left: 24px;
+  }
+
+  .about_section_description {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding: 0 24px 0 24px;
+    margin-top: 12px;
+  }
+
+  .connector {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-top: 12px;
+    padding-left: 24px;
+  }
+
+  .icons_section_about {
+    display: flex;
+    padding-left: 24px;
+    width: 50%;
+    gap: 20px;
+    padding-bottom: 106.04px;
+  }
+
+  .icons_section_about li a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
+  #social {
+    padding-bottom: 12px;
+  }
+
+  .about_section_list {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .language {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 36px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  hr {
+    margin-right: 24px;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 24px;
+    margin-bottom: 36px;
   }
 }
