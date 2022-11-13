@@ -342,3 +342,49 @@ header h3 a {
   gap: 20px;
   padding-bottom: 106.04px;
 }
+
+/* apply styling to to content with in About-Sectionselector */
+.icons_section_about li a {
+  text-decoration: none;
+  color: #505f79;
+}
+
+#social {
+  padding-bottom: 12px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.about-section-top {
+  padding-top: 100px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 36px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+hr {
+  margin-right: 24px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Above is the about me section styling */
