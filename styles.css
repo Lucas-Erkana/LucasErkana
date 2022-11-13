@@ -387,4 +387,105 @@ hr {
   gap: 12px;
 }
 
-/* Above is the about me section styling */
+/* Apply stylig to Conact me footer */
+.contact_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 103px;
+  background-color: #6070ff;
+  color: #fff;
+  margin-top: 73px;
+  border-top-left-radius: 65px;
+  background-image: url(./portfolio-images/contact-me-added.png);
+  background-repeat: no-repeat;
+  background-position: top 65% right;
+}
+
+.contact_me h2 {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form_paragraph {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 90%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47px;
+  gap: 20px;
+}
+
+.input {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  padding: 15px 16px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0d0d0e;
+  text-decoration: none;
+}
+
+.textarea {
+  color: #0d0d0e;
+}
+
+.form_button {
+  align-self: flex-start;
+  border: 1px solid #fff;
+  margin-bottom: 0;
+}
+
+.form_button:hover {
+  background-color: #0918c0;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.form_button:focus {
+  background: #0b114d;
+  color: #fff;
+}
+
+.line {
+  width: 33.33%;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 32px auto 8px auto;
+}
+
+.sumitbutton {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 86%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
