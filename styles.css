@@ -171,3 +171,12 @@ header h3 a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
+/* Apply style to used-lang */
+.used-lang {
+  display: flex;
+  width: fit-content;
+  gap: 12px;
+  padding: 0;
+}
+
