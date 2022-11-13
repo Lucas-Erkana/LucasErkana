@@ -225,3 +225,10 @@ header h3 a {
 .used-lang li:last-child {
   margin-right: 0;
 }
+
+/*Apply style to section-content  */
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
