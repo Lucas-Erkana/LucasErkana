@@ -180,3 +180,16 @@ header h3 a {
   padding: 0;
 }
 
+/* Apply style to list within used-lang selctor */
+.used-lang li {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
