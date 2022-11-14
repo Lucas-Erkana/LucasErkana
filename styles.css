@@ -63,6 +63,8 @@ header h3 a {
 .menu-icon {
   color: #344563;
   font-size: 18px;
+  margin-right: 24px;
+}
 
 /* hide menu items */
 .menu-items {
