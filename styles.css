@@ -78,9 +78,9 @@ header h3 a {
   position: relative;
 }
 
-/* Add background image to the back o introduction */
+/* Add background image to the back to introduction outside media */
 .introduction {
-  background-image: url(./svg_files/header-shapes\ mobile@2x.svg);
+  background-image: url(./svg_files/Header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom 95% right;
@@ -122,7 +122,7 @@ header h3 a {
   padding-left: 24px;
 }
 
-/* Apply new styling to icons-section */
+/* Apply new styling to icons-section outside 768px */
 .icons-section {
   display: flex;
   padding-left: 24px;
@@ -138,7 +138,7 @@ header h3 a {
 }
 
 /* Apply styling to social selector */
-#social {
+#socials {
   padding-bottom: 12px;
 }
 
@@ -346,20 +346,20 @@ header h3 a {
   padding-bottom: 106.04px;
 }
 
-/* apply styling to to content with in About-Sectionselector */
+/* apply styling to to content with in About_Section selector */
 .icons_section_about li a {
   text-decoration: none;
   color: #505f79;
 }
 
-.about-section {
+.about_section {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 100%;
 }
 
-.about-section-top {
+.about_section_top {
   padding-top: 100px;
 }
 
@@ -398,7 +398,7 @@ hr {
   color: #fff;
   margin-top: 73px;
   border-top-left-radius: 65px;
-  background-image: url(./portfolio-images/contact-me-added.png);
+  background-image: url(/svg_files/contact-me-added.png);
   background-repeat: no-repeat;
   background-position: top 65% right;
 }
@@ -431,7 +431,7 @@ form {
   gap: 20px;
 }
 
-.input {
+.form_input {
   background: #fff;
   border: none;
   border-radius: 8px;
@@ -477,7 +477,8 @@ form {
   margin: 32px auto 8px auto;
 }
 
-.sumitbutton {
+/* corrected */
+.submitbutton {
   display: flex;
   flex-direction: row;
   height: auto;
@@ -498,6 +499,7 @@ form {
   body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   li {
@@ -513,7 +515,7 @@ form {
     max-width: 100%;
   }
 
-  .all-container {
+  .all-containers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -578,8 +580,8 @@ form {
     height: 100vh;
   }
 
-  .inroduction {
-    background-image: url(./portfolio-images/Header-desktop.png);
+  .introduction {
+    background-image: url(./svg_files/Header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -621,7 +623,20 @@ form {
     justify-content: flex-start;
   }
 
-  .icon-section {
+  .connector {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-top: 12px;
+    width: 51.5%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icons-section {
     width: 51.5%;
     gap: 20px;
     display: flex;
@@ -633,6 +648,10 @@ form {
   .icons-section li a {
     text-decoration: none;
     color: #505f79;
+  }
+
+  #social {
+    padding-bottom: 12px;
   }
 
   /* Apply style to card section desktop version  */
@@ -658,18 +677,19 @@ form {
     border-radius: 16px;
   }
 
-  .card-one {
+  .card-twos {
     order: 1;
   }
 
   .img {
-    width: 40%;
+    width: 50%;
   }
 
   .img:hover {
     cursor: default;
     border: 1px solid gray;
     box-shadow: 1px 2px 15px gray;
+    width: 60%;
   }
 
   .used-lang {
@@ -692,7 +712,7 @@ form {
     color: #6070ff;
   }
 
-  .minigead li {
+  .minihead li {
     padding-right: 10px;
     font-family: var(--header-font);
     font-style: normal;
@@ -722,7 +742,7 @@ form {
     margin-right: 0;
   }
 
-  .section-content {
+  .section_content {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -745,7 +765,7 @@ form {
     margin: 0;
   }
 
-  .minihead .cano {
+  .minihead .logo {
     color: #344563;
   }
 
@@ -753,7 +773,7 @@ form {
     padding-right: 0;
   }
 
-  .section-content p {
+  .section_content p {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 400;
@@ -794,7 +814,7 @@ form {
   }
 
   /* Apply styling to About section for desktop verson */
-  .About-section {
+  .about_section {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -802,7 +822,7 @@ form {
     border-top-right-radius: 75px;
   }
 
-  .about-section-top {
+  .about_section_top {
     padding-top: 100px;
     width: 40%;
     display: flex;
@@ -831,15 +851,17 @@ form {
     margin-top: 12px;
   }
 
-  .connector {
+  .connectors {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 24px;
     color: #7f8cff;
     margin-top: 12px;
-    padding-left: 24px;
+    width: 51.5%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .icons_section_about {
@@ -855,11 +877,7 @@ form {
     color: #505f79;
   }
 
-  #social {
-    padding-bottom: 12px;
-  }
-
-  .about_section_list {
+  .about_section_lists {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -908,7 +926,7 @@ form {
     background-position: top 65% right;
   }
 
-  .contact-me h2 {
+  .contact_me h2 {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 700;
@@ -936,7 +954,7 @@ form {
     gap: 20px;
   }
 
-  .input {
+  .form_input {
     background: #fff;
     border: none;
     border-radius: 8px;
