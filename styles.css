@@ -1,4 +1,3 @@
-
 :root {
   --header-font: "Poppins";
 }
@@ -1008,4 +1007,43 @@ form {
     gap: 4px;
     text-align: center;
   }
+
+  navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
+  }
+
+  a.logo {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+    color: #6070ff;
+    margin-left: 150px;
+  }
+
+  .navbar nav {
+    position: fixed;
+    top: -120%;
+    width: 100%;
+    height: 100%;
+    background-color: #6070ff;
+    opacity: 0.9;
+  }
 }
+
+.desktop-menu {
+  display: none;
+}
+
