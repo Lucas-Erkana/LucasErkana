@@ -4,339 +4,288 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio of Lucas Erkana</title>
+    <title>Lucas's Portfolio</title>
+    <!-- Global font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;400;600&display=swap"
-      rel="stylesheet"/>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+<body id="home" class="all-containers">
     <!-- header -->
     <header class="navbar">
+      <!-- logo -->
+      <h3>
+        <a href="#">My logo</a>
+      </h3>
+    <!-- navigation -->
       <nav>
-        <div class="logosettings">
-          <a class="logo">My logo</a>
+        <div>
+          <i class="menu-icon fas fa-bars"></i>
         </div>
         <div class="menu-items">
-          <ul>
-            <li class="links">
-              <a href="#"> Portfolio </a>
-            </li>
-            <li>
-              <a href="#" class="links"> About </a>
-            </li>
-            <li>
-              <a href="#" class="links"> Contact </a>
-            </li>
-          </ul>
+            <a class="menu-links" href="#portfolio"><h3>Portfolio</h3></a>
+            <a class="menu-links" href="#about"><h3>About</h3></a>
+            <a class="menu_links" href="#contact"><h3>Contact</h3></a>
         </div>
-        <a href="#" class="hamburger-menu">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </a>
       </nav>
     </header>
     <!-- headline section-->
-    <section class="headline">
-      <div class="introduction">
-        <h1>
-          I’m Lucas <br />
-          Glad to see you!
-        </h1>
+  <section class="headline sections">
+    <section class="introduction">
+        <h1 class="lucas">I’m Lucas Glad to see you!</h1>
         <p class="description">
           I’m a software developer! I can help you build a product , feature
           or website Look through some of my work and experience! If you like
           what you see and have a project you need coded, don’t hestiate to
           contact me.
         </p>
-        <header class="links-text">Let's connect</header>
+        <h2 class="connector">LET'S CONNECT</h2>
         <ul class="icons-section">
           <li>
             <a href="https://twitter.com/Lucas_David_22">
-              <img src="./svg_files/twitter.svg" alt="twitter"/></a>
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/lucas-erkana-b30a0b3b/">
-              <img src="./svg_files/Linkedin.svg" alt="Linkedin"/></a>
+              <i class="fab fa-linkedin-in"></i>
+            </a>
           </li>
           <li>
             <a href="https://medium.com/">
-              <img src="./svg_files/medium.svg" alt="medium"/></a>
+              <i class="fab fa-medium-m"></i>
+            </a>
           </li>
           <li>
             <a href="https://github.com/Lucash2022">
-              <img src="./svg_files/github.svg" alt="github"
-            /></a>
+              <i class="fab fa-github-square"></i>
+            </a>
           </li>
           <li>
             <a href="https://www.angellist.com/">
-              <img src="./svg_files/angellist.svg" alt="angellist" />
+              <i class="far fa-hand-peace"></i>
             </a>
           </li>
         </ul>
-      </div>
     </section>
-    <section class="project_section">
-      <!-- first project -->
-      <div class="first_project">
-        <div class="Epxlore_image">
-           <img class="Nature" src="./svg_files/Nature.png" alt="Nature"  />
-           <img class="Tonic" src="./svg_files/Tonic_Project.png" alt="Tonic" />
-        </div>
-        <div class="tonic_section">
-          <h2>Tonic</h2>
-          <div class="flex_list">
-                  <ul class="list">
-                    <h5>CANOPY</h5>
-                    <li class="list_items">Back End Dev</li>
-                    <li class="list_items">2015</li>
-                  </ul>
-                  <p class="project_description">
-                     A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-                  </p>
-                  <div class="tags">
-                    <ul>
-                      <li><a href="" class="tag">html</a></li>
-                      <li><a href="" class="tag">css</a></li>
-                      <li><a href="" class="tag">javascript</a></li>
-                    </ul>
-                  </div>
-                  <button class="btn" type="button">See Project</button>
-          </div>
+  </section>
+  <!--Cards section  -->
+  <section id="portfolio" class="container-2 sections">
+    <!-- Container 2 section -->
+    <div class="card hide">
+      <img class="img card-one" src="/svg_files/Nature.png" alt="Snapshoot Portfolio image">
+      <div class="section-content">
+          <h2 class="cardheading">
+            Tonic
+          </h2>
+          <ul class="minihead">
+            <li class="logo">CANOPY</li>
+            <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; Back End Dev</li>
+            <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; 2015</li>
+          </ul>
+          <p>
+            A daily selection of privately personalized reads; no accountsor sign-ups required.
+          </p>
+          <ul class="used-lang">
+              <li>
+                html
+              </li>
+              <li>
+                css
+              </li>
+              <li>
+                javascript
+              </li>
+          </ul>
+          <button data-id="card_two" class="button" type="button">
+            See Project
+          </button>
       </div>
-      </div>
-      <!-- second project -->
-      <div class="second_project">
-        <div class="Multi-Post">
-            <h2>Multi-Post Stories</h2>
-            <div class="flex_list">
-              <ul class="list">
-                <h5>FACBOOK</h5>
-                <li class="list_items">Full Stack Dev</li>
-                <li class="list_items">2015</li>
-              </ul>
-              <p class="project_description">
-                Experimental content creation feature that allows users to 
-                add to an existing story over the course of a day without 
-                spamming their friends.
-              </p>
-              <div class="tags">
-                <ul>
-                  <li><a href="" class="tag">html</a></li>
-                  <li><a href="" class="tag">css</a></li>
-                  <li><a href="" class="tag">javascript</a></li>
-                </ul>
-              </div>
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-          <div class="Professional_image">
-            <img class="Professional" src="./svg_files/Professional.png" alt="Professional" />
-          </div>
-      </div>
-      <!-- Muli-Post Project -->
-      <div class="Multi_project">
-        <div class="Availability_image">
-          <img class="Availability" src="./svg_files/Availability.svg" alt="Availability" />
-        </div>
-        <div class="Multi-Post">
-            <h2>Multi-Post Stories</h2>
-            <div class="flex_list">
-              <ul class="list">
-                <h5>FACBOOK</h5>
-                <li class="list_items">Full Stack Dev</li>
-                <li class="list_items">2015</li>
-              </ul>
-              <p class="project_description">
-                Experimental content creation feature that allows users to 
-                add to an existing story over the course of a day without 
-                spamming their friends.
-              </p>
-              <div class="tags">
-                <ul>
-                  <li><a href="" class="tag">html</a></li>
-                  <li><a href="" class="tag">css</a></li>
-                  <li><a href="" class="tag">javascript</a></li>
-                </ul>
-              </div>
-              <button class="btn" type="button">See Project</button>
-            </div>
-          </div>
-      </div>
-      <!-- Second Tonic_Project -->
-      <div class="Tonic_project">
-        <div class="Epxlore_image">
-          <img class="Tonic" src="./svg_files/Tonic_2.png" alt="Tonic" />
-        </div>
-        <div class="tonic_section">
-          <h2>Tonic</h2>
-          <div class="flex_list">
-                  <ul class="list">
-                    <h5>CANOPY</h5>
-                    <li class="list_items">Back End Dev</li>
-                    <li class="list_items">2015</li>
-                  </ul>
-                  <p class="project_description">
-                     A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-                  </p>
-                  <div class="tags">
-                    <ul>
-                      <li><a href="" class="tag">html</a></li>
-                      <li><a href="" class="tag">css</a></li>
-                      <li><a href="" class="tag">javascript</a></li>
-                    </ul>
-                  </div>
-                  <button class="btn" type="button">See Project</button>
-          </div>
-      </div>
-      </div>
-      <!-- third_project -->
-      <div class="third_project">
-        <div class="Epxlore_image">
-           <img class="Explore" src="./svg_files/Explore.png" alt="Explore" />
-        </div>
-        <div class="Facebook">
-          <h2>Facebook 360</h2>
-          <div class="flex_list">
-                  <ul class="list">
-                    <h5>FACEBOOK</h5>
-                    <li class="list_items">Full Stack Dev</li>
-                    <li class="list_items">2015</li>
-                  </ul>
-                  <p class="project_description">
-                    Exploring the future of media in Facebook's first Virtual 
-                    Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
-                  </p>
-                  <div class="tags">
-                    <ul>
-                      <li><a href="" class="tag">html</a></li>
-                      <li><a href="" class="tag">css</a></li>
-                      <li><a href="" class="tag">javascript</a></li>
-                    </ul>
-                  </div>
-                  <button class="btn" type="button">See Project</button>
-          </div>
-      </div>
-      </div>
-      <!-- fourth_project -->
-      <div class="fourth_project">
-        <div class="Uber">
-          <h2>Uber Navigation</h2>
-          <div class="flex_list">
-            <ul class="list">
-              <h5>Uber</h5>
-              <li class="list_items">Lead Developer</li>
-              <li class="list_items">2018</li>
-            </ul>
-            <p class="project_description">
-              A smart assistant to make driving more safe, efficient, and 
-              fun by unlocking your most expensive computer: your car.
+  </div>
+    <div class="card">
+        <img class="img card-twos" src="/svg_files/Professional.svg" alt="Snapshoot Portfolio image">
+        <div class="section_content">
+          <h2 class="cardheading">
+            Multi-Post Stories
+          </h2>
+          <ul class="minihead">
+            <li class="logo">
+              FACEBOOK
+            </li>
+            <li> <img src="/svg_files/Backendspot.png" alt="counter image">&nbsp; Back End Dev</li>
+            <li> <img src="/svg_files/Backendspot.png" alt="counter image">&nbsp; 2015</li>
+          </ul>
+            <p>
+              Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
             </p>
-            <div class="tags">
-              <ul>
-                <li><a href="" class="tag">html</a></li>
-                <li><a href="" class="tag">css</a></li>
-                <li><a href="" class="tag">javascript</a></li>
-              </ul>
-            </div>
-            <button class="btn" type="button">See Project</button>
-          </div> 
-        </div>  
-        <div class="Availability_image">
-          <img class="Availability" src="./svg_files/Availability.png" alt="Availability" />
+            <ul class="used-lang">
+                <li>
+                  html
+                </li>
+                <li>
+                  css
+                </li>
+                <li>
+                  javascript
+                </li>
+            </ul>
+            <button data-id="cardTwo" class="button" type="button">
+              See Project
+            </button>
         </div>
+    </div>
+    <div class="card">
+        <img class="img card-one" src="/svg_files/Explore.png" alt="Snapshoot Portfolio image">
+        <div class="section-content">
+            <h2 class="cardheading">
+              Facebook 360
+            </h2>
+            <ul class="minihead">
+              <li class="logo">CANOPY</li>
+              <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; Back End Dev</li>
+              <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; 2015</li>
+            </ul>
+            <p>
+              A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+            </p>
+            <ul class="used-lang">
+                <li>
+                  html
+                </li>
+                <li>
+                  css
+                </li>
+                <li>
+                  javascript
+                </li>
+            </ul>
+            <button data-id="card_two" class="button" type="button">
+              See Project
+            </button>
+        </div>
+    </div>
+    <div class="card">
+      <img class="img card-twos" src="/svg_files/Availability.png" alt="Snapshoot Portfolio image">
+      <div class="section-content">
+        <h2 class="cardheading">
+         Uber Navigation
+        </h2>
+        <ul class="minihead">
+        <li class="logo">
+        Uber
+        </li>
+        <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; Back End Dev</li>
+        <li> <img src="./svg_files/Backendspot.png" alt="counter image">&nbsp; 2015</li>
+        </ul>
+        <p>
+        A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <ul class="used-lang">
+          <li>
+          html
+          </li>
+          <li>
+           css
+          </li>
+          <li>
+           javascript
+          </li>
+        </ul>
+        <button data-id="cardfour" class="button" type="button">
+        See Project
+        </button>
       </div>
-    </section>
-      <!-- About section -->
-      <section class="About_Section">
-          <div class="About_Section_flex">
-              <h1>About <br />Myself</h1>
-              <p class="About_Section_description">
+    </div>
+  </section>
+  <!-- About section -->
+  <section id="about" class="about_section sections">
+      <div class="about_section_top">
+        <h2 class="lucasa">About Myself</h2>
+        <p class="about_section_description">
                 Hello I’m a software developer! I can help you build a product , feature
                 or website Look through some of my work and experience! If you like what
                 you see and have a project you need coded, don’t hestiate to contact me.
-              </p>
-              <div class="links-text">Let's connect</div>
-              <ul class="icons-section">
-              <li>
-                  <a href="https://twitter.com/Lucas_David_22">
-                  <img src="./svg_files/twitter.svg" alt="twitter" /></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/lucas-erkana-b30a0b3b/">
-                <img src="./svg_files/Linkedin.svg" alt="Linkedin" /></a>
-              </li>
-              <li>
-                <a href="https://medium.com/">
-                <img src="./svg_files/medium.svg" alt="medium" /></a>
-            </li>
-            <li>
-              <a href="https://github.com/Lucash2022">
-                <img src="./svg_files/github.svg" alt="github" /></a>
-            </li>
-            <li>
-              <a href="https://www.angellist.com/">
-                <img src="./svg_files/angellist.svg" alt="angellist" />
-              </a>
-            </li>
-              </ul>
-              <div class="spacer"></div>
-              <button class="btn">Get my resume</button>
-          </div>
-          <div class="About_Section_flexx">
-              <div class="spacer"></div>
-              <ul class="about_section_lists">
-                    <div class="dropdown">
-                      <li class="section_header">Languages</li><span>^</span>
-                    </div>
-                    <div class="spacer"><br><br></div>
-                    <ul class="languages">
-                        <li class="container">
-                          <img src="./svg_files/Js_ellipse.png" alt="js" />
-                          <div>Javascript</div>
-                        </li>
-                        <li class="container">
-                          <img src="./svg_files/Html_elipse.png" alt="html" />
-                          <div>Html</div>
-                        </li>
-                        <li class="container">
-                          <img src="./svg_files/Css_ellipse.png" alt="css" />
-                          <div>CSS</div>
-                        </li>
-                    </ul>
-                  <div class="dropdown">
-                    <li class="section_header">Frameworks</li><span>^</span>
-                  </div>
-                  <div class="dropdown">
-                    <li class="section_header">Skills</li><span>^</span> 
-                  </div>
-              </ul>
-          </div>
-      </section>
-<!-- footer -->
-    <footer class="footer">
-      <form action="https://formspree.io/f/xyyvbwzw" method="post">
-        <h1 class="form_header">  Contact me</h1>
-        <p class="form_paragraph">If you have an application you are interested in 
-          developing, a feature that you need built or 
-          a project that needs coding. I’d love to help with it 
         </p>
-        <div class="form_inputs">
-          <input type="text" placeholder="Lucas Erkana" class="form_input" maxlength="30" required name="name">
-          <input type="email" placeholder="Lderkana21x@gmail.com" class="form_input" required name="email">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Write yoyr message here" maxlength="500" required class="form_input" name="message"></textarea>
+        <h3 class="connectors">LET'S CONNECT</h3>
+        <ul id="social" class="icons_section_about">
+          <li>
+            <a href="https://twitter.com/Lucas_David_22">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lucas-erkana-b30a0b3b/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/">
+              <i class="fab fa-medium-m"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Lucash2022">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.angellist.com/">
+              <i class="far fa-hand-peace"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="btn button" type="button">Get my resume</button>
+      </div>
+          <ul class="about_section_lists">
+            <li>
+                <div class="language">
+                    Languages
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="languages">
+                    <li>
+                      <img src="./svg_files/Js_ellipse.png" alt="java script-image" />
+                      JavaScript
+                    </li>
+                    <li>
+                      <img src="./svg_files/Html_elipse.png" alt="html-image" />
+                      <div>HTML</div>
+                    </li>
+                    <li>
+                      <img src="./svg_files/Css_ellipse.png" alt="css-image" />
+                      <div>CSS</div>
+                    </li>
+                </ul>
+            </li>
+            <li class="language" >
+              Frameworks
+              <i class="fas fa-chevron-right"></i>
+            </li>
+            <li class="language">
+                Skills
+                <i class="fas fa-chevron-right"></i>
+            </li>
+          </ul>
+      </section>
+<!-- Contact form section -->
+    <footer id="contact" class="contact_me sections">
+      <h2>Contact me</h2>
+      <p class="form_paragraph">If you have an application you are interested in 
+        developing, a feature that you need built or 
+        a project that needs coding. I’d love to help with it 
+      </p>
+      <form id="forms" action="https://formspree.io/f/xyyvbwzw" method="post">
+          <input id="name" type="text" placeholder="Lucas Erkana" class="form_input" maxlength="30" required name="name">
+          <input id="email" type="email" placeholder="Lderkana21x@gmail.com" class="form_input" required name="email">
+          <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Write yoyr message here" maxlength="500" required class="textarea form_input" name="message"></textarea>
+        <div class="submitbutton">
+          <button class="form_button button btn_last" type="Submit">Get in touch</button>
         </div>
-        <button class="form_button" type="Submit">Get in touch</button>
       </form>
+      <hr class="line">
     </footer>
   </body>
 </html>
