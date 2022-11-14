@@ -265,7 +265,7 @@ header h3 a {
 }
 
 /* Apply style to Section-content selector */
-.section-content p {
+.section_content p {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
