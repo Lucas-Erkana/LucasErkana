@@ -73,6 +73,100 @@ const cards = [
     orderClas: 'card-twos',
   },
 ];
+// All popup Cards array
+const popupCards = [
+  {
+    id: 'cardOne',
+    title: 'Tonic',
+    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    description: "Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser",
+
+    technologies: ['html5', 'css3', 'javascript', 'React'],
+    technologies2: ['github', 'ruby', 'Bootstrap'],
+    image: {
+      mainImg: 'svg_files/Nature.png',
+      counter: './svg_files/Counter.png',
+      liveIcon: './svg_files/see-live.png',
+      sourceIcon: './svg_files/see-source.png',
+    },
+    butn1: 'See live',
+    butn2: 'See Source',
+    cancel: '&times;',
+    navigation: {
+      live: '#',
+      source: '#',
+    },
+  },
+
+  {
+    id: 'cardTwo',
+    title: 'Multi-Post Stories',
+    education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+
+    technologies: ['html', 'css', 'javascript'],
+    technologies2: ['github', 'ruby', 'Bootstrap'],
+    image: {
+      mainImg: 'svg_files/desktop-2.png',
+      counter: './svg_files/Counter.png',
+      liveIcon: './svg_files/see-live.png',
+      sourceIcon: './svg_files/see-source.png',
+    },
+    butn1: 'See live',
+    butn2: 'See Source',
+    cancel: '&times;',
+    navigation: {
+      live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
+      source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website',
+    },
+  },
+
+  {
+    id: 'cardThree',
+    title: 'Facebook 360',
+    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+
+    technologies: ['html', 'css', 'javascript'],
+    technologies2: ['github', 'ruby', 'Bootstrap'],
+    image: {
+      mainImg: 'svg_files/desktop-middle.png',
+      counter: './svg_files/Counter.png',
+      liveIcon: './svg_files/see-live.png',
+      sourceIcon: './svg_files/see-source.png',
+    },
+    butn1: 'See live',
+    butn2: 'See Source',
+    cancel: '&times;',
+    navigation: {
+      live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
+      source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website',
+    },
+  },
+
+  {
+    id: 'cardfour',
+    title: 'Uber Navigation',
+    education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+
+    technologies: ['html', 'css', 'javascript'],
+    technologies2: ['github', 'ruby', 'Bootstrap'],
+    image: {
+      mainImg: 'svg_files/desktop-last.png',
+      counter: './svg_files/Counter.png',
+      liveIcon: './svg_files/see-live.png',
+      sourceIcon: './svg_files/see-source.png',
+    },
+    butn1: 'Seelive',
+    butn2: 'See Source',
+    cancel: '&times;',
+    navigation: {
+      live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
+      source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website',
+    },
+  },
+];
 
 const body = document.querySelector('#portfolio');
 const section = document.createElement('section');
@@ -112,7 +206,21 @@ cards.forEach((object) => {
   </button>
   </div>
   </div>`;
-  
+
 });
 
 
+
+
+
+
+
+const button = querySelector('all-container');
+const mainbody  = document.querySelector('body');
+
+
+button.addEventListener('click' , (e) =>){
+  const btn = e.target.getAttribut('data-id');
+
+
+}
