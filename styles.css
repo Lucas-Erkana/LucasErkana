@@ -1149,6 +1149,6 @@ form {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  margin-top: -12px;
+  margin-top: 10px;
   margin-left: 16px;
 }
