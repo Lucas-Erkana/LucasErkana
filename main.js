@@ -232,6 +232,7 @@ buttonOne.addEventListener('click',()=>{
          <span class="closeBtn">&times</span>
          ${object.title}
          </h2>
+
        </div>
        <ul class="education">
          <li class="cano">
@@ -297,5 +298,10 @@ buttonOne.addEventListener('click',()=>{
   );
   main.appendChild(popup);
   mainbody.appendChild(main);
+
+  const close = document.querySelector('.closeBtn');
+  close.addEventListener('click',()=>{
+    mainbody.removeChild(main);
+  })
 });
 
