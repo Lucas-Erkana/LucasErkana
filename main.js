@@ -250,7 +250,7 @@ buttonOne.addEventListener('click',()=>{
            </p>
            <div class="sect-butns">
              <div>
-               <ul class="tech javaht">
+               <ul class="used-lang bootrap">
                  <li>
                      ${object.technologies[0]}
                  </li>
@@ -260,8 +260,6 @@ buttonOne.addEventListener('click',()=>{
                  <li>
                      ${object.technologies[2]}
                  </li>
-             </ul>
-             <ul class="used-lang bootrap">
                  <li>
                      ${object.technologies2[0]}
                  </li>
