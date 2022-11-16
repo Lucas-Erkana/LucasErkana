@@ -60,7 +60,7 @@ const cards = [
   },
 
   {
-    id: 'cardfour',
+    id: 'cardFour',
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -145,7 +145,7 @@ const popupCards = [
   },
 
   {
-    id: 'cardfour',
+    id: 'cardFour',
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -210,22 +210,18 @@ cards.forEach((object) => {
 });
 
 
-
-
-
-
-
+const btn=['cardOne','cardTwo','cardThree','cardFour'];
 const mainbody  = document.querySelector('body');
 const buttonOne = document.getElementById('cardOne')
-const btn = 'cardOne'
 
 buttonOne.addEventListener('click',()=>{
   const main = document.createElement('div');
   main.className='main'
   const popup = document.createElement('div');
   popupCards.forEach((object) => {
+    console.log(btn[0])
     console.log(object.id)
-    if (btn === object.id) {
+    if (btn[0] === object.id) {
       main.innerHTML = `<div id="${object.id}">
        <div class="pop-head">
          <h2 class="cardheading">
@@ -236,7 +232,7 @@ buttonOne.addEventListener('click',()=>{
        </div>
        <ul class="education">
          <li class="cano">
-           ${object.education[0]}"
+           ${object.education[0]}
          </li>
          <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
          <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
@@ -304,4 +300,260 @@ buttonOne.addEventListener('click',()=>{
 });
 
 
+const mainbody2  = document.querySelector('body');
+const buttonTwo = document.getElementById('cardTwo')
 
+buttonTwo.addEventListener('click',()=>{
+  const main = document.createElement('div');
+  main.className='main'
+  const popup = document.createElement('div');
+  popupCards.forEach((object) => {
+    if (btn[1] === object.id) {
+      main.innerHTML = `<div id="${object.id}">
+       <div class="pop-head">
+         <h2 class="cardheading">
+         <span class="closeBtn">&times</span>
+         ${object.title}
+         </h2>
+
+       </div>
+       <ul class="education">
+         <li class="cano">
+           ${object.education[0]}
+         </li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
+       </ul>
+       <div>
+         <img class="pop-img" src="${object.image.mainImg}" alt="Snapshoot Portfolio image">
+       <div>
+         <div class="pop-bottom">
+           <p class="pop-para">
+             ${object.description}
+           </p>
+           <div class="sect-butns">
+             <div>
+               <ul class="used-lang bootrap">
+                 <li>
+                     ${object.technologies[0]}
+                 </li>
+                 <li>
+                     ${object.technologies[1]}
+                 </li>
+                 <li>
+                     ${object.technologies[2]}
+                 </li>
+                 <li>
+                     ${object.technologies2[0]}
+                 </li>
+                 <li>
+                     ${object.technologies2[1]}
+                 </li>
+                 <li>
+                     ${object.technologies2[2]}
+                 </li>
+             </ul>
+             </div>
+             <hr class="single-line">
+             <nav class="pop-nav">
+             <a class="navii1" href="${object.navigation.live}" target="_blank">
+               <button class="pop-btn btn1 butz" type="button">
+               ${object.butn1}
+                 <img class="butz" src="${object.image.liveIcon}" alt="live-icon">
+               </button>
+             </a>
+             <a class="navii2" href="${object.navigation.source}" target="_blank">
+               <button class="pop-btn btn2 butz"  type="button">
+               ${object.butn2}
+               <img class="butz" src="${object.image.sourceIcon}" alt="github-icon">
+               </button>
+             </a>
+             </nav>
+           </div>
+         </div>
+       </div>
+      </div>
+     </div>`;
+    }
+  }
+  );
+  main.appendChild(popup);
+  mainbody2.appendChild(main);
+
+  const close2 = document.querySelector('.closeBtn');
+  close2.addEventListener('click',()=>{
+    mainbody2.removeChild(main);
+  })
+});
+
+const mainbody3  = document.querySelector('body');
+const buttonThree = document.getElementById('cardThree')
+
+buttonThree.addEventListener('click',()=>{
+  const main = document.createElement('div');
+  main.className='main'
+  const popup = document.createElement('div');
+  popupCards.forEach((object) => {
+    if (btn[2] === object.id) {
+      main.innerHTML = `<div id="${object.id}">
+       <div class="pop-head">
+         <h2 class="cardheading">
+         <span class="closeBtn">&times</span>
+         ${object.title}
+         </h2>
+
+       </div>
+       <ul class="education">
+         <li class="cano">
+           ${object.education[0]}
+         </li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
+       </ul>
+       <div>
+         <img class="pop-img" src="${object.image.mainImg}" alt="Snapshoot Portfolio image">
+       <div>
+         <div class="pop-bottom">
+           <p class="pop-para">
+             ${object.description}
+           </p>
+           <div class="sect-butns">
+             <div>
+               <ul class="used-lang bootrap">
+                 <li>
+                     ${object.technologies[0]}
+                 </li>
+                 <li>
+                     ${object.technologies[1]}
+                 </li>
+                 <li>
+                     ${object.technologies[2]}
+                 </li>
+                 <li>
+                     ${object.technologies2[0]}
+                 </li>
+                 <li>
+                     ${object.technologies2[1]}
+                 </li>
+                 <li>
+                     ${object.technologies2[2]}
+                 </li>
+             </ul>
+             </div>
+             <hr class="single-line">
+             <nav class="pop-nav">
+             <a class="navii1" href="${object.navigation.live}" target="_blank">
+               <button class="pop-btn btn1 butz" type="button">
+               ${object.butn1}
+                 <img class="butz" src="${object.image.liveIcon}" alt="live-icon">
+               </button>
+             </a>
+             <a class="navii2" href="${object.navigation.source}" target="_blank">
+               <button class="pop-btn btn2 butz"  type="button">
+               ${object.butn2}
+               <img class="butz" src="${object.image.sourceIcon}" alt="github-icon">
+               </button>
+             </a>
+             </nav>
+           </div>
+         </div>
+       </div>
+      </div>
+     </div>`;
+    }
+  }
+  );
+  main.appendChild(popup);
+  mainbody2.appendChild(main);
+
+  const close3 = document.querySelector('.closeBtn');
+  close3.addEventListener('click',()=>{
+    mainbody3.removeChild(main);
+  })
+});
+
+const mainbody4  = document.querySelector('body');
+const buttonFour = document.getElementById('cardFour')
+
+buttonFour.addEventListener('click',()=>{
+  const main = document.createElement('div');
+  main.className='main'
+  const popup = document.createElement('div');
+  popupCards.forEach((object) => {
+    if (btn[3] === object.id) {
+      main.innerHTML = `<div id="${object.id}">
+       <div class="pop-head">
+         <h2 class="cardheading">
+         <span class="closeBtn">&times</span>
+         ${object.title}
+         </h2>
+
+       </div>
+       <ul class="education">
+         <li class="cano">
+           ${object.education[0]}
+         </li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
+       </ul>
+       <div>
+         <img class="pop-img" src="${object.image.mainImg}" alt="Snapshoot Portfolio image">
+       <div>
+         <div class="pop-bottom">
+           <p class="pop-para">
+             ${object.description}
+           </p>
+           <div class="sect-butns">
+             <div>
+               <ul class="used-lang bootrap">
+                 <li>
+                     ${object.technologies[0]}
+                 </li>
+                 <li>
+                     ${object.technologies[1]}
+                 </li>
+                 <li>
+                     ${object.technologies[2]}
+                 </li>
+                 <li>
+                     ${object.technologies2[0]}
+                 </li>
+                 <li>
+                     ${object.technologies2[1]}
+                 </li>
+                 <li>
+                     ${object.technologies2[2]}
+                 </li>
+             </ul>
+             </div>
+             <hr class="single-line">
+             <nav class="pop-nav">
+             <a class="navii1" href="${object.navigation.live}" target="_blank">
+               <button class="pop-btn btn1 butz" type="button">
+               ${object.butn1}
+                 <img class="butz" src="${object.image.liveIcon}" alt="live-icon">
+               </button>
+             </a>
+             <a class="navii2" href="${object.navigation.source}" target="_blank">
+               <button class="pop-btn btn2 butz"  type="button">
+               ${object.butn2}
+               <img class="butz" src="${object.image.sourceIcon}" alt="github-icon">
+               </button>
+             </a>
+             </nav>
+           </div>
+         </div>
+       </div>
+      </div>
+     </div>`;
+    }
+  }
+  );
+  main.appendChild(popup);
+  mainbody2.appendChild(main);
+
+  const close4 = document.querySelector('.closeBtn');
+  close4.addEventListener('click',()=>{
+    mainbody4.removeChild(main);
+  })
+});
