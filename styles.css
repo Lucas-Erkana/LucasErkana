@@ -1119,3 +1119,30 @@ form {
     top: 0;
   }
 }
+/* Create popup */
+.pop-body {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 2%;
+  bottom: 2%;
+  left: 8%;
+  right: 8%;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.pop-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pop-up {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
