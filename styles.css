@@ -1118,4 +1118,29 @@ form {
   .navbar nav.nav-toggle {
     top: 0;
   }
+
+}
+
+.main{
+  width:80%;
+  height: 60%;
+  position: fixed;
+  top: 77px;;
+  bottom: 337px;
+  background: rgba(255, 255, 255, 100%);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.closeBtn{
+  color: #ccc;
+  font-size: 40px;
+  float: right;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
