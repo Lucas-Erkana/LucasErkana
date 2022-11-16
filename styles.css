@@ -1144,3 +1144,11 @@ form {
   text-decoration: none;
   cursor: pointer;
 }
+
+.education {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: -12px;
+  margin-left: 16px;
+}
