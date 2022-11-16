@@ -215,12 +215,87 @@ cards.forEach((object) => {
 
 
 
-const button = querySelector('all-container');
 const mainbody  = document.querySelector('body');
+const buttonOne = document.getElementById('cardOne')
+const btn = 'cardOne'
 
+buttonOne.addEventListener('click',()=>{
+  const main = document.createElement('div');
+  main.className='main'
+  const popup = document.createElement('div');
+  popupCards.forEach((object) => {
+    console.log(object.id)
+    if (btn === object.id) {
+      main.innerHTML = `<div id="${object.id}">
+       <div class="pop-head">
+         <h2 class="cardheading">
+         <span class="closeBtn">&times</span>
+         ${object.title}
+         </h2>
+       </div>
+       <ul class="education">
+         <li class="cano">
+           ${object.education[0]}"
+         </li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
+         <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
+       </ul>
+       <div>
+         <img class="pop-img" src="${object.image.mainImg}" alt="Snapshoot Portfolio image">
+       <div>
+         <div class="pop-bottom">
+           <p class="pop-para">
+             ${object.description}
+           </p>
+           <div class="sect-butns">
+             <div>
+               <ul class="tech javaht">
+                 <li>
+                     ${object.technologies[0]}
+                 </li>
+                 <li>
+                     ${object.technologies[1]}
+                 </li>
+                 <li>
+                     ${object.technologies[2]}
+                 </li>
+             </ul>
+             <ul class="used-lang bootrap">
+                 <li>
+                     ${object.technologies2[0]}
+                 </li>
+                 <li>
+                     ${object.technologies2[1]}
+                 </li>
+                 <li>
+                     ${object.technologies2[2]}
+                 </li>
+             </ul>
+             </div>
+             <hr class="single-line">
+             <nav class="pop-nav">
+             <a class="navii1" href="${object.navigation.live}" target="_blank">
+               <button class="pop-btn btn1 butz" type="button">
+               ${object.butn1}
+                 <img class="butz" src="${object.image.liveIcon}" alt="live-icon">
+               </button>
+             </a>
+             <a class="navii2" href="${object.navigation.source}" target="_blank">
+               <button class="pop-btn btn2 butz"  type="button">
+               ${object.butn2}
+               <img class="butz" src="${object.image.sourceIcon}" alt="github-icon">
+               </button>
+             </a>
+             </nav>
+           </div>
+         </div>
+       </div>
+      </div>
+     </div>`;
+    }
+  }
+  );
+  main.appendChild(popup);
+  mainbody.appendChild(main);
+});
 
-button.addEventListener('click' , (e) =>){
-  const btn = e.target.getAttribut('data-id');
-
-
-}
