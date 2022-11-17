@@ -39,8 +39,8 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
 
 ## Collaborators
-Houda Mazari[@githubhandle](https://github.com/houdamzari)
-Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
+-Houda Mazari[@githubhandle](https://github.com/houdamzari)
+-Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
 
 ## 🤝 Contributing
 
@@ -52,8 +52,8 @@ Feel free to check the [issues](https://github.com/Lucash2022/LucasErkanaPortfol
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-Houda Mazari[@githubhandle](https://github.com/houdamzari)
-Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
+-Houda Mazari[@githubhandle](https://github.com/houdamzari)
+-Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
 
 
 ## 📝 License
