@@ -46,7 +46,18 @@ function validator(emailAcquire) {
   } 
   return false; 
 }
-
+// Message to display Depending on Email validation status
+form.addEventListener('submit', (e) => { 
+  if (validator(emailE.value)) {
+     error.textContent = ''; storag(); 
+    } else { 
+      storag(); 
+      e.preventDefault(); 
+      emailE.style.border = '3px solid red'; 
+      error.style.display = 'flex';
+      error.textContent = 'Error! Please Use Lowercase Email.';
+     }
+     });
 
 
 // You need to update the main page so that the projects section
