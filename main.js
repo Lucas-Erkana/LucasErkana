@@ -59,6 +59,14 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+//Portfolio: preserve data in the browser
+const nameData = document.querySelector('#name');
+const messageData = document.querySelector('#message');
+const emptyObject = {};
+
+
+
+
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
 // JavaScript object. Remember, all of the HTML in that section is created when the page loads.
