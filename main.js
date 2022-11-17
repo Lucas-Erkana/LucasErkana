@@ -39,26 +39,25 @@ const emailE = document.querySelector('#email');
 const form = document.querySelector('#forme');
 const error = document.querySelector('#error');
 
-// Check if email meets Requirement 
+// Check if email meets Requirement
 function validator(emailAcquire) {
-  if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) { 
-    return true; 
-  } 
-  return false; 
+  if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) {
+    return true;
+  }
+  return false;
 }
-// Message to display Depending on Email validation status
-form.addEventListener('submit', (e) => { 
-  if (validator(emailE.value)) {
-     error.textContent = ''; storag(); 
-    } else { 
-      storag(); 
-      e.preventDefault(); 
-      emailE.style.border = '3px solid red'; 
-      error.style.display = 'flex';
-      error.textContent = 'Error! Please Use Lowercase Email.';
-     }
-     });
 
+// Message to display Depending on Email validation status
+form.addEventListener('submit', (e) => {
+  if (validator(emailE.value)) {
+    error.textContent = '';
+  } else {
+    e.preventDefault();
+    emailE.style.border = '3px solid red';
+    error.style.display = 'flex';
+    error.textContent = 'Error! Please Use Lowercase Email.';
+  }
+});
 
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
