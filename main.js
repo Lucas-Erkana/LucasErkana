@@ -47,6 +47,18 @@ function validator(emailAcquire) {
   return false;
 }
 
+// Portfolio: preserve data in the browser
+const nameData = document.querySelector('#name');
+const messageData = document.querySelector('#message');
+const emptyObject = {};
+
+function storeData() {
+  emptyObject.namee = nameData.value;
+  emptyObject.email = emailE.value;
+  emptyObject.message = messageData.value;
+  localStorage.setItem('object', JSON.stringify(emptyObject));
+}
+
 // Message to display Depending on Email validation status
 form.addEventListener('submit', (e) => {
   if (validator(emailE.value)) {
@@ -60,18 +72,6 @@ form.addEventListener('submit', (e) => {
     error.textContent = 'Error! Please Use Lowercase Email.';
   }
 });
-
-//Portfolio: preserve data in the browser
-const nameData = document.querySelector('#name');
-const messageData = document.querySelector('#message');
-const emptyObject = {};
-
-function storeData() {
-  emptyObject.namee = nameData.value;
-  emptyObject.email = emailE.value;
-  emptyObject.message = messageData.value;
-  localStorage.setItem('object', JSON.stringify(emptyObject));
-}
 
 // Accessing data and loading it on the page
 const acquire = JSON.parse(localStorage.getItem('object'));
