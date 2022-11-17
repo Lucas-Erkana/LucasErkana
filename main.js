@@ -71,6 +71,8 @@ function storeData() {
   localStorage.setItem('object', JSON.stringify(emptyObject));
 }
 
+// Accessing data and loading it on the page
+const acquire = JSON.parse(localStorage.getItem('object'));
 
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
