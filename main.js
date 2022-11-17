@@ -34,6 +34,12 @@ links.forEach((link) => {
   link.addEventListener('click', removeMenu);
 });
 
+// Email validation
+const emailE = document.querySelector('#email');
+const form = document.querySelector('#forme');
+const error = document.querySelector('#error');
+
+
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
 // JavaScript object. Remember, all of the HTML in that section is created when the page loads.
