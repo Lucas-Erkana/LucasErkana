@@ -51,7 +51,9 @@ function validator(emailAcquire) {
 form.addEventListener('submit', (e) => {
   if (validator(emailE.value)) {
     error.textContent = '';
+    storeData();
   } else {
+    storeData();
     e.preventDefault();
     emailE.style.border = '3px solid red';
     error.style.display = 'flex';
@@ -73,6 +75,16 @@ function storeData() {
 
 // Accessing data and loading it on the page
 const acquire = JSON.parse(localStorage.getItem('object'));
+
+if (acquire === null) {
+  nameData.value = '';
+  emailE.value = '';
+  messageData.value = '';
+} else {
+  nameData.value = acquire.namee;
+  emailE.value = acquire.email;
+  messageData.value = acquire.message;
+}
 
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
