@@ -39,8 +39,8 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
 
 ## Collaborators
-Houda Mazari[@githubhandle](https://github.com/houdamzari)
-Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
+-Houda Mazari[@githubhandle](https://github.com/houdamzari)
+-Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
 
 ## 🤝 Contributing
 
