@@ -1122,15 +1122,15 @@ form {
 }
 
 .main {
-  width: 80%;
-  height: 60%;
+  width: 89%;
+  height:60%;
   position: fixed;
-  top: 77px;
-  bottom: 337px;
+  top: 46px;
+  bottom: 70px;
   background: rgba(255, 255, 255, 100%);
-  display: flex;
   justify-content: center;
   z-index: 100;
+
 }
 
 .closeBtn {
@@ -1144,4 +1144,85 @@ form {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.pop-body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 2%;
+  bottom: 2%;
+  left: 5%;
+  right: 5%;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 100%;
+}
+
+.pop-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pop-up {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+.pop-img {
+  width: 100%;
+  height: 35%;
+}
+
+.pop-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.pop-para {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 88%;
+  flex: 1;
+  color: #344563;
+  width: 100%;
+}
+.bootrap {
+  display: none;
+}
+
+.sect-butns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.sect-butns .javaht {
+  padding: 0;
+  margin: 0;
+}
+
+.sect-butns :nth-child(1) ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pop-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
 }
