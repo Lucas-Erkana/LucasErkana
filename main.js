@@ -17,7 +17,7 @@ function menuTransition() {
     });
   }
 }
-//once click on the men-icon
+// once click on the men-icon
 navSectionTwo.addEventListener('click', menuTransition);
 
 // hides the menu bar
@@ -34,26 +34,22 @@ links.forEach((link) => {
   link.addEventListener('click', removeMenu);
 });
 
-
-
-
-//You need to update the main page so that the projects section 
-//is created dynamically using the information stored in that 
-//JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-//order class is to switch them , move image to the right 
+// You need to update the main page so that the projects section
+// is created dynamically using the information stored in that
+// JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+// order class is to switch them , move image to the right
 const cards = [
   {
     id: 'cardOne',
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html5','Ruby on rails', 'css', 'javascript'],
+    technologies: ['html5', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/Nature.png',
       counter: './images/Counter.png',
     },
     button: 'See Project',
-	
   },
 
   {
@@ -61,7 +57,7 @@ const cards = [
     title: 'Multi-Post Stories',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    technologies: ['html','Ruby on rails', 'css', 'javascript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/desktop-2.png',
       counter: './images/Counter.png',
@@ -75,7 +71,7 @@ const cards = [
     title: 'Facebook 360',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html','Ruby on rails', 'css', 'javascript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/desktop-middle.png',
       counter: './images/Counter.png',
@@ -88,7 +84,7 @@ const cards = [
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html','Ruby on rails', 'css', 'javascript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/desktop-last.png',
       counter: './images/Counter.png',
@@ -98,17 +94,16 @@ const cards = [
   },
 ];
 
-
-// For each project you need to store the following pieces of data in a 
-//JavaScript object, at a minimum: name, description, featured image, 
-//technologies, link to live version, link to source
+// For each project you need to store the following pieces of data in a
+// JavaScript object, at a minimum: name, description, featured image,
+// technologies, link to live version, link to source
 // All popup Cards
 const popup = [
   {
     id: 'cardOne',
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser",
+    description: 'Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -120,7 +115,7 @@ const popup = [
     },
     butn1: 'See live',
     butn2: 'See Source',
-    cancel: '&times;', //x image
+    cancel: '&times;', // x image
     navigation: {
       live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
       source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website/tree/popup/',
@@ -143,7 +138,7 @@ const popup = [
     },
     butn1: 'See live',
     butn2: 'See Source',
-    cancel: '&times;', //x image
+    cancel: '&times;', // x image
     navigation: {
       live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
       source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website/tree/popup/',
@@ -189,7 +184,7 @@ const popup = [
     },
     butn1: 'Seelive',
     butn2: 'See Source',
-    cancel: '&times;', //x image
+    cancel: '&times;', // x image
     navigation: {
       live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website/',
       source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website/tree/popup/',
