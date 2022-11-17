@@ -64,6 +64,15 @@ const nameData = document.querySelector('#name');
 const messageData = document.querySelector('#message');
 const emptyObject = {};
 
+function storeData() {
+  emptyObject.namee = nameData.value;
+  emptyObject.email = emailE.value;
+  emptyObject.message = messageData.value;
+  localStorage.setItem('object', JSON.stringify(emptyObject));
+}
+
+// Accessing data and loading it on the page
+const acquire = JSON.parse(localStorage.getItem('object'));
 
 
 
