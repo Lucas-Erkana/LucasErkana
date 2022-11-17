@@ -39,6 +39,15 @@ const emailE = document.querySelector('#email');
 const form = document.querySelector('#forme');
 const error = document.querySelector('#error');
 
+// Check if email meets Requirement 
+function validator(emailAcquire) {
+  if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) { 
+    return true; 
+  } 
+  return false; 
+}
+
+
 
 // You need to update the main page so that the projects section
 // is created dynamically using the information stored in that
