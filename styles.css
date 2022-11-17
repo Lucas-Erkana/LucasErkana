@@ -30,6 +30,7 @@ h1 {
 }
 
 /* header section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,7 +44,7 @@ header {
   padding-bottom: 15px;
 }
 
-/* h3 tag in heading */
+/* styling for my logo */
 header h3 a {
   font-family: var(--header-font);
   font-style: normal;
@@ -54,38 +55,81 @@ header h3 a {
   align-items: center;
   text-align: center;
   text-decoration: none;
-  color: #344563;
+  color: #6070ff;
   margin-left: 24px;
 }
 
-/* hamburger modified here */
 .menu-icon {
-  color: #344563;
+  color: #6070ff;
   font-size: 18px;
   margin-right: 24px;
 }
 
-/* hide menu items */
-.menu-items {
+.info {
   display: none;
 }
 
-/* blur out all the section classes */
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 9;
+  background: rgba(96, 112, 255, 0.7);
+  animation: scaleAnime 1s ease-in-out;
+}
+
+@keyframes scaleAnime {
+  0% {
+    transform: translateX(100%) scaleX(0);
+  }
+
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}
+
+.phone a {
+  text-decoration: none;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  padding-left: 28px;
+}
+
+#cancel {
+  align-self: flex-end;
+  margin-right: 16px;
+  margin-top: 17px;
+  font-size: 40px;
+  border: none;
+  color: #fff;
+  background-color: rgba(96, 112, 255, 0.2);
+}
+
 .sections.active {
   filter: blur(10px);
   z-index: -1;
   position: relative;
 }
 
-/* Add background image to the back to introduction outside media */
-.introduction {
-  background-image: url(./svg_files/Header-desktop.png);
+.cont-1-sec-2 {
+  background-image: url(./images/Header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom 95% right;
 }
 
-/* Appy styling to lucas class */
 .lucas {
   padding: 100px 24px 0 24px;
   font-family: var(--header-font);
@@ -97,8 +141,7 @@ header h3 a {
   width: 65%;
 }
 
-/* Appy styling to description */
-.description {
+.content {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
@@ -109,8 +152,7 @@ header h3 a {
   margin-top: 12px;
 }
 
-/* Apply syling to connector class(Lets connect) */
-.connector {
+.connect {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 500;
@@ -121,8 +163,7 @@ header h3 a {
   padding-left: 24px;
 }
 
-/* Apply new styling to icons-section outside 768px */
-.icons-section {
+.socials {
   display: flex;
   padding-left: 24px;
   width: 50%;
@@ -130,18 +171,17 @@ header h3 a {
   padding-bottom: 106.04px;
 }
 
-/* Apply styling to icons-section list links */
-.icons-section li a {
+.socials li a {
   text-decoration: none;
   color: #505f79;
 }
 
-/* Apply styling to social selector */
-#socials {
+#soci {
   padding-bottom: 12px;
 }
 
-/* Apply styling to container-2 */
+/* Work Section */
+
 .container-2 {
   background: #e5e5e5;
   display: flex;
@@ -154,7 +194,6 @@ header h3 a {
   gap: 88px;
 }
 
-/* Apply styling to portfolio id selector */
 #portfolio {
   display: flex;
   flex-direction: column;
@@ -162,7 +201,6 @@ header h3 a {
   align-items: center;
 }
 
-/* Apply style to card selector */
 .card {
   display: flex;
   flex-direction: column;
@@ -174,16 +212,14 @@ header h3 a {
   border-radius: 16px;
 }
 
-/* Apply style to used-lang */
-.used-lang {
+.tech {
   display: flex;
   width: fit-content;
   gap: 12px;
   padding: 0;
 }
 
-/* Apply style to list within used-lang selctor */
-.used-lang li {
+.tech li {
   background: #ebebff;
   border-radius: 8px;
   padding: 8px 12px;
@@ -196,8 +232,7 @@ header h3 a {
   color: #6070ff;
 }
 
-/* Apply style to list contained by minihead selector */
-.minihead li {
+.education li {
   padding-right: 10px;
   font-family: var(--header-font);
   font-style: normal;
@@ -207,8 +242,7 @@ header h3 a {
   color: #344563;
 }
 
-/* Apply style to list items in languages selector  */
-.languages li {
+.subjects li {
   display: flex;
   padding: 9px;
   background: #f7f7f9;
@@ -223,20 +257,17 @@ header h3 a {
   color: #344563;
 }
 
-/* Apply margin-right 0 to used-lang last child */
-.used-lang li:last-child {
+.tech li:last-child {
   margin-right: 0;
 }
 
-/* Apply style to section-content  */
-.section-content {
+.sec-content {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-/* Apply style to cardheading selector */
-.cardheading {
+.ton-del {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 700;
@@ -245,26 +276,22 @@ header h3 a {
   color: #172b4d;
 }
 
-/* Apply syle to miniheading selector */
-.minihead {
+.education {
   display: flex;
   width: fit-content;
   padding: 0;
   margin: 0;
 }
 
-/* Apply styling to logo selector */
-.minihead .logo {
+.education .cano {
   color: #344563;
 }
 
-/* Apply style to last child of the list */
-.minihead li:last-child {
+.education li:last-child {
   padding-right: 0;
 }
 
-/* Apply style to Section-content selector */
-.section_content p {
+.sec-content p {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
@@ -273,7 +300,6 @@ header h3 a {
   color: #344563;
 }
 
-/* Apply style to buttons class */
 .button {
   padding: 12px;
   width: fit-content;
@@ -290,8 +316,7 @@ header h3 a {
   background-color: #fff;
 }
 
-/* Apply styling to btn and button selectors  */
-.btn {
+.gmr {
   margin-left: 24px;
 }
 
@@ -300,7 +325,161 @@ header h3 a {
   color: #fff;
 }
 
-/* Apply style to lucasa selector */
+/* Pop-up window****************** */
+
+.window-popup {
+  width: 90%;
+  scroll-padding-top: inherit;
+  scroll-behavior: smooth;
+  gap: 20px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  height: 60%;
+}
+
+.pop-body {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 3%;
+  bottom: 2%;
+  left: 5%;
+  right: 5%;
+  cursor: pointer;
+  background-color: #fff;
+  height: 60%;
+}
+
+.pop-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pop-up {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+.cancel {
+  font-size: 50px;
+  width: 40px;
+  height: 40px;
+  font-weight: 500;
+  border: none;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #67798e;
+}
+
+.pop-img {
+  width: 100%;
+  height: 35%;
+}
+
+.pop-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.pop-para {
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 88%;
+  flex: 1;
+  color: #344563;
+  width: 100%;
+}
+
+.bootrap {
+  display: none;
+}
+
+.sect-butns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.sect-butns .javaht {
+  padding: 0;
+  margin: 0;
+}
+
+.sect-butns :nth-child(1) ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pop-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.single-line {
+  margin: 10px 0;
+  border: 1px solid #ebecf0;
+}
+
+.pop-btn {
+  border-radius: 8px;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #396df2;
+  border: none;
+}
+
+.navii1 {
+  text-decoration: none;
+  flex: 1 1 3rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.navii2 {
+  text-decoration: none;
+  flex: 1 1 3rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.btn1 {
+  padding: 12px 2px;
+  flex: 1 1 3rem;
+  width: 100%;
+}
+
+.btn2 {
+  padding: 12px 2px;
+  flex: 1.1 1 3rem;
+  width: 100%;
+}
+
+/* About Myself section */
+
 .lucasa {
   font-family: var(--header-font);
   font-style: normal;
@@ -312,8 +491,7 @@ header h3 a {
   padding-left: 24px;
 }
 
-/* Apply styling o the about_section_description */
-.about_section_description {
+.contenta {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
@@ -324,8 +502,7 @@ header h3 a {
   margin-top: 12px;
 }
 
-/* Apply styling to connectors selector */
-.connectors {
+.connecta {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 500;
@@ -336,8 +513,7 @@ header h3 a {
   padding-left: 24px;
 }
 
-/* Apply styling to icons_section_about */
-.icons_section_about {
+.socialsa {
   display: flex;
   padding-left: 24px;
   width: 50%;
@@ -345,20 +521,23 @@ header h3 a {
   padding-bottom: 106.04px;
 }
 
-/* apply styling to to content with in About_Section selector */
-.icons_section_about li a {
+.socialsa li a {
   text-decoration: none;
   color: #505f79;
 }
 
-.about_section {
+#socia {
+  padding-bottom: 12px;
+}
+
+.society {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 100%;
 }
 
-.about_section_top {
+.TOP {
   padding-top: 100px;
 }
 
@@ -379,14 +558,13 @@ hr {
   margin-right: 24px;
 }
 
-.languages {
+.subjects {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-/* Apply stylig to Conact me footer */
-.contact_me {
+.contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,12 +575,12 @@ hr {
   color: #fff;
   margin-top: 73px;
   border-top-left-radius: 65px;
-  background-image: url(/svg_files/contact-me-added.png);
+  background-image: url(./images/contact-me-added.png);
   background-repeat: no-repeat;
   background-position: top 65% right;
 }
 
-.contact_me h2 {
+.contact-me h2 {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 700;
@@ -410,7 +588,7 @@ hr {
   line-height: 52px;
 }
 
-.form_paragraph {
+.graph {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
@@ -430,7 +608,11 @@ form {
   gap: 20px;
 }
 
-.form_input {
+label {
+  display: none;
+}
+
+.input {
   background: #fff;
   border: none;
   border-radius: 8px;
@@ -451,24 +633,24 @@ form {
   color: #0d0d0e;
 }
 
-.form_button {
+.last {
   align-self: flex-start;
   border: 1px solid #fff;
   margin-bottom: 0;
 }
 
-.form_button:hover {
+.last:hover {
   background-color: #0918c0;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.form_button:focus {
+.last:focus {
   background: #0b114d;
   color: #fff;
 }
 
-.line {
+.black-line {
   width: 33.33%;
   height: 5px;
   background: #0d151e;
@@ -476,8 +658,7 @@ form {
   margin: 32px auto 8px auto;
 }
 
-/* corrected */
-.submitbutton {
+.submitter {
   display: flex;
   flex-direction: row;
   height: auto;
@@ -488,7 +669,12 @@ form {
   text-align: center;
 }
 
-/* Apply media query for 768px for about section an navbar */
+#error {
+  color: red;
+  font-family: var(--header-font);
+  width: 50%;
+}
+
 @media screen and (min-width: 768px) {
   :root {
     --header-font: "Poppins";
@@ -514,7 +700,7 @@ form {
     max-width: 100%;
   }
 
-  .all-containers {
+  .all-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -529,6 +715,7 @@ form {
     width: 100%;
   }
 
+  /* Animation for logo */
   header h3 a {
     font-family: var(--header-font);
     font-style: normal;
@@ -541,17 +728,17 @@ form {
     text-decoration: none;
     color: #6070ff;
     margin: 25px 0 0 100px;
-    animation-name: anime;
+    animation-name: animate-logo;
     animation-duration: 3s;
   }
 
-  @keyframes anime {
+  @keyframes animate-logo {
     from {
       transform: rotate(360deg);
     }
 
     to {
-      transform: rotate(90deg);
+      transform: rotate(0deg);
     }
   }
 
@@ -559,13 +746,17 @@ form {
     display: none;
   }
 
-  .menu-items {
+  .info {
     display: flex;
     gap: 30px;
     margin: 25px 100px 0 0;
   }
 
-  .menu-items a {
+  #cancel {
+    display: none;
+  }
+
+  .info a {
     text-decoration: none;
     color: #6070ff;
     font-family: var(--header-font);
@@ -575,12 +766,12 @@ form {
     line-height: 20px;
   }
 
-  .headline {
+  .container-1 {
     height: 100vh;
   }
 
-  .introduction {
-    background-image: url(./svg_files/Header-desktop.png);
+  .cont-1-sec-2 {
+    background-image: url(./images/Header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -608,7 +799,7 @@ form {
     margin-top: 260px;
   }
 
-  .description {
+  .content {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 400;
@@ -622,7 +813,7 @@ form {
     justify-content: flex-start;
   }
 
-  .connector {
+  .connect {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 500;
@@ -635,7 +826,7 @@ form {
     justify-content: flex-start;
   }
 
-  .icons-section {
+  .socials {
     width: 51.5%;
     gap: 20px;
     display: flex;
@@ -644,16 +835,17 @@ form {
     font-size: 25px;
   }
 
-  .icons-section li a {
+  .socials li a {
     text-decoration: none;
     color: #505f79;
   }
 
-  #social {
+  #soci {
     padding-bottom: 12px;
   }
 
-  /* Apply style to card section desktop version  */
+  /* Work Section */
+
   .container-2 {
     background: #e5e5e5;
     display: flex;
@@ -676,29 +868,29 @@ form {
     border-radius: 16px;
   }
 
+  /* order class is to switch them , move image to the right  */
   .card-twos {
     order: 1;
   }
 
   .img {
-    width: 50%;
+    width: 40%;
   }
 
   .img:hover {
     cursor: default;
     border: 1px solid gray;
     box-shadow: 1px 2px 15px gray;
-    width: 60%;
   }
 
-  .used-lang {
+  .tech {
     display: flex;
     width: fit-content;
     gap: 12px;
     padding: 0;
   }
 
-  .used-lang li {
+  .tech li {
     background: #ebebff;
     border-radius: 8px;
     padding: 8px 12px;
@@ -711,7 +903,7 @@ form {
     color: #6070ff;
   }
 
-  .minihead li {
+  .education li {
     padding-right: 10px;
     font-family: var(--header-font);
     font-style: normal;
@@ -721,7 +913,7 @@ form {
     color: #7a869a;
   }
 
-  .languages li {
+  .subjects li {
     display: flex;
     flex-direction: column;
     padding: 9px;
@@ -737,18 +929,18 @@ form {
     width: 15%;
   }
 
-  .used-lang li:last-child {
+  .tech li:last-child {
     margin-right: 0;
   }
 
-  .section_content {
+  .sec-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
     width: 60%;
   }
 
-  .cardheading {
+  .ton-del {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 700;
@@ -757,22 +949,22 @@ form {
     color: #172b4d;
   }
 
-  .minihead {
+  .education {
     display: flex;
     width: fit-content;
     padding: 0;
     margin: 0;
   }
 
-  .minihead .logo {
+  .education .cano {
     color: #344563;
   }
 
-  .minihead li:last-child {
+  .education li:last-child {
     padding-right: 0;
   }
 
-  .section_content p {
+  .sec-content p {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 400;
@@ -797,7 +989,7 @@ form {
     margin-bottom: 8px;
   }
 
-  .btn {
+  .gmr {
     margin-left: 24px;
   }
 
@@ -812,8 +1004,149 @@ form {
     color: #fff;
   }
 
-  /* Apply styling to About section for desktop verson */
-  .about_section {
+  /* Pop-up window****************** */
+
+  .window-popup {
+    width: 84%;
+    gap: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .pop-body {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 5%;
+    bottom: 2%;
+    left: 8%;
+    right: 8%;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .pop-head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pop-up {
+    padding: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+  }
+
+  .cancel {
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    font-weight: 500;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #67798e;
+  }
+
+  .pop-img {
+    width: 100%;
+    height: 35%;
+  }
+
+  .pop-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .pop-para {
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    padding-bottom: 40px;
+    width: 55%;
+  }
+
+  .sect-butns {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sect-butns :nth-child(1) ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .pop-nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .single-line {
+    margin: 10px 0;
+    border: 1px solid #ebecf0;
+  }
+
+  .pop-btn {
+    border-radius: 8px;
+    font-family: var(--header-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #396df2;
+    border: none;
+  }
+
+  .navii1 {
+    text-decoration: none;
+    flex: 1 1 3rem;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .navii2 {
+    text-decoration: none;
+    flex: 1 1 3rem;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .btn1 {
+    padding: 12px 2px;
+    flex: 1 1 3rem;
+    width: 100%;
+  }
+
+  .btn2 {
+    padding: 12px 2px;
+    flex: 1.1 1 3rem;
+    width: 100%;
+  }
+
+  /* About Myself section */
+
+  .society {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -821,7 +1154,7 @@ form {
     border-top-right-radius: 75px;
   }
 
-  .about_section_top {
+  .TOP {
     padding-top: 100px;
     width: 40%;
     display: flex;
@@ -839,7 +1172,7 @@ form {
     padding-left: 24px;
   }
 
-  .about_section_description {
+  .contenta {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 400;
@@ -850,20 +1183,18 @@ form {
     margin-top: 12px;
   }
 
-  .connectors {
+  .connecta {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
     margin-top: 12px;
-    width: 51.5%;
-    display: flex;
-    justify-content: flex-start;
+    padding-left: 24px;
   }
 
-  .icons_section_about {
+  .socialsa {
     display: flex;
     padding-left: 24px;
     width: 50%;
@@ -871,12 +1202,16 @@ form {
     padding-bottom: 106.04px;
   }
 
-  .icons_section_about li a {
+  .socialsa li a {
     text-decoration: none;
     color: #505f79;
   }
 
-  .about_section_lists {
+  #socia {
+    padding-bottom: 12px;
+  }
+
+  .skills {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -900,7 +1235,7 @@ form {
     margin-right: 24px;
   }
 
-  .languages {
+  .subjects {
     display: flex;
     flex-direction: row;
     gap: 12px;
@@ -908,8 +1243,7 @@ form {
     margin-bottom: 36px;
   }
 
-  /* Appy styling to contact form */
-  .contact_me {
+  .contact-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -920,12 +1254,12 @@ form {
     color: #fff;
     margin-top: 73px;
     border-top-left-radius: 75px;
-    background-image: url(./portfolio-images/contact-me-added.png);
+    background-image: url(./images/contact-me-added.png);
     background-repeat: no-repeat;
     background-position: top 65% right;
   }
 
-  .contact_me h2 {
+  .contact-me h2 {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 700;
@@ -933,7 +1267,7 @@ form {
     line-height: 52px;
   }
 
-  .form_paragraph {
+  .graph {
     font-family: var(--header-font);
     font-style: normal;
     font-weight: 400;
@@ -953,7 +1287,7 @@ form {
     gap: 20px;
   }
 
-  .form_input {
+  .input {
     background: #fff;
     border: none;
     border-radius: 8px;
@@ -974,7 +1308,7 @@ form {
     color: #0d0d0e;
   }
 
-  .form_button {
+  .last {
     align-self: center;
     border: 1px solid #fff;
     margin-bottom: 40px;
@@ -982,22 +1316,26 @@ form {
     order: 1;
   }
 
-  .form_button:hover {
+  .last:hover {
     background-color: #0918c0;
     color: #fff;
     border: 1px solid #fff;
   }
 
-  .form_button:focus {
+  .last:focus {
     background: #0b114d;
     color: #fff;
   }
 
-  .line {
+  .black-line {
     display: none;
   }
 
-  .submitbutton {
+  label {
+    display: none;
+  }
+
+  .submitter {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -1008,114 +1346,11 @@ form {
     text-align: center;
   }
 
-  .navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    flex: 1 1 auto;
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 2em;
-    background-color: #fff;
-    justify-content: space-between;
-    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
-  }
-
-  a.logo {
-    display: flex;
-    flex-direction: row;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 20px;
-    color: #6070ff;
-    margin-left: 150px;
-  }
-
-  .navbar nav {
-    position: fixed;
-    top: -120%;
-    width: 100%;
-    height: 100%;
-    background-color: #6070ff;
-    opacity: 0.9;
-  }
-}
-
-.burger {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .navbar {
-    display: flex;
-    height: 48px;
-    justify-content: space-between;
-    background-color: #fff;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-  }
-
-  a.logo {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    align-self: center;
-    color: #6070ff;
-    text-decoration: none;
-    margin-left: 24px;
-  }
-
-  .burger {
-    display: block;
-    color: #6070ff;
-    padding-top: 5px;
-    cursor: pointer;
-    position: absolute;
-    z-index: 1000;
-    right: 10%;
-    font-size: 2rem;
-  }
-
-  .navbar .fa-bars {
-    color: var(--primary);
-    font-size: 16px;
-  }
-
-  .menu {
-    display: block;
-    list-style: none;
-    position: fixed;
-    padding: 4rem;
-    top: -120%;
-    left: 0;
-    background: #6070ff;
-    width: 100%;
-    height: 100%;
-    opacity: 0.9;
-  }
-
-  nav a {
-    margin-bottom: 40px;
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    color: white;
-    text-decoration: none;
-    display: block;
-  }
-
-  .navbar nav.nav-toggle {
-    top: 0;
+  #error {
+    /* display: none; */
+    color: red;
+    width: fit-content;
+    font-family: var(--header-font);
+    font-size: 20px;
   }
 }

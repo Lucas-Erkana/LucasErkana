@@ -1,62 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Porfolio
+# Project: Mobile portfolio complete template-1
 
-For the first milestone in the process of creating your portfolio website, you will:
+## In the fourth milestone the portfolio website, you will:
 
-set up a new repository and prepare it for development using best practices (e.g. linters).
-build the first 2 sections of the mobile website using the template you chose in the previous step.
+>Evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
 
+# Project Screenshot image
+![Mobile version](./images/Screenshot-Portfolio.png)
+![Desktop version](./images/Screenshot-PortfolioDesktop.png)
 
-## Built With
+## Link to the live page
 
-- HTML and CSS
-
-## Live Demo
-
-[Portfolio Website](https://lucash2022.github.io/LucasErkanaPortfolio_Website/)
-
+> [Check out the Portfolio Website](https://lucash2022.github.io/LucasErkanaPortfolio_Website/).
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Create a local directory that you want to clone the repository.
 
+- Open the command prompt in the created directory.
 
-To get a local copy up and running follow these simple example steps.
+- On the terminal run this command git clone https://github.com/Lucash2022/LucasErkanaPortfolio_Website.git
 
-### Prerequisites
+- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
 
-### Setup
+- Install the dev dependencies for linters run npm install.
 
-### Install
+## Built with
 
-### Usage
+- HTML, CSS & JAVASCRIPT 
 
-### Run tests
+## Authors
 
-### Deployment
-
-https://lucash2022.github.io/LucasErkanaPortfolio_Website/
-
-👤 **Author**
+👤 **Lucas Erkana**
 
 - GitHub: [@githubhandle](https://github.com/Lucash2022)
 - Twitter: [@twitterhandle](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
 
+## Collaborators
+-Houda Mazari[@githubhandle](https://github.com/houdamzari)
+-Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
 
 ## 🤝 Contributing
 
-
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues](https://github.com/Lucash2022/LucasErkanaPortfolio_Website/issues)
 
 ## Show your support
 
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 -Houda Mazari[@githubhandle](https://github.com/houdamzari)
+-Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
 
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+
