@@ -30,22 +30,22 @@ function removeMenu() {
   }
 }
 
-links.forEach((link) => {
-  link.addEventListener('click', removeMenu);
-});
+// links.forEach((link) => {
+//   link.addEventListener('click', removeMenu);
+// });
 
-// Email validation
-const emailE = document.querySelector('#email');
-const form = document.querySelector('#forme');
-const error = document.querySelector('#error');
+// // Email validation
+// const emailE = document.querySelector('#email');
+// const form = document.querySelector('#forme');
+// const error = document.querySelector('#error');
 
-// Check if email meets Requirement
-function validator(emailAcquire) {
-  if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) {
-    return true;
-  }
-  return false;
-}
+// // Check if email meets Requirement
+// function validator(emailAcquire) {
+//   if (emailAcquire.match(/^[a-z@.0-9-_]*$/)) {
+//     return true;
+//   }
+//   return false;
+// }
 
 // // Portfolio: preserve data in the browser
 // const nameData = document.querySelector('#name');
