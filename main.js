@@ -47,49 +47,21 @@ function validator(emailAcquire) {
   return false;
 }
 
-// Portfolio: preserve data in the browser
-const nameData = document.querySelector('#name');
-const messageData = document.querySelector('#message');
-const emptyObject = {};
+// // Portfolio: preserve data in the browser
+contactForm.addEventListener('change', () => {
+  userData.name = document.querySelector('#name').value;
+  userData.email = document.querySelector('#email').value;
+  userData.message = document.querySelector('#message').value;
 
-function storeData() {
-  emptyObject.namee = nameData.value;
-  emptyObject.email = emailE.value;
-  emptyObject.message = messageData.value;
-  localStorage.setItem('object', JSON.stringify(emptyObject));
-}
-
-// Message to display Depending on Email validation status
-form.addEventListener('submit', (e) => {
-  if (validator(emailE.value)) {
-    error.textContent = '';
-    storeData();
-  } else {
-    storeData();
-    e.preventDefault();
-    emailE.style.border = '3px solid red';
-    error.style.display = 'flex';
-    error.textContent = 'Error! Please Use Lowercase Email.';
-  }
+  localStorage.setItem('object', JSON.stringify(userData));
 });
-
-// Accessing data and loading it on the page
-const acquire = JSON.parse(localStorage.getItem('object'));
-
-if (acquire === null) {
-  nameData.value = '';
-  emailE.value = '';
-  messageData.value = '';
-} else {
-  nameData.value = acquire.namee;
-  emailE.value = acquire.email;
-  messageData.value = acquire.message;
+const dataOBJ = JSON.parse(localStorage.getItem('object'));
+if (dataOBJ) {
+  document.querySelector('#name').value = dataOBJ.name;
+  document.querySelector('#email').value = dataOBJ.email;
+  document.querySelector('#message').value = dataOBJ.message;
 }
 
-// You need to update the main page so that the projects section
-// is created dynamically using the information stored in that
-// JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-// order class is to switch them , move image to the right
 const cards = [
   {
     id: 'cardOne',
