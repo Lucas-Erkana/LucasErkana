@@ -59,10 +59,28 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-// You need to update the main page so that the projects section
-// is created dynamically using the information stored in that
-// JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-// order class is to switch them , move image to the right
+const contactForm = document.querySelector('#forme');
+const userData = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+// Amended code for input change to store locally
+contactForm.addEventListener('change', () => {
+  userData.name = document.querySelector('#name').value;
+  userData.email = document.querySelector('#email').value;
+  userData.message = document.querySelector('#message').value;
+
+  localStorage.setItem('object', JSON.stringify(userData));
+});
+const dataOBJ = JSON.parse(localStorage.getItem('object'));
+if (dataOBJ) {
+  document.querySelector('#name').value = dataOBJ.name;
+  document.querySelector('#email').value = dataOBJ.email;
+  document.querySelector('#message').value = dataOBJ.message;
+}
+
 const cards = [
   {
     id: 'cardOne',
