@@ -66,6 +66,7 @@ const userData = {
   message: '',
 };
 
+// Amended code for input change to store locally
 contactForm.addEventListener('change', () => {
   userData.name = document.querySelector('#name').value;
   userData.email = document.querySelector('#email').value;
