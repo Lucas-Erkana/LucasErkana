@@ -55,7 +55,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     emailE.style.border = '3px solid red';
     error.style.display = 'flex';
-    error.textContent = 'Error! Please Use Lowercase Email.';
+    error.textConten = 'Error! Please Use Lowercase Email.';
   }
 });
 
@@ -225,6 +225,7 @@ const popup = [
       liveIcon: './images/see-live.png',
       sourceIcon: './images/see-source.png',
     },
+    
     butn1: 'Seelive',
     butn2: 'See Source',
     cancel: '&times;', // x image
@@ -233,6 +234,7 @@ const popup = [
       source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website/tree/popup/',
     },
   },
+  
 ];
 
 // all of the HTML in that section is created when the page loads.
@@ -251,6 +253,7 @@ cards.forEach((object) => {
   <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
   </ul>
   <p>
+  
     ${object.description}
   </p>
   <ul class="tech">
@@ -266,12 +269,14 @@ cards.forEach((object) => {
       <li>
         ${object.technologies[3]}
       </li>
+      
   </ul>
   <button data-id="${object.id}" class="button" type="button">
     ${object.button}
   </button>
   </div>
   </div>`;
+  
 });
 
 // Add a popCard or remove popup card when going to see live or see source
@@ -284,6 +289,7 @@ function pageTransition() {
       sect.classList.toggle('active');
     });
   }
+  
 }
 // Removes the Popup on click close button and Navigate to see live and see source on click
 windowPopup.addEventListener('click', (e) => {
@@ -294,6 +300,7 @@ windowPopup.addEventListener('click', (e) => {
       sect.classList.toggle('active');
     });
   }
+  
 });
 
 // Loads the popup card on click
@@ -309,6 +316,7 @@ bodyButtons.addEventListener('click', (e) => {
          <button type="button" class="cancel seeButtons">
            ${object.cancel}
          </button>
+         
        </div>
        <ul class="education">
          <li class="cano">
@@ -364,10 +372,14 @@ bodyButtons.addEventListener('click', (e) => {
                </button>
              </a>
              </nav>
+             
            </div>
+           
          </div>
        </div>
+       
       </div>
+      
      </div>`;
       pageTransition();
     }
