@@ -83,6 +83,19 @@ if (dataOBJ) {
 
 const cards = [
   {
+    id: 'cardFive',
+    title: 'Awesome Books',
+    education: ['MICROVERSE', '&nbsp; Front End Dev', '&nbsp; 2022'],
+    description: 'This is an education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.',
+    technologies: ['html5', 'Ruby on rails', 'css', 'javascript'],
+    image: {
+      mainImg: 'images/awesomebooks.jpg',
+      counter: './images/Counter.png',
+    },
+    button: 'See Project',
+  },
+
+  {
     id: 'cardOne',
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
@@ -143,6 +156,28 @@ const cards = [
 // All popup Cards
 const popup = [
   {
+    id: 'cardFive',
+    title: 'Awesome Books',
+    education: ['MICROVERSE', '&nbsp; Front End Dev', '&nbsp; 2022'],
+    description: 'This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
+
+    technologies: ['html', 'css', 'javascript'],
+    technologies2: ['github', 'ruby', 'Bootstrap'],
+    image: {
+      mainImg: 'images/awesomebooks.jpg',
+      counter: './images/Counter.png',
+      liveIcon: './images/see-live.png',
+      sourceIcon: './images/see-source.png',
+    },
+    butn1: 'See live',
+    butn2: 'See Source',
+    cancel: '&times;', // x image
+    navigation: {
+      live: 'https://lucash2022.github.io/Awesome_Book/',
+      source: 'https://github.com/Lucash2022/Awesome_Book.git',
+    },
+  },
+  {
     id: 'cardOne',
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
@@ -160,7 +195,7 @@ const popup = [
     butn2: 'See Source',
     cancel: '&times;', // x image
     navigation: {
-      live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website//',
+      live: 'https://lucash2022.github.io/LucasErkanaPortfolio_Website/',
       source: 'https://github.com/Lucash2022/LucasErkanaPortfolio_Website/tree/popup/',
     },
   },
