@@ -40,6 +40,7 @@
 
 ## Collaborators
 -Houda Mazari[@githubhandle](https://github.com/houdamzari)
+
 -Kelvin Kaviku[@githubhandle](https://github.com/brainskev)
 
 ## 🤝 Contributing
