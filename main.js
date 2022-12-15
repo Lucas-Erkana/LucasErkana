@@ -87,7 +87,7 @@ const cards = [
     title: 'Awesome Books',
     education: ['MICROVERSE', '&nbsp; Front End Dev', '&nbsp; 2022'],
     description: 'This is an education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.',
-    technologies: ['html5', 'Ruby on rails', 'css', 'javascript'],
+    technologies: ['html5', '', 'css', 'javascript'],
     image: {
       mainImg: 'images/awesomebooks.jpg',
       counter: './images/Counter.png',
@@ -292,7 +292,7 @@ cards.forEach((object) => {
       <li>
         ${object.technologies[0]}
       </li>
-      <li>
+      <li id="${object.technologies[1]==='' ? 'hide' : 'show'}">
          ${object.technologies[1]}
       </li>
       <li>

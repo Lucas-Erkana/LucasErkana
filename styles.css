@@ -680,6 +680,10 @@ label {
     --header-font: "Poppins";
   }
 
+  #hide {
+  display: none;
+  }
+  
   html,
   body {
     margin: 0;
