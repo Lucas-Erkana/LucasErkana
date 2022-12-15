@@ -126,7 +126,7 @@ const cards = [
     id: 'cardThree',
     title: 'Facebook 360',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/desktop-middle.png',
@@ -139,7 +139,7 @@ const cards = [
     id: 'cardFour',
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: {
       mainImg: 'images/desktop-last.png',
@@ -159,7 +159,7 @@ const popup = [
     id: 'cardFive',
     title: 'Awesome Books',
     education: ['MICROVERSE', '&nbsp; Front End Dev', '&nbsp; 2022'],
-    description: 'This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
+    description: 'This is an educational project that allows a user to add desired books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstrap'],
@@ -181,7 +181,7 @@ const popup = [
     id: 'cardOne',
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: 'Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -204,7 +204,7 @@ const popup = [
     id: 'cardTwo',
     title: 'Multi-Post Stories',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -227,7 +227,7 @@ const popup = [
     id: 'cardThree',
     title: 'Facebook 360',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -250,7 +250,7 @@ const popup = [
     id: 'cardFour',
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
