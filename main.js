@@ -204,7 +204,7 @@ const popup = [
     id: 'cardTwo',
     title: 'Multi-Post Stories',
     education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -250,7 +250,7 @@ const popup = [
     id: 'cardFour',
     title: 'Uber Navigation',
     education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
 
     technologies: ['html', 'css', 'javascript'],
     technologies2: ['github', 'ruby', 'Bootstraps'],
@@ -289,16 +289,16 @@ cards.forEach((object) => {
     ${object.description}
   </p>
   <ul class="tech">
-  <li id="${object.technologies[0]==='' ? 'hide' : 'show'}">
+  <li id="${object.technologies[0] === '' ? 'hide' : 'show'}">
         ${object.technologies[0]}
       </li>
-      <li id="${object.technologies[1]==='' ? 'hide' : 'show'}">
+      <li id="${object.technologies[1] === '' ? 'hide' : 'show'}">
          ${object.technologies[1]}
       </li>
-      <li id="${object.technologies[2]==='' ? 'hide' : 'show'}">
+      <li id="${object.technologies[2] === '' ? 'hide' : 'show'}">
          ${object.technologies[2]}
       </li>
-      <li id="${object.technologies[3]==='' ? 'hide' : 'show'}">
+      <li id="${object.technologies[3] === '' ? 'hide' : 'show'}">
         ${object.technologies[3]}
       </li>
   </ul>
@@ -362,24 +362,24 @@ bodyButtons.addEventListener('click', (e) => {
            <div class="sect-butns">
              <div>
                <ul class="tech javaht">
-               <li id="${object.technologies[0]==='' ? 'hide' : 'show'}">
+               <li id="${object.technologies[0] === '' ? 'hide' : 'show'}">
                      ${object.technologies[0]}
                  </li>
-                 <li id="${object.technologies[1]==='' ? 'hide' : 'show'}">
+                 <li id="${object.technologies[1] === '' ? 'hide' : 'show'}">
                      ${object.technologies[1]}
                  </li>
-                 <li id="${object.technologies[2]==='' ? 'hide' : 'show'}">
+                 <li id="${object.technologies[2] === '' ? 'hide' : 'show'}">
                      ${object.technologies[2]}
                  </li>
              </ul>
              <ul class="tech bootrap">
-             <li id="${object.technologies2[0]==='' ? 'hide' : 'show'}">
+             <li id="${object.technologies2[0] === '' ? 'hide' : 'show'}">
                      ${object.technologies2[0]}
                  </li>
-                 <li id="${object.technologies2[1]==='' ? 'hide' : 'show'}">
+                 <li id="${object.technologies2[1] === '' ? 'hide' : 'show'}">
                      ${object.technologies2[1]}
                  </li>
-                 <li id="${object.technologies2[2]==='' ? 'hide' : 'show'}">
+                 <li id="${object.technologies2[2] === '' ? 'hide' : 'show'}">
                      ${object.technologies2[2]}
                  </li>
              </ul>
