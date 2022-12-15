@@ -13,13 +13,13 @@ li {
   list-style: none;
 }
 
+#hide {
+  display: none;
+  }
+
 p {
   margin: 0;
   padding: 0;
-}
-
-img {
-  max-width: 100%;
 }
 
 h3,
@@ -382,7 +382,7 @@ header h3 a {
 
 .pop-img {
   width: 100%;
-  height: 35%;
+  height: 60%;
 }
 
 .pop-bottom {
@@ -683,7 +683,7 @@ label {
   #hide {
   display: none;
   }
-  
+
   html,
   body {
     margin: 0;
@@ -1061,7 +1061,7 @@ label {
 
   .pop-img {
     width: 100%;
-    height: 35%;
+    height: 60%;
   }
 
   .pop-bottom {

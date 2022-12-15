@@ -100,7 +100,7 @@ const cards = [
     title: 'Tonic',
     education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html5', 'Ruby on rails', 'css', 'javascript'],
+    technologies: ['html5', '', 'css', 'javascript'],
     image: {
       mainImg: 'images/Nature.png',
       counter: './images/Counter.png',
@@ -162,9 +162,9 @@ const popup = [
     description: 'This is an educational project that allows a user to add desired books to the list and also delete books. It makes use of local storage to preserve the data on the web browser',
 
     technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstrap'],
+    technologies2: ['github', '', ''],
     image: {
-      mainImg: 'images/awesomebooks.jpg',
+      mainImg: 'images/awesomebooksBg.jpg',
       counter: './images/Counter.png',
       liveIcon: './images/see-live.png',
       sourceIcon: './images/see-source.png',
@@ -289,16 +289,16 @@ cards.forEach((object) => {
     ${object.description}
   </p>
   <ul class="tech">
-      <li>
+  <li id="${object.technologies[0]==='' ? 'hide' : 'show'}">
         ${object.technologies[0]}
       </li>
       <li id="${object.technologies[1]==='' ? 'hide' : 'show'}">
          ${object.technologies[1]}
       </li>
-      <li>
+      <li id="${object.technologies[2]==='' ? 'hide' : 'show'}">
          ${object.technologies[2]}
       </li>
-      <li>
+      <li id="${object.technologies[3]==='' ? 'hide' : 'show'}">
         ${object.technologies[3]}
       </li>
   </ul>
@@ -362,24 +362,24 @@ bodyButtons.addEventListener('click', (e) => {
            <div class="sect-butns">
              <div>
                <ul class="tech javaht">
-                 <li>
+               <li id="${object.technologies[0]==='' ? 'hide' : 'show'}">
                      ${object.technologies[0]}
                  </li>
-                 <li>
+                 <li id="${object.technologies[1]==='' ? 'hide' : 'show'}">
                      ${object.technologies[1]}
                  </li>
-                 <li>
+                 <li id="${object.technologies[2]==='' ? 'hide' : 'show'}">
                      ${object.technologies[2]}
                  </li>
              </ul>
              <ul class="tech bootrap">
-                 <li>
+             <li id="${object.technologies2[0]==='' ? 'hide' : 'show'}">
                      ${object.technologies2[0]}
                  </li>
-                 <li>
+                 <li id="${object.technologies2[1]==='' ? 'hide' : 'show'}">
                      ${object.technologies2[1]}
                  </li>
-                 <li>
+                 <li id="${object.technologies2[2]==='' ? 'hide' : 'show'}">
                      ${object.technologies2[2]}
                  </li>
              </ul>
