@@ -15,7 +15,7 @@ li {
 
 #hide {
   display: none;
-  }
+}
 
 p {
   margin: 0;
@@ -681,7 +681,7 @@ label {
   }
 
   #hide {
-  display: none;
+    display: none;
   }
 
   html,
