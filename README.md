@@ -36,7 +36,7 @@
 
 - GitHub: [@githubhandle](https://github.com/Lucash2022)
 - Twitter: [@twitterhandle](https://twitter.com/@Lucas_David_22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana/)
 
 ## Collaborators
 -Houda Mazari[@githubhandle](https://github.com/houdamzari)
