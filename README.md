@@ -7,9 +7,9 @@
 >Evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
 
 # Project Screenshot image
-![Mobile version](./images/Screenshot-Portfolio.png)
-![Mobile version](./images/Screenshot-Portfolio2.png)
-![Desktop version](./images/Screenshot-PortfolioDesktop.png)
+[Mobile version](./images/Screenshot-Portfolio.png)
+[Mobile version](./images/Screenshot-Portfolio2.png)
+[Desktop version](./images/Screenshot-PortfolioDesktop.png)
 
 ## Link to the live page
 
