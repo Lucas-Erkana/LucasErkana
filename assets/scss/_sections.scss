@@ -1,6 +1,6 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Sections General
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -12,6 +12,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+
   h2 {
     font-size: 32px;
     font-weight: bold;
@@ -37,9 +38,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # About
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .about {
   .content {
     h3 {
@@ -47,7 +48,7 @@ section {
       font-size: 26px;
       color: lighten($secondary, 20);
     }
-  
+
     ul {
       list-style: none;
       padding: 0;
@@ -69,15 +70,16 @@ section {
         line-height: 0;
       }
     }
+
     p:last-child {
       margin-bottom: 0;
     }
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Facts
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .facts {
   padding-bottom: 30px;
 
@@ -118,19 +120,18 @@ section {
       font-size: 15px;
       font-family: $font-secondary;
       transition: ease-in-out 0.3s;
+
       &:hover {
         color: lighten($secondary, 30);
       }
     }
   }
-
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Akills
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .skills {
-
   .progress {
     height: 60px;
     display: block;
@@ -161,16 +162,15 @@ section {
   .progress-bar {
     width: 1px;
     height: 10px;
-    transition: .9s;
+    transition: 0.9s;
     background-color: $primary;
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Resume
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .resume {
-
   .resume-title {
     font-size: 26px;
     font-weight: 700;
@@ -178,7 +178,7 @@ section {
     margin-bottom: 20px;
     color: $secondary;
   }
-  
+
   .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
@@ -228,24 +228,21 @@ section {
     background: $white;
     border: 2px solid lighten($secondary, 30);
   }
-
-
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Portfolio
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .portfolio {
-
   .portfolio-item {
     margin-bottom: 30px;
   }
 
   #portfolio-flters {
-    padding:0;
-    margin:0 auto 35px auto;
-    list-style:none;
-    text-align:center;
+    padding: 0;
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
     background: $white;
     border-radius: 50px;
     padding: 2px 15px;
@@ -262,7 +259,8 @@ section {
       margin-bottom: 5px;
       transition: all 0.3s ease-in-out;
 
-      &:hover, &.filter-active {
+      &:hover,
+      &.filter-active {
         color: $primary;
       }
 
@@ -277,8 +275,9 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    
+
     $portfolio_wrap_spacing: 0;
+
     &::before {
       content: "";
       background: rgba($white, 0.5);
@@ -307,21 +306,18 @@ section {
         color: $white;
         font-size: 28px;
         text-align: center;
-        background: rgba($primary, .75);
+        background: rgba($primary, 0.75);
         transition: 0.3s;
         width: 50%;
 
         &:hover {
-          background: rgba($primary, .95);
+          background: rgba($primary, 0.95);
         }
       }
 
       a + a {
         border-left: 1px solid lighten($primary, 10);
       }
-
-
-
     }
 
     &:hover {
@@ -337,22 +333,21 @@ section {
         opacity: 1;
         bottom: 0;
       }
-      
     }
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .portfolio-details {
-
   padding-top: 40px;
 
   .portfolio-details-slider {
     img {
       width: 100%;
     }
+
     .swiper-pagination {
       margin-top: 20px;
       position: relative;
@@ -369,12 +364,11 @@ section {
         background-color: $primary;
       }
     }
-
   }
 
   .portfolio-info {
     padding: 30px;
-    box-shadow: 0px 0 30px rgba($secondary, 0.08);
+    box-shadow: 0 0 30px rgba($secondary, 0.08);
 
     h3 {
       font-size: 22px;
@@ -389,16 +383,15 @@ section {
       padding: 0;
       font-size: 15px;
 
-      li +li {
+      li + li {
         margin-top: 10px;
       }
     }
-    
   }
 
   .portfolio-description {
     padding-top: 30px;
-    
+
     h2 {
       font-size: 26px;
       font-weight: 700;
@@ -409,14 +402,12 @@ section {
       padding: 0;
     }
   }
-
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Services
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .services {
-
   .icon-box {
     margin-bottom: 20px;
   }
@@ -438,15 +429,14 @@ section {
       font-size: 24px;
       line-height: 0;
     }
-
   }
 
   .icon-box:hover .icon {
     background: #fff;
+
     i {
       color: $primary;
     }
-
   }
 
   .title {
@@ -454,13 +444,14 @@ section {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
+
     a {
       color: $black;
+
       &:hover {
         color: $primary;
       }
     }
-
   }
 
   .description {
@@ -470,12 +461,12 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Testimonials
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .testimonials {
-
-  .testimonials-carousel, .testimonials-slider {
+  .testimonials-carousel,
+  .testimonials-slider {
     overflow: hidden;
   }
 
@@ -500,10 +491,11 @@ section {
     h4 {
       font-size: 14px;
       color: #999;
-      margin:0;
+      margin: 0;
     }
 
-    .quote-icon-left, .quote-icon-right {
+    .quote-icon-left,
+    .quote-icon-right {
       color: lighten($primary, 40);
       font-size: 26px;
     }
@@ -518,7 +510,7 @@ section {
       display: inline-block;
       right: -5px;
       position: relative;
-      top:10px;
+      top: 10px;
     }
 
     p {
@@ -529,7 +521,7 @@ section {
       position: relative;
       margin-bottom: 35px;
       border-radius: 6px;
-      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     }
 
     p::after {
@@ -543,13 +535,12 @@ section {
       bottom: -20px;
       left: calc(50% - 20px);
     }
-
   }
 
   .swiper-pagination {
     margin-top: 20px;
     position: relative;
-  
+
     .swiper-pagination-bullet {
       width: 12px;
       height: 12px;
@@ -557,25 +548,24 @@ section {
       opacity: 1;
       border: 1px solid $primary;
     }
-  
+
     .swiper-pagination-bullet-active {
       background-color: $primary;
     }
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Contact
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .contact {
-
   padding-bottom: 130px;
 
   .info {
     padding: 30px;
     background: #fff;
     width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 
     i {
       font-size: 20px;
@@ -614,6 +604,7 @@ section {
 
     .social-links {
       padding-left: 60px;
+
       a {
         font-size: 18px;
         display: inline-block;
@@ -627,6 +618,7 @@ section {
         height: 36px;
         transition: 0.3s;
         margin-right: 10px;
+
         &:hover {
           background: $primary;
           color: #fff;
@@ -634,7 +626,9 @@ section {
       }
     }
 
-    .email:hover, .address:hover, .phone:hover {
+    .email:hover,
+    .address:hover,
+    .phone:hover {
       i {
         background: $primary;
         color: $white;
@@ -642,12 +636,11 @@ section {
     }
   }
 
-
   .php-email-form {
     width: 100%;
     padding: 30px;
     background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 
     .form-group {
       padding-bottom: 8px;
@@ -660,7 +653,7 @@ section {
       font-weight: 400;
       font-size: 13px;
     }
-    
+
     .error-message {
       display: none;
       color: #fff;
@@ -668,11 +661,12 @@ section {
       text-align: left;
       padding: 15px;
       font-weight: 600;
+
       & br + br {
         margin-top: 25px;
       }
     }
-    
+
     .sent-message {
       display: none;
       color: #fff;
@@ -681,14 +675,14 @@ section {
       padding: 15px;
       font-weight: 600;
     }
-  
+
     .loading {
       display: none;
       background: #fff;
       text-align: center;
       padding: 15px;
-  
-      &:before {
+
+      &::before {
         content: "";
         display: inline-block;
         border-radius: 50%;
@@ -699,7 +693,6 @@ section {
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
-  
     }
 
     .form-group {
@@ -710,7 +703,8 @@ section {
       padding-bottom: 8px;
     }
 
-    input, textarea {
+    input,
+    textarea {
       border-radius: 0;
       box-shadow: none;
       font-size: 14px;
@@ -731,11 +725,11 @@ section {
       color: #fff;
       transition: 0.4s;
       border-radius: 4px;
+
       &:hover {
         background: lighten($primary, 10%);
       }
     }
-  
   }
 
   @keyframes animate-loading {
@@ -744,9 +738,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Breadcrumbs
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .breadcrumbs {
   padding: 20px 0;
   background: lighten($default, 82);
@@ -779,15 +773,14 @@ section {
   @media (max-width: 768px) {
     .d-flex {
       display: block !important;
-
     }
-    
+
     ol {
       display: block;
+
       li {
         display: inline-block;
       }
-      
     }
   }
 }

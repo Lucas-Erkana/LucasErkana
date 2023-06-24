@@ -66,8 +66,10 @@ Feel free to check the [issues](https://github.com/Lucash2022/LucasErkanaPortfol
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
--Houda Mazari[@githubhandle](https://github.com/houdamzari)
--Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
+
+- Houda Mazari[@githubhandle](https://github.com/houdamzari)
+
+- Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
 
 
 ## 📝 License

@@ -1,6 +1,6 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 /* Desktop Navigation */
 .nav-menu {
@@ -17,29 +17,34 @@
     white-space: nowrap;
   }
 
-  a, a:focus {
+  a,
+  a:focus {
     display: flex;
     align-items: center;
     color: #a8a9b4;
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
-    font-size: 15px; 
-    i  {
+    font-size: 15px;
+
+    i {
       font-size: 24px;
       padding-right: 8px;
       color: #6f7180;
     }
   }
 
-  a:hover, .active, .active:focus, li:hover > a {
+  a:hover,
+  .active,
+  .active:focus,
+  li:hover > a {
     text-decoration: none;
     color: $white;
+
     i {
       color: $primary;
     }
   }
-  
 }
 
 /* Mobile Navigation */
