@@ -7,9 +7,19 @@
 >Evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
 
 # Project Screenshot image
-<img src="./images/Screenshot-Portfolio.png" width="200" height="400">
-<img src="./images/Screenshot-Portfolio2.png" width="200" height="400">
-<img src="./images/Screenshot-PortfolioDesktop" width="400" height="400">
+<table>
+  <tr>
+<td>
+   <img src="./images/Screenshot-Portfolio.png" width="200" height="400"> 
+</td>
+    <td><img src="./images/Screenshot-Portfolio2.png" width="200" height="400"></td>
+  </tr>
+
+
+<tr>
+  <img src="./images/Screenshot-PortfolioDesktop" width="400" height="400">
+</tr>
+</table>
 
 ## Link to the live page
 
