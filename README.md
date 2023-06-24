@@ -9,6 +9,9 @@
 # Project Screenshot image
 <table>
   <tr>
+  <img src="/images/Screenshot-PortfolioDesktop" width="400" height="400">
+</tr>
+  <tr>
 <td>
    <img src="images/Screenshot-Portfolio.png" width="200" height="400"> 
 </td>
@@ -16,14 +19,12 @@
   </tr>
 
 
-<tr>
-  <img src="/images/Screenshot-PortfolioDesktop" width="400" height="400">
-</tr>
+
 </table>
 
 ## Link to the live page
 
-> [Check out the Portfolio Website](https://lucash2022.github.io/Capstone1-Project-Portfolio/).
+> [Check out the Portfolio Website](https://lucash2022.github.io/LucasPortfolio/).
 
 ## Getting Started
 
