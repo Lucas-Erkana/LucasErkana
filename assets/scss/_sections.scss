@@ -1,0 +1,793 @@
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: lighten($secondary, 92);
+}
+
+.section-title {
+  padding-bottom: 30px;
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: lighten($secondary, 20);
+  }
+
+  h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: $primary;
+    bottom: 0;
+    left: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  .content {
+    h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: lighten($secondary, 20);
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      strong {
+        margin-right: 10px;
+      }
+
+      i {
+        font-size: 16px;
+        margin-right: 5px;
+        color: $primary;
+        line-height: 0;
+      }
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+  padding-bottom: 30px;
+
+  .count-box {
+    padding: 30px;
+    width: 100%;
+
+    i {
+      display: block;
+      font-size: 44px;
+      color: $primary;
+      float: left;
+      line-height: 0;
+    }
+
+    span {
+      font-size: 48px;
+      line-height: 40px;
+      display: block;
+      font-weight: 700;
+      color: $secondary;
+      margin-left: 60px;
+    }
+
+    p {
+      padding: 15px 0 0 0;
+      margin: 0 0 0 60px;
+      font-family: $font-primary;
+      font-size: 14px;
+      color: lighten($secondary, 15);
+    }
+
+    a {
+      font-weight: 600;
+      display: block;
+      margin-top: 20px;
+      color: lighten($secondary, 15);
+      font-size: 15px;
+      font-family: $font-secondary;
+      transition: ease-in-out 0.3s;
+      &:hover {
+        color: lighten($secondary, 30);
+      }
+    }
+  }
+
+}
+
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills {
+
+  .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+
+  .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: $font-secondary;
+    color: $secondary;
+  }
+
+  .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+
+  .progress-bar-wrap {
+    background: lighten($secondary, 86);
+    height: 10px;
+  }
+
+  .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: $primary;
+  }
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume {
+
+  .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $secondary;
+  }
+  
+  .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid lighten($secondary, 30);
+    position: relative;
+
+    h4 {
+      line-height: 18px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: $font-secondary;
+      color: $secondary;
+      margin-bottom: 10px;
+    }
+
+    h5 {
+      font-size: 16px;
+      background: lighten($secondary, 88);
+      padding: 5px 15px;
+      display: inline-block;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        padding-bottom: 10px;
+      }
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: $white;
+    border: 2px solid lighten($secondary, 30);
+  }
+
+
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio {
+
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  #portfolio-flters {
+    padding:0;
+    margin:0 auto 35px auto;
+    list-style:none;
+    text-align:center;
+    background: $white;
+    border-radius: 50px;
+    padding: 2px 15px;
+
+    li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px 15px 8px 15px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      color: $default;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover, &.filter-active {
+        color: $primary;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+    $portfolio_wrap_spacing: 0;
+    &::before {
+      content: "";
+      background: rgba($white, 0.5);
+      position: absolute;
+      left: $portfolio_wrap_spacing;
+      right: $portfolio_wrap_spacing;
+      top: $portfolio_wrap_spacing;
+      bottom: $portfolio_wrap_spacing;
+      transition: all ease-in-out 0.3s;
+      z-index: 2;
+      opacity: 0;
+    }
+
+    .portfolio-links {
+      opacity: 1;
+      left: 0;
+      right: 0;
+      bottom: -60px;
+      z-index: 3;
+      position: absolute;
+      transition: all ease-in-out 0.3s;
+      display: flex;
+      justify-content: center;
+
+      a {
+        color: $white;
+        font-size: 28px;
+        text-align: center;
+        background: rgba($primary, .75);
+        transition: 0.3s;
+        width: 50%;
+
+        &:hover {
+          background: rgba($primary, .95);
+        }
+      }
+
+      a + a {
+        border-left: 1px solid lighten($primary, 10);
+      }
+
+
+
+    }
+
+    &:hover {
+      &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+      }
+
+      .portfolio-links {
+        opacity: 1;
+        bottom: 0;
+      }
+      
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+
+  padding-top: 40px;
+
+  .portfolio-details-slider {
+    img {
+      width: 100%;
+    }
+    .swiper-pagination {
+      margin-top: 20px;
+      position: relative;
+
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        opacity: 1;
+        border: 1px solid $primary;
+      }
+
+      .swiper-pagination-bullet-active {
+        background-color: $primary;
+      }
+    }
+
+  }
+
+  .portfolio-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba($secondary, 0.08);
+
+    h3 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 15px;
+
+      li +li {
+        margin-top: 10px;
+      }
+    }
+    
+  }
+
+  .portfolio-description {
+    padding-top: 30px;
+    
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      padding: 0;
+    }
+  }
+
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+
+  .icon-box {
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: $primary;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid $primary;
+
+    i {
+      color: #fff;
+      font-size: 24px;
+      line-height: 0;
+    }
+
+  }
+
+  .icon-box:hover .icon {
+    background: #fff;
+    i {
+      color: $primary;
+    }
+
+  }
+
+  .title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    a {
+      color: $black;
+      &:hover {
+        color: $primary;
+      }
+    }
+
+  }
+
+  .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials {
+
+  .testimonials-carousel, .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonial-item {
+    box-sizing: content-box;
+    text-align: center;
+    min-height: 320px;
+
+    .testimonial-img {
+      width: 90px;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+      color: #111;
+    }
+
+    h4 {
+      font-size: 14px;
+      color: #999;
+      margin:0;
+    }
+
+    .quote-icon-left, .quote-icon-right {
+      color: lighten($primary, 40);
+      font-size: 26px;
+    }
+
+    .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+
+    .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top:10px;
+    }
+
+    p {
+      font-style: italic;
+      margin: 0 15px 15px 15px;
+      padding: 20px;
+      background: $white;
+      position: relative;
+      margin-bottom: 35px;
+      border-radius: 6px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    }
+
+    p::after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 20px solid $white;
+      border-right: 20px solid transparent;
+      border-left: 20px solid transparent;
+      position: absolute;
+      bottom: -20px;
+      left: calc(50% - 20px);
+    }
+
+  }
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #fff;
+      opacity: 1;
+      border: 1px solid $primary;
+    }
+  
+    .swiper-pagination-bullet-active {
+      background-color: $primary;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+
+  padding-bottom: 130px;
+
+  .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+
+    i {
+      font-size: 20px;
+      color: $primary;
+      float: left;
+      width: 44px;
+      height: 44px;
+      background: lighten($primary, 46);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    h4 {
+      padding: 0 0 0 60px;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: $secondary;
+    }
+
+    p {
+      padding: 0 0 10px 60px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: lighten($secondary, 20);
+    }
+
+    .email {
+      p {
+        padding-top: 5px;
+      }
+    }
+
+    .social-links {
+      padding-left: 60px;
+      a {
+        font-size: 18px;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        margin-right: 10px;
+        &:hover {
+          background: $primary;
+          color: #fff;
+        }
+      }
+    }
+
+    .email:hover, .address:hover, .phone:hover {
+      i {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+
+
+  .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+
+    .form-group {
+      padding-bottom: 8px;
+    }
+
+    .validate {
+      display: none;
+      color: red;
+      margin: 0 0 15px 0;
+      font-weight: 400;
+      font-size: 13px;
+    }
+    
+    .error-message {
+      display: none;
+      color: #fff;
+      background: #ed3c0d;
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+      & br + br {
+        margin-top: 25px;
+      }
+    }
+    
+    .sent-message {
+      display: none;
+      color: #fff;
+      background: #18d26e;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+  
+    .loading {
+      display: none;
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+  
+      &:before {
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px -6px 0;
+        border: 3px solid #18d26e;
+        border-top-color: #eee;
+        animation: animate-loading 1s linear infinite;
+      }
+  
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      padding-bottom: 8px;
+    }
+
+    input, textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+    }
+
+    input {
+      height: 44px;
+    }
+
+    textarea {
+      padding: 10px 15px;
+    }
+
+    button[type="submit"] {
+      background: $primary;
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 4px;
+      &:hover {
+        background: lighten($primary, 10%);
+      }
+    }
+  
+  }
+
+  @keyframes animate-loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 20px 0;
+  background: lighten($default, 82);
+
+  h2 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+
+    li + li {
+      padding-left: 10px;
+    }
+
+    li + li::before {
+      display: inline-block;
+      padding-right: 10px;
+      color: lighten($secondary, 10);
+      content: "/";
+    }
+  }
+
+  @media (max-width: 768px) {
+    .d-flex {
+      display: block !important;
+
+    }
+    
+    ol {
+      display: block;
+      li {
+        display: inline-block;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: darken($secondary, 1);
+  overflow-y: auto;
+
+  .profile {
+
+    img {
+      margin: 15px auto;
+      display: block;
+      width: 120px;
+      border: 8px solid #2c2f3f;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+      text-align-last: center;
+      font-family: $font-secondary;
+
+    }
+
+    h1 a, h1 a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .social-links {
+      a {
+        font-size: 18px;
+        display: inline-block;
+        background: #212431;
+        color: $white;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        &:hover {
+          background: $primary;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+}
+
+#main {
+  margin-left: 300px;
+}
+
+.container, .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1199px) {
+
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  .container, .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+}
