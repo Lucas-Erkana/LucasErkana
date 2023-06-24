@@ -10,13 +10,13 @@
 <table>
   <tr>
     <td>
-  <img src="/images/Screenshot-PortfolioDesktop" width="400" height="400"></td>
+  <img src="images/Screenshot-PortfolioDesktop.png" width="600" height="300"></td>
 </tr>
   <tr>
 <td>
    <img src="images/Screenshot-Portfolio.png" width="200" height="400"> 
+   <img src="images/Screenshot-Portfolio2.png" width="200" height="400">
 </td>
-    <td><img src="/images/Screenshot-Portfolio2.png" width="200" height="400"></td>
   </tr>
 
 
