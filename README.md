@@ -9,7 +9,8 @@
 # Project Screenshot image
 <table>
   <tr>
-  <img src="/images/Screenshot-PortfolioDesktop" width="400" height="400">
+    <td>
+  <img src="/images/Screenshot-PortfolioDesktop" width="400" height="400"></td>
 </tr>
   <tr>
 <td>
@@ -34,7 +35,7 @@
 
 - On the terminal run this command git clone https://github.com/Lucash2022/LucasErkanaPortfolio_Website.git
 
-- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
+- Go to the repository folder using the command prompt cd LucasErkanaPortfolio_Website.
 
 - Install the dev dependencies for linters run npm install.
 
