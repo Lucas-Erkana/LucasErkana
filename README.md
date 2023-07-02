@@ -7,12 +7,25 @@
 >Evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
 
 # Project Screenshot image
-![Mobile version](./images/Screenshot-Portfolio.png)
-![Desktop version](./images/Screenshot-PortfolioDesktop.png)
+<table>
+  <tr>
+    <td>
+  <img src="images/Screenshot-PortfolioDesktop.png" width="600" height="300"></td>
+</tr>
+  <tr>
+<td>
+   <img src="images/Screenshot-Portfolio.png" width="200" height="400"> 
+   <img src="images/Screenshot-Portfolio2.png" width="200" height="400">
+</td>
+  </tr>
+
+
+
+</table>
 
 ## Link to the live page
 
-> [Check out the Portfolio Website](https://lucash2022.github.io/Capstone1-Project-Portfolio/).
+> [Check out the Portfolio Website](https://lucash2022.github.io/LucasPortfolio/).
 
 ## Getting Started
 
@@ -22,7 +35,7 @@
 
 - On the terminal run this command git clone https://github.com/Lucash2022/LucasErkanaPortfolio_Website.git
 
-- Go to the repository folder using command prompt cd LucasErkanaPortfolio_Website.
+- Go to the repository folder using the command prompt cd LucasErkanaPortfolio_Website.
 
 - Install the dev dependencies for linters run npm install.
 
@@ -53,8 +66,10 @@ Feel free to check the [issues](https://github.com/Lucash2022/LucasErkanaPortfol
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
--Houda Mazari[@githubhandle](https://github.com/houdamzari)
--Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
+
+- Houda Mazari[@githubhandle](https://github.com/houdamzari)
+
+- Alex Ogeto[@alex_ogeto](https://github.com/Osoro254Alex)
 
 
 ## 📝 License
