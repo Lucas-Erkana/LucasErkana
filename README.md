@@ -12,7 +12,7 @@
 
 ## Link to the live page
 
-> [Check out the Portfolio Website](https://lucash2022.github.io/Capstone1-Project-Portfolio/).
+> [Check out the Portfolio Website](https://lucash2022.github.io/Portfolio/).
 
 ## Getting Started
 
