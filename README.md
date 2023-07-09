@@ -35,7 +35,7 @@
 
 ## Live Demo
 
-To see this project's live demo, please click [here](https://portfolio-kashif-saleem-kashif-saleem-ghuman.vercel.app/contact).
+To see this project's live demo, please click [here](#).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,9 +48,9 @@ This app is built with React and Redux.
 ### Key Features <a name="key-features"></a>
 
 > - Landing page.
-> - Abput page.
+> - About page.
 > - Portfolio page to showcase projects.
-> - tech page showcasing my skills.
+> - Tech page showcasing my skills.
 > - Contact page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,13 +75,13 @@ In order to run this project you need:
 - Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/Kashif-Saleem-Ghuman/portfolio-kashif-saleem.git
+ git clone https://github.com/Lucash2022/Portfolio.git
 ```
 
 - Navigate into the cloned folder
 
 ```sh
- cd portfolio-kashif-saleem
+ cd portfolio
 
 ```
 
@@ -105,11 +105,12 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kashif Saleem**
+👤 **Lucas Erkana**
 
-- GitHub:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Kashif-Saleem-Ghuman)
-- Twitter:[![Kashif](https://img.shields.io/badge/-Kashif-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/Kashif14Saleem)
-- LinkedIn:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/kashifsaleemghuman/)
+- GitHub: [@Lucash2022](https://github.com/Lucash2022)
+- Twitter: [@Lucas_David_22](https://twitter.com/@Lucas_David_22)
+- LinkedIn: [Lucas Erkana](https://www.linkedin.com/in/lucas-erkana/)
+- Frontend Mentor - [@PLucash2022](https://www.frontendmentor.io/profile/Lucash2022)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +130,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kashif-Saleem-Ghuman/portfolio-kashif-saleem/issues).
+Feel free to check the [issues page](https://github.com/Lucash2022/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +147,7 @@ If you like this project, please leave a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for providing the reading materials that aided us to during the project development.
+- I would like to thank [Kashif Saleem](https://github.com/Kashif-Saleem-Ghuman) for helping me with the designing of this portfolio.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
