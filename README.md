@@ -32,10 +32,12 @@
 # 📖 My Portfolio<a name="about-project"></a>
 
 > This is my portfolio which showcases my skills.
+![Portfolio](https://github.com/Lucash2022/Portfolio/assets/41428579/3ecda523-a997-4ccb-a518-15be92d8cad3)
+
 
 ## Live Demo
 
-To see this project's live demo, please click [here](#).
+To see this project's live demo, please click [here](https://lucas-erkana-portfolio.vercel.app/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
