@@ -1,18 +1,21 @@
 import React from 'react'
 import styles from './Tech.module.css'
-import { AiFillHtml5, AiFillGitlab, AiFillGithub } from 'react-icons/ai'
+import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
 import { TbBrandJavascript } from 'react-icons/tb'
-import { DiReact, DiRuby } from 'react-icons/di'
+import { DiRuby } from 'react-icons/di'
 import { FaBootstrap } from 'react-icons/fa'
-import {  SiPostman, SiVisualstudiocode, SiNetlify, SiPostgresql, SiRubyonrails, SiHeroku } from 'react-icons/si'
-import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
-import { BsGit, BsFillTerminalFill } from 'react-icons/bs'
-import { SiSass } from 'react-icons/si'
-import { SiRedux } from 'react-icons/si'
-
-
-
+import { SiPostgresql, SiRubyonrails } from 'react-icons/si'
+import { HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
+import { SiSass, SiRedux } from 'react-icons/si'
+import VercelIcon from '../../components/ICONS/VercelIcon'; // Update the path based on where you are importing it.
+import RenderIcon from '../../components/ICONS/RenderIcon';
+import GitIcon from '../../components/ICONS/GitIcon';
+import GithubIcon from '../../components/ICONS/GithubIcon';
+import VscodeIcon from '../../components/ICONS/VscodeIcon';
+import TerminalIcon from '../../components/ICONS/TerminalIcon';
+import GitlabIcon from '../../components/ICONS/GitlabIcon';
+import ReactIcon from '../../components/ICONS/ReactIcon';
 
 const Tech = () => {
   return (
@@ -29,11 +32,10 @@ const Tech = () => {
           <li> <AiFillHtml5 />HTML5</li>
           <li> <IoLogoCss3 /> CSS3</li>
           <li> <TbBrandJavascript /> JavaScript</li>
-          <li> <DiReact /> React</li>
+          <li> <ReactIcon /> React</li>
           <li> <SiRedux /> Redux</li>
           <li> <FaBootstrap /> Bootstrap</li>
           <li> <SiSass /> Sass</li>
-
         </ul>
       </article>
 
@@ -43,7 +45,6 @@ const Tech = () => {
           <li> <DiRuby /> Ruby</li>
           <li> <SiRubyonrails /> Rails</li>
           <li> <SiPostgresql /> PostgreSQL</li>
-          <li><HiOutlineColorSwatch/> Rswag</li>
           <li><HiLockClosed/> CanCanCan</li>
           <li><HiOutlineDeviceTablet/> Devise</li>
           <li><IoLogoNodejs/> Node.js</li>
@@ -53,18 +54,15 @@ const Tech = () => {
       <article className={`${styles.container} ${styles.otherContainer}`}>
         <h2>Developer tools</h2>
         <ul>
-        <li><BsGit/> Git</li>
-          <li><AiFillGithub/> GitHub</li>
-          <li><SiHeroku/> Heroku</li>
-          <li> <SiNetlify/> Netlify</li>
-          <li><SiPostman/> Postman</li>
-          <li><SiVisualstudiocode />VS Code</li>
-          <li><BsFillTerminalFill/> Terminal</li>
-          <li><AiFillGitlab/> GitLab</li>
+          <li><GitIcon/> Git</li>
+          <li><GithubIcon/> GitHub</li>
+          <li><RenderIcon /> Render</li>
+          <li><VercelIcon />Vercel</li>
+          <li><VscodeIcon />VS Code</li>
+          <li><TerminalIcon/> Terminal</li>
+          <li><GitlabIcon/> GitLab</li>
         </ul>
       </article>
-
-
 
     </section>
     </>
