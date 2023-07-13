@@ -2,11 +2,10 @@ import React from 'react'
 import styles from './Tech.module.css'
 import { AiFillHtml5, AiFillGitlab, AiFillGithub } from 'react-icons/ai'
 import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
-import { TbBrandJavascript, TbBrandRedux } from 'react-icons/tb'
+import { TbBrandJavascript } from 'react-icons/tb'
 import { DiReact, DiRuby } from 'react-icons/di'
 import { FaBootstrap } from 'react-icons/fa'
-import { FiFramer } from 'react-icons/fi'
-import {  SiPostman, SiVisualstudiocode, SiNetlify, SiPostgresql, SiRubyonrails, SiHeroku,SiAuth0 } from 'react-icons/si'
+import {  SiPostman, SiVisualstudiocode, SiNetlify, SiPostgresql, SiRubyonrails, SiHeroku } from 'react-icons/si'
 import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
 import { BsGit, BsFillTerminalFill } from 'react-icons/bs'
 import { SiSass } from 'react-icons/si'
@@ -34,7 +33,6 @@ const Tech = () => {
           <li> <SiRedux /> Redux</li>
           <li> <FaBootstrap /> Bootstrap</li>
           <li> <SiSass /> Sass</li>
-          <li> <FiFramer /> Framer Motion</li>
 
         </ul>
       </article>
@@ -45,7 +43,6 @@ const Tech = () => {
           <li> <DiRuby /> Ruby</li>
           <li> <SiRubyonrails /> Rails</li>
           <li> <SiPostgresql /> PostgreSQL</li>
-          <li><SiAuth0/> JWT</li>
           <li><HiOutlineColorSwatch/> Rswag</li>
           <li><HiLockClosed/> CanCanCan</li>
           <li><HiOutlineDeviceTablet/> Devise</li>

@@ -1,5 +1,16 @@
 [
   {
+    "title": "Spend Smart",
+    "image": "./projectImages/spendsmart.gif",
+    "description": "SpendSmart is a web-based budgeting application built using Ruby on Rails and PostgreSQL. With SpendSmart, users can effortlessly track their income and expenses, gaining full control over their finances. 💰💼",
+    "technologies": "Ruby on Rails | Postgresql | HTML | SASS & CSS",
+    "github": "https://github.com/Lucash2022/SpendSmart",
+    "deployed": "https://spend-smart.onrender.com/",
+    "bgcolor": "#f377e7",
+    "id": "1"
+  },
+
+  {
     "title": "Tasty Bites",
     "image": "./projectImages/tasty-bites.gif",
     "description": "Tasty Bites: Organize, Create, and Share Recipes with Ease! Save, track, and manage your recipes, ingredients, and inventory effortlessly. Generate shopping lists based on your recipe needs. Share your favorite recipes with the world by making them public. Cook with confidence and never miss a beat with Tasty Bites!",
@@ -7,7 +18,7 @@
     "github": "https://github.com/Lucash2022/Tasty-Bites",
     "deployed": "https://rails-nlz4.onrender.com/",
     "bgcolor": "#f37737",
-    "id": "1"
+    "id": "2"
   },
   {
     "title": "Math Magicians",
@@ -17,7 +28,7 @@
      "github": "https://github.com/Lucash2022/math_magician_react",
     "deployed": "https://math-magicians-s0ze.onrender.com",
     "bgcolor": "#29cbe0",
-    "id": "2"
+    "id": "3"
   },
   {
     "title": "Bookstore",
@@ -27,7 +38,7 @@
     "github": "https://github.com/Lucash2022/Bookstore",
     "deployed": "https://bookstore-mz71.onrender.com",
     "bgcolor": "#6c4bf4",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "Astro Travelers",
@@ -37,7 +48,7 @@
     "github": "https://github.com/Lucash2022/Astro-Travelers",
     "deployed": "https://astro-travelers.onrender.com/",
     "bgcolor": "#f85781",
-    "id": "4"
+    "id": "5"
   },
 
   {
@@ -48,7 +59,7 @@
      "github": "https://github.com/Lucash2022/TV-hub",
     "deployed": "https://lucash2022.github.io/TV-hub/dist/",
     "bgcolor": "#ffcc33",
-    "id": "5"
+    "id": "6"
   },
 
   {
@@ -59,7 +70,7 @@
    "github": "https://github.com/Lucash2022/To_Do_List",
     "deployed": "https://lucash2022.github.io/To_Do_List/",
     "bgcolor": "#3e67ff",
-    "id": "6"
+    "id": "7"
   },
   {
     "title": "Awesome Books",
@@ -69,7 +80,7 @@
    "github": "https://github.com/Lucash2022/Awesome_Book",
     "deployed": "https://Lucash2022.github.io/Awesome_Book/",
     "bgcolor": "#2ff3e0",
-    "id": "7"
+    "id": "8"
   }
 
 

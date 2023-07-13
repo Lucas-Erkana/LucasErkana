@@ -49,6 +49,19 @@ const SocialIcons = () => {
           title="Lucas Erkana' Twitter Profile"
         ></i>
       </a>
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://wellfound.com/u/lucas-erkana"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i
+          className="fa-brands fa-angellist"
+          aria-hidden="true"
+          title="Lucas Erkana' Twitter Profile"
+        ></i>
+      </a>
     </div>
   );
 };
