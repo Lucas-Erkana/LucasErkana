@@ -1,10 +1,9 @@
-import React from 'react'
-import styles from './Tech.module.css'
-import { AiFillHtml5 } from 'react-icons/ai'
-import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
-import { DiRuby } from 'react-icons/di'
+import React from 'react';
+import styles from './Tech.module.css';
+import { DiRuby } from 'react-icons/di';
+import { IoLogoNodejs } from 'react-icons/io';
 import { SiPostgresql, SiRubyonrails } from 'react-icons/si'
-import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
+import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi';
 import VercelIcon from '../../components/ICONS/VercelIcon'; // Update the path based on where you are importing it.
 import RenderIcon from '../../components/ICONS/RenderIcon';
 import GitIcon from '../../components/ICONS/GitIcon';
@@ -16,7 +15,9 @@ import ReactIcon from '../../components/ICONS/ReactIcon';
 import JSIcon from '../../components/ICONS/JSIcon';
 import ReduxIcon from '../../components/ICONS/ReduxIcon';
 import BootstrapIcon from '../../components/ICONS/BootstrapIcon';
-import SassIcon from '../../components/ICONS/SassIcon'
+import SassIcon from '../../components/ICONS/SassIcon';
+import CssIcon from '../../components/ICONS/CssIcon';
+import HtmlIcon from '../../components/ICONS/HtmlIcon';
 
 const Tech = () => {
   return (
@@ -30,8 +31,8 @@ const Tech = () => {
       <article className={`${styles.container} ${styles.frontContainer}`}>
         <h2>Front-end</h2>
         <ul>
-          <li> <AiFillHtml5 />HTML5</li>
-          <li> <IoLogoCss3 /> CSS3</li>
+          <li> <HtmlIcon />HTML5</li>
+          <li> <CssIcon /> CSS3</li>
           <li> <JSIcon /> JavaScript</li>
           <li> <ReactIcon /> React</li>
           <li> <ReduxIcon /> Redux</li>

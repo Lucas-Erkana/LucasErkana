@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function CssIcon() {
+function HtmlIcon() {
   const [size, setSize] = useState(50);
   const max_size = 50;
   const min_size = 40;
@@ -31,7 +31,7 @@ function CssIcon() {
       overflow: 'hidden' // added to prevent image getting out of the box
     }}>
       <img 
-        src={`${process.env.PUBLIC_URL}/SVG/css3.svg`} 
+        src={`${process.env.PUBLIC_URL}/SVG/html5.svg`} 
         alt="Sass" 
         style={{width: `${size}px`, height: `${size}px`, transition: `${speed/1000}s all`}} 
       />
@@ -39,4 +39,4 @@ function CssIcon() {
   );
 }
 
-export default CssIcon;
+export default HtmlIcon;
