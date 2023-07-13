@@ -6,7 +6,7 @@ import { TbBrandJavascript } from 'react-icons/tb'
 import { DiRuby } from 'react-icons/di'
 import { FaBootstrap } from 'react-icons/fa'
 import { SiPostgresql, SiRubyonrails } from 'react-icons/si'
-import { HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
+import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
 import { SiSass, SiRedux } from 'react-icons/si'
 import VercelIcon from '../../components/ICONS/VercelIcon'; // Update the path based on where you are importing it.
 import RenderIcon from '../../components/ICONS/RenderIcon';
@@ -16,6 +16,7 @@ import VscodeIcon from '../../components/ICONS/VscodeIcon';
 import TerminalIcon from '../../components/ICONS/TerminalIcon';
 import GitlabIcon from '../../components/ICONS/GitlabIcon';
 import ReactIcon from '../../components/ICONS/ReactIcon';
+import JsIcon from '../../components/ICONS/JsIcon';
 
 const Tech = () => {
   return (
@@ -31,7 +32,7 @@ const Tech = () => {
         <ul>
           <li> <AiFillHtml5 />HTML5</li>
           <li> <IoLogoCss3 /> CSS3</li>
-          <li> <TbBrandJavascript /> JavaScript</li>
+          <li> <JsIcon /> JavaScript</li>
           <li> <ReactIcon /> React</li>
           <li> <SiRedux /> Redux</li>
           <li> <FaBootstrap /> Bootstrap</li>
@@ -45,6 +46,7 @@ const Tech = () => {
           <li> <DiRuby /> Ruby</li>
           <li> <SiRubyonrails /> Rails</li>
           <li> <SiPostgresql /> PostgreSQL</li>
+          <li><HiOutlineColorSwatch/> Rswag</li>
           <li><HiLockClosed/> CanCanCan</li>
           <li><HiOutlineDeviceTablet/> Devise</li>
           <li><IoLogoNodejs/> Node.js</li>
