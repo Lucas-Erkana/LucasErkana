@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function JSIcon() {
+function JavascriptIcon() {
   const [size, setSize] = useState(50);
   const max_size = 50;
   const min_size = 40;
@@ -38,4 +38,4 @@ function JSIcon() {
     </div>
   );
 }
-export default JSIcon;
+export default JavascriptIcon;

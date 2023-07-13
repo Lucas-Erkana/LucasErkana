@@ -12,7 +12,7 @@ import VscodeIcon from '../../components/ICONS/VscodeIcon';
 import TerminalIcon from '../../components/ICONS/TerminalIcon';
 import GitlabIcon from '../../components/ICONS/GitlabIcon';
 import ReactIcon from '../../components/ICONS/ReactIcon';
-import JSIcon from '../../components/ICONS/JSIcon';
+import JavascriptIcon from '../../components/ICONS/JavascriptIcon';
 import ReduxIcon from '../../components/ICONS/ReduxIcon';
 import BootstrapIcon from '../../components/ICONS/BootstrapIcon';
 import SassIcon from '../../components/ICONS/SassIcon';
@@ -33,7 +33,7 @@ const Tech = () => {
         <ul>
           <li> <HtmlIcon />HTML5</li>
           <li> <CssIcon /> CSS3</li>
-          <li> <JSIcon /> JavaScript</li>
+          <li> <JavascriptIcon /> JavaScript</li>
           <li> <ReactIcon /> React</li>
           <li> <ReduxIcon /> Redux</li>
           <li> <BootstrapIcon /> Bootstrap</li>
