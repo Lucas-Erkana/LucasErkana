@@ -1,6 +1,6 @@
 import React from 'react';
 
-function JsIcon() {
+function JSIcon() {
   return (
       <img 
         src={`${process.env.PUBLIC_URL}/SVG/javascript.svg`} 
@@ -10,4 +10,4 @@ function JsIcon() {
   );
 }
 
-export default JsIcon;
+export default JSIcon;
