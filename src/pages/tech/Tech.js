@@ -3,10 +3,8 @@ import styles from './Tech.module.css'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
 import { DiRuby } from 'react-icons/di'
-import { FaBootstrap } from 'react-icons/fa'
 import { SiPostgresql, SiRubyonrails } from 'react-icons/si'
 import { HiOutlineColorSwatch, HiLockClosed, HiOutlineDeviceTablet } from 'react-icons/hi'
-import { SiSass } from 'react-icons/si'
 import VercelIcon from '../../components/ICONS/VercelIcon'; // Update the path based on where you are importing it.
 import RenderIcon from '../../components/ICONS/RenderIcon';
 import GitIcon from '../../components/ICONS/GitIcon';
@@ -17,6 +15,8 @@ import GitlabIcon from '../../components/ICONS/GitlabIcon';
 import ReactIcon from '../../components/ICONS/ReactIcon';
 import JSIcon from '../../components/ICONS/JSIcon';
 import ReduxIcon from '../../components/ICONS/ReduxIcon';
+import BootstrapIcon from '../../components/ICONS/BootstrapIcon';
+import SassIcon from '../../components/ICONS/SassIcon'
 
 const Tech = () => {
   return (
@@ -35,8 +35,8 @@ const Tech = () => {
           <li> <JSIcon /> JavaScript</li>
           <li> <ReactIcon /> React</li>
           <li> <ReduxIcon /> Redux</li>
-          <li> <FaBootstrap /> Bootstrap</li>
-          <li> <SiSass /> Sass</li>
+          <li> <BootstrapIcon /> Bootstrap</li>
+          <li> <SassIcon /> Sass</li>
         </ul>
       </article>
 

@@ -5,8 +5,8 @@ function ReactIcon() {
   return (
     <div className="react-logo-container" style={{ 
       backgroundColor: 'black',
-      width: '50px',
-      height: '50px',
+      width: '60px',
+      height: '60px',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
@@ -16,7 +16,7 @@ function ReactIcon() {
         className="react-logo"
         src={`${process.env.PUBLIC_URL}/SVG/react.svg`} 
         alt="React" 
-        style={{width: '40px', height: '40px'}} 
+        style={{width: '55px', height: '55px'}} 
       />
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function JSIcon() {
+function BootstrapIcon() {
   const [size, setSize] = useState(50);
   const max_size = 50;
   const min_size = 40;
@@ -21,7 +21,7 @@ function JSIcon() {
 
   return (
     <div style={{ 
-      backgroundColor: '#323330',
+      backgroundColor: '#f7f8fa',
       width: '60px',
       height: '60px',
       borderRadius: '10%',
@@ -31,11 +31,12 @@ function JSIcon() {
       overflow: 'hidden' // added to prevent image getting out of the box
     }}>
       <img 
-        src={`${process.env.PUBLIC_URL}/SVG/javascript.svg`} 
+        src={`${process.env.PUBLIC_URL}/SVG/bootstrap.svg`} 
         alt="Sass" 
         style={{width: `${size}px`, height: `${size}px`, transition: `${speed/1000}s all`}} 
       />
     </div>
   );
 }
-export default JSIcon;
+
+export default BootstrapIcon;
