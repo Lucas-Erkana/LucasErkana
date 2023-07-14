@@ -9,7 +9,7 @@
     padding-bottom: var(--spacing);
   }
   
-  .feedback .row {
+  .feedback {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,7 +24,7 @@
     margin: var(--spacing);
   }
   
-  .imageContainer {
+  .imageContainers {
     flex: 0 0 auto;
     width: 100px; /* Adjust the width as needed */
     height: 100px; /* Adjust the height as needed */
@@ -35,7 +35,7 @@
     justify-content: center;
   }
   
-  .imageContainer img {
+  .imageContainers img {
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -36,7 +36,7 @@ const FeedbackCard = ({
       transition={{ duration: 0.5, delay: id * 0.1 }}
     >
       <div className="feedbackCardInner">
-        <div className="imageContainer">
+        <div className="imageContainers">
           <img src={image} alt="Laptop displaying the application" />
         </div>
         <div className="contentContainer" style={{ backgroundColor: bgcolor }}>
