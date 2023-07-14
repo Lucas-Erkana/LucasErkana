@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Landing from "../pages/landing/Landing";
 import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
+import Feedback from "../pages/feedback/Feedback"; // Import the Feedback component
 import Contact from "../pages/contact/Contact";
 import Tech from "../pages/tech/Tech";
 
@@ -25,6 +26,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
         }
       />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/feedback" element={<Feedback />} /> {/* Add the Feedback route */}
       <Route
         path="/contact"
         element={
@@ -37,7 +39,6 @@ const AnimatedRoutes = ({ personalDetails }) => {
           <Tech />
         }
       />
-      
     </Routes>
   );
 };

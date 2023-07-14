@@ -59,7 +59,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-angellist"
           aria-hidden="true"
-          title="Lucas Erkana' Twitter Profile"
+          title="Lucas Erkana' Wellfound Profile"
         ></i>
       </a>
     </div>

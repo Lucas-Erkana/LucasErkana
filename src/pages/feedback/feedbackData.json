@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company_name": "SIm'enSe",
+    "name": "Houda MZARI",
+    "description": "I have worked with Lucas on many collaborative projects, he was an amazing collaborator, always eager to learn more, and always finishes his tickets prior to due time. I can't think of a better coding partner/ collaborator/ communicator than him. I 100% recommend him.",
+    "image": "https://media.licdn.com/dms/image/D4E03AQFaWRksB23whA/profile-displayphoto-shrink_400_400/0/1675853226537?e=1694649600&v=beta&t=FOSZs4SVu-lLsIjeuVSowWWCb8IX1sCBP--dXYoED1A",
+    "github": "https://github.com/houdamzari",
+    "bgcolor": "#fbbfce",
+    "textcolor": "#000000",
+    "id": "1"
+  },
+  {
+    "title": "Full-stack Developer",
+    "company_name": "JUUBIX",
+    "name": "KASHIF SALEEM",
+    "description": "Lucas is a hardworking and very talented software developer. It is always a pleasure to team up with him as it is a great learning experience for me.",
+    "image": "https://avatars.githubusercontent.com/u/111677605?v=4",
+    "github": "https://github.com/Kashif-Saleem-Ghuman",
+    "bgcolor": "#aaffcc",
+    "textcolor": "#000000",
+    "id": "2"
+  },
+  {
+    "title": "Full-Stack Devloper",
+    "company_name": "Freelance",
+    "name": "Prantosh Biswas",
+    "description": "I had the privilege of studying alongside Lucas in the Full Stack Developer course at Microverse and I can wholeheartedly recommend them for any role in software development. Their dedication to learning and passion for code is unparalleled. They consistently demonstrated a strong understanding of core programming concepts and the ability to apply them in building functional and effective web applications. Lucas is a quick learner and a team player, making them a valuable asset to any project they work on. I'm confident that they will continue to excel in their career as a software developer and I highly recommend them to anyone in need of a talented and driven individual.",
+    "image": "https://avatars.githubusercontent.com/u/93311467?v=4",
+    "github": "https://github.com/PrantoshB",
+    "bgcolor": "#b9be0c",
+    "textcolor": "#000000",
+    "id": "3"
+  },
+  {
+    "title": "Full stack web developer",
+    "company_name": "Microverse",
+    "name": "Reem Muhammad",
+    "description": "I have worked with Lucas during microverse, his attitude and, style for learning are outstanding. he is really a hard worker and can make great changes to his team. I wholeheartedly recommend him for any future opportunities, and I am confident that he will continue to excel in their work. It has been a pleasure working with him, and I look forward to seeing all that he will accomplish in the future.",
+    "image": "https://avatars.githubusercontent.com/u/26763433?v=4",
+    "github": "https://github.com/ReemMohamedAbdelfatah",
+    "bgcolor": "#ad4e5f",
+    "textcolor": "#000000",
+    "id": "4"
+  },
+  {
+    "title": "Web Developer",
+    "company_name": "Apex Games",
+    "name": "Wahaj Ali ",
+    "description": "I spent time with Lucas not only working on projects but also as a team member in morning sessions and standup meetings and I am sure that Lucas is always full of energy and hungry to learn. He has a great work ethic as well. Navigating his profile tells about his natural ability to never stop learning as he is always finding and sharing sources to polish skills. I would recommend him as a developer with an immense skillset and a great mindset.",
+    "image": "https://avatars.githubusercontent.com/u/111431787?v=4",
+    "github": "https://github.com/Wahaj-Ali",
+    "bgcolor": "#2bbbd5",
+    "textcolor": "#000000",
+    "id": "5"
+  },
+  {
+    "title": "Full-stack Developer",
+    "company_name": "Freelancer",
+    "name": "Roy Jumah",
+    "description": "Lucas Erkana is a Micronaut whose passion for technology and commitment to excellence sets him apart. I have had the privilege of working with Lucas on multiple projects, and his contributions have been invaluable. Lucas has a remarkable ability to quickly learn and apply new technologies, making him a versatile and valuable asset to any team. He is also a natural leader, able to guide and motivate his colleagues to achieve great results. In addition to his technical abilities, Lucas is known for his upbeat and energetic personality. He brings positive energy to every project, creating a collaborative and productive work environment. His passion for technology is contagious and inspires those around him to aim for excellence. I highly recommend Lucas for any project or opportunity. He is a talented and dedicated Micronaut whose technical abilities, leadership skills, and positive attitude make him a valuable asset to any team.",
+    "image": "https://avatars.githubusercontent.com/u/61903079?v=4",
+    "github": "https://github.com/RoyJumah",
+    "bgcolor": "#ca76cf",
+    "textcolor": "#000000",
+    "id": "6"
+  }
+]
