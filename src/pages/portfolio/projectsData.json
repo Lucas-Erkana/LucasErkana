@@ -16,7 +16,7 @@
     "description": "Tasty Bites: Organize, Create, and Share Recipes with Ease! Save, track, and manage your recipes, ingredients, and inventory effortlessly. Generate shopping lists based on your recipe needs. Share your favorite recipes with the world by making them public. Cook with confidence and never miss a beat with Tasty Bites!",
     "technologies": "Ruby on Rails | Postgresql | HTML & CSS",
     "github": "https://github.com/Lucash2022/Tasty-Bites",
-    "deployed": "https://rails-nlz4.onrender.com/",
+    "deployed": "https://tasty-bites-z5va.onrender.com/",
     "bgcolor": "#f37737",
     "id": "2"
   },
