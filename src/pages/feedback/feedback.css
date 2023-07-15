@@ -1,0 +1,89 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin-top: calc(var(--spacing) * 0.5); /* Reduce top margin by 50% */
+    padding-bottom: var(--spacing);
+  }
+  
+  .feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing);
+  }
+  
+  .feedbackCardInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--spacing);
+  }
+  
+  .imageContainers {
+    flex: 0 0 auto;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-right: var(--spacing);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageContainers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .contentContainer {
+    flex: 1;
+  }
+  
+  .bubble {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0px;
+  }
+  
+  .bubble h3,
+  .bubble h4,
+  .bubble p {
+    margin: 0;
+  }
+  
+  .bubble .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bubble .github {
+    font-size: 14px;
+  }
+  
+  .bubble .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .bubble .company {
+    font-size: 14px;
+  }
+  
+  .bubble .description {
+    font-size: 14px;
+  }
+  
+  .pageHeader {
+    margin-bottom: calc(var(--spacing) * 0.5); /* Reduce bottom margin by 50% */
+  }
+  
+  .companyTitle {
+    font-weight: bold;
+    color: rgb(19, 161, 161);
+  }

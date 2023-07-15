@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import openMenu from "../images/open.svg";
 import closeMenu from "../images/close.svg";
 
 const NavLinks = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <>
       <button className="dropdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -28,8 +28,8 @@ const NavLinks = () => {
         <NavLink to="/tech" onClick={() => setIsMenuOpen(false)}>
           Tech
         </NavLink>
-        <NavLink to="/recommendations" onClick={() => setIsMenuOpen(false)}>
-          Recommendations
+        <NavLink to="/feedback" onClick={() => setIsMenuOpen(false)}>
+          Feedback
         </NavLink>
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
           Contact
