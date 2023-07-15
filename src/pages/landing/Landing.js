@@ -11,15 +11,14 @@ const Landing = ({ name }) => {
       justifyContent: "center",
       alignItems: "center",
     },
-
     landingImage: {
       position: "absolute",
       bottom: "0",
       opacity: "0.3",
       mixBlendMode: "lighten",
       height: "90%",
+      width: "27%", // Add explicit width
     },
-
     textContainer: {
       display: "flex",
       flexDirection: "column",
@@ -29,7 +28,6 @@ const Landing = ({ name }) => {
       color: "#fff",
       textShadow: "1px 1px 3px #000",
     },
-
     name: {
       color: "#fff",
       fontWeight: "700",
@@ -41,7 +39,6 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      {/* <Draw /> */}
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -63,9 +60,6 @@ const Landing = ({ name }) => {
             }}
           />
         </div>
-
-
-
       </div>
       <div className="image-container">
         <motion.img
