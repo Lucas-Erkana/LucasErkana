@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/portfolio3.png";
+import aboutMeImg from "../images/portfolio3.webp";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
