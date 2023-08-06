@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Cars Rental Frontend ](#-cars-rental-frontend-)
+- [ Portfolio - Lucas Erkana 🤘](#-about-project-)
 	- [Live Demo](#live-demo)
 	- [🛠 Built With ](#-built-with-)
 		- [Tech Stack ](#tech-stack-)
@@ -29,9 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio<a name="about-project"></a>
+# Portfolio - Lucas Erkana 🤘 <a name="about-project"></a>
 
-> This is my portfolio which showcases my skills.
+This Personal Portfolio showcases my skills and experience using React JS, HTML, and CSS. It includes projects I have worked on, my education, and relevant work experience. It provides a dynamic and engaging user experience for potential employers and clients.
+
+### App Screenshot
 ![Portfolio](https://github.com/Lucash2022/Portfolio/assets/41428579/3ecda523-a997-4ccb-a518-15be92d8cad3)
 
 
@@ -45,7 +47,12 @@ This app is built with React and Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> <li><a href="https://reactjs.org/">React</a></li>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -68,9 +75,10 @@ This app is built with React and Redux.
 In order to run this project you need:
 
 - Mac or PC
-- Install node.js
 - Use npm as package manager
 - Understanding of React
+- A web browser like Google Chrome.
+- A code editor like Visual Studio Code with Git and Node.js.
 
 ### Setup
 
