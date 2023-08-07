@@ -17,7 +17,7 @@ const Landing = ({ name }) => {
       opacity: "0.3",
       mixBlendMode: "lighten",
       height: "90%",
-      width: "27%", // Add explicit width
+      width: "45%", // Add explicit width
     },
     textContainer: {
       display: "flex",
