@@ -9,7 +9,7 @@
   }
   
   .landingImage {
-    right: 0px;
+    display: none;
   }
   
   /* .landing .socialIcons {
