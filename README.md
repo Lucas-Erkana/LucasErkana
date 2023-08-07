@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <h3><b>My Portfolio</b></h3>
-</div>
-<a name="readme-top"></a>
+<h1 align='center'> Portfolio - Lucas Erkana 🤘 </h1>
+
 
 <!-- TABLE OF CONTENTS -->
 
