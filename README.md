@@ -25,6 +25,7 @@
 	- [🤝 Contributing ](#-contributing-)
 	- [⭐️ Show your support ](#️-show-your-support-)
 	- [🙏 Acknowledgments ](#-acknowledgments-)
+ 	- [🙏 FAQ ](#-faq-)
 	- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -163,6 +164,7 @@ If you like this project, please leave a ⭐️
 - I would like to thank [cloudconvert](https://cloudconvert.com/) for providing a reliable and easy-to-use online file converter that has helped me convert my logo from PNG to ICO.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
