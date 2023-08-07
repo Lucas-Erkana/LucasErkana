@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { ThreeDots } from "react-loader-spinner";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Form = () => {
   const [ref, inView] = useInView({
@@ -8,6 +11,7 @@ const Form = () => {
     triggerOnce: true,
   });
 
+  const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
   const [formData, setFormData] = useState({
@@ -15,7 +19,7 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: "bbce214b-16d9-4d90-b97b-614518bcd33a",
+    access_key: "c1f76ca7-4b4f-4344-a3a7-619d1d3b852d",
   });
 
   const handleChange = (e) => {
@@ -27,6 +31,9 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Show the loader
+    setLoading(true);
 
     const data = JSON.stringify(formData);
 
@@ -48,11 +55,23 @@ const Form = () => {
           subject: "",
           message: "",
         });
-        setTimeout(() => {
-          setSuccess(false);
-        }, 3000);
+        setLoading(false);
+
+        // Show the success message
+        toast.success("Message sent successfully!", {
+          position: "top-center",
+          autoClose: 3000,
+        });
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+        setSuccess(false);
+        toast.error("Failed to send the message. Please try again.", {
+          position: "top-center",
+          autoClose: 3000,
+        });
+      });
   };
 
   return (
@@ -115,8 +134,15 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+        <button className="btn" disabled={loading}>
+          {loading ? (
+            <ThreeDots color="#fff" height={20} width={40} />
+          ) : (
+            success ? "Message Sent" : "Send Message"
+          )}
+        </button>
       </div>
+      <ToastContainer />
     </motion.form>
   );
 };

@@ -78,7 +78,7 @@
     "technologies": "JavaScript | HTML5 | CSS3 | Webpack | Jest",
     "description": "This is educational project is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete",
    "github": "https://github.com/Lucash2022/To_Do_List",
-    "deployed": "https://lucash2022.github.io/To_Do_List/",
+    "deployed": "https://lucash2022.github.io/To_Do_List/version1.4/dist/",
     "bgcolor": "#3e67ff",
     "id": "8"
   },

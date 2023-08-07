@@ -60,7 +60,8 @@ This app is built with React and Redux.
 > - About page.
 > - Portfolio page to showcase projects.
 > - Tech page showcasing my skills.
-> - Contact page.
+> - Feedback page showcasing my recommendations.
+> - Contact page.(Use the contact form to send a message that will go directly to my inbox)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,6 +159,29 @@ If you like this project, please leave a ⭐️
 
 - I would like to thank Microverse for providing the reading materials that aided us to during the project development.
 - I would like to thank [Kashif Saleem](https://github.com/Kashif-Saleem-Ghuman) for helping me with the designing of this portfolio.
+- I would like to thank [web3forms](https://web3forms.com/) for providing a secure and decentralized form builder that has made it easy to collect data from users of my React app. The service has been reliable and easy to use, and I have been very happy with the results. Thank you for your great work!
+- I would like to thank [cloudconvert](https://cloudconvert.com/) for providing a reliable and easy-to-use online file converter that has helped me convert my logo from PNG to ICO.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **How can I deploy this Portfolio project to a web server and make it accessible to others?**
+
+  - To deploy the Portfolio project to a web server, you have several options. One common approach is to use a hosting service like GitHub Pages, Netlify, Vercel, or Firebase Hosting. These services provide easy-to-use deployment options for static websites like portfolios. Typically, you'll need to push your project to a Git repository (e.g., GitHub) and then configure the hosting service to deploy the site automatically whenever you push changes. Each hosting service has its own documentation and guides on how to set up the deployment for static sites.
+
+- **How can I customize the content and appearance of the Portfolio project to make it my own?**
+
+- Customizing the content and appearance of the Portfolio project involves modifying the existing code and adding your own content. Here are some steps you can take to customize the project:
+
+- Change Content: Update the ContactInfo component in Contact.js to display your own name, location, and email address. Also, update the description and other relevant details in the PageHeader component to reflect your own profile.
+
+- Add Projects: If you want to showcase your projects, you can create a new component to display project cards or images, and then add this component to the Home.js or Projects.js page. You can also update the navigation links in the Navbar.js component to link to the new page.
+
+- Styling: To change the appearance, you can modify the CSS styles in the index.css file or create a separate CSS file and import it into the components where you need custom styling. You can update colors, fonts, spacing, and other visual elements to match your preferences.
+
+- Adding Pages: If you want to add more pages (e.g., an About Me page or a Resume page), you can create new components for those pages and add them to the App.js file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
