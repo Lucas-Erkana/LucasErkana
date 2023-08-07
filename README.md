@@ -38,7 +38,7 @@ This Personal Portfolio showcases my skills and experience using React JS, HTML,
 
 ## Live Demo
 
-To see this project's live demo, please click [here](https://lucas-erkana-portfolio.vercel.app/).
+To see this project's live demo, please click [here](https://lucaserkana.vercel.app/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
