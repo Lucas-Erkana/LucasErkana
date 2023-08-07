@@ -33,7 +33,7 @@
 This Personal Portfolio showcases my skills and experience using React JS, HTML, and CSS. It includes projects I have worked on, my education, and relevant work experience. It provides a dynamic and engaging user experience for potential employers and clients.
 
 ### App Screenshot
-![Portfolio](https://github.com/Lucash2022/Portfolio/assets/41428579/3ecda523-a997-4ccb-a518-15be92d8cad3)
+![Portfolio](https://github.com/Lucask-Erkana/Portfolio/assets/41428579/3ecda523-a997-4ccb-a518-15be92d8cad3)
 
 
 ## Live Demo
@@ -85,7 +85,7 @@ In order to run this project you need:
 - Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/Lucash2022/Portfolio.git
+ git clone https://github.com/Lucask-Erkana/Portfolio.git
 ```
 
 - Navigate into the cloned folder
@@ -117,10 +117,10 @@ In order to run this project you need:
 
 👤 **Lucas Erkana**
 
-- GitHub: [@Lucash2022](https://github.com/Lucash2022)
+- GitHub: [@Lucask-Erkana](https://github.com/Lucask-Erkana)
 - Twitter: [@Lucas_David_22](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [Lucas Erkana](https://www.linkedin.com/in/lucas-erkana/)
-- Frontend Mentor - [@Lucash2022](https://www.frontendmentor.io/profile/Lucash2022)
+- Frontend Mentor - [@Lucask-Erkana](https://www.frontendmentor.io/profile/Lucask-Erkana)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucash2022/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Lucask-Erkana/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
