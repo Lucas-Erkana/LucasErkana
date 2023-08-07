@@ -150,6 +150,8 @@ If you like this project, please leave a ⭐️
 
 - I would like to thank Microverse for providing the reading materials that aided us to during the project development.
 - I would like to thank [Kashif Saleem](https://github.com/Kashif-Saleem-Ghuman) for helping me with the designing of this portfolio.
+- I would like to thank [web3forms](https://web3forms.com/) for providing a secure and decentralized form builder that has made it easy to collect data from users of my React app. The service has been reliable and easy to use, and I have been very happy with the results. Thank you for your great work!
+- I would like to thank [cloudconvert](https://cloudconvert.com/) for providing a reliable and easy-to-use online file converter that has helped me convert my logo from PNG to ICO.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
