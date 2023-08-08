@@ -1,8 +1,9 @@
+import React, { useState, useEffect } from "react";
 import aboutMeImg from "../images/portfolio3.webp";
+import aboutMeImgMobile from "../images/portfolio3.png";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
-import { useState, useEffect } from "react";
 
 const AboutMe = ({ name, email, location, availability, brand, CTA }) => {
   const [ref, inView] = useInView({
@@ -11,6 +12,8 @@ const AboutMe = ({ name, email, location, availability, brand, CTA }) => {
   });
 
   const [downloading, setDownloading] = useState(false);
+  const [showH5, setShowH5] = useState(false);
+  const [showP, setShowP] = useState(false);
 
   useEffect(() => {
     setDownloading(false);
@@ -19,13 +22,28 @@ const AboutMe = ({ name, email, location, availability, brand, CTA }) => {
   const handleDownload = () => {
     setDownloading(true);
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1XTAwnk3XhgQQwkOIGOnGwdw87Deq6eTj/view?usp=sharing"
+    link.href =
+      "https://drive.google.com/file/d/1XTAwnk3XhgQQwkOIGOnGwdw87Deq6eTj/view?usp=sharing";
     link.onload = () => {
       link.remove();
       setDownloading(false);
     };
     document.body.appendChild(link);
-    window.open(link.href)
+    window.open(link.href);
+  };
+
+  const handleTitleClick = (index) => {
+    if (index === 1) {
+      setShowH5(true);
+      setTimeout(() => {
+        setShowH5(false);
+      }, 4000);
+    } else if (index === 2) {
+      setShowP(true);
+      setTimeout(() => {
+        setShowP(false);
+      }, 4000);
+    }
   };
 
   return (
@@ -38,7 +56,8 @@ const AboutMe = ({ name, email, location, availability, brand, CTA }) => {
           animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
-          <img src={aboutMeImg} alt={name} />
+          <img className="photo" src={aboutMeImg} alt={name} />
+          <img className="photoMobile" src={aboutMeImgMobile} alt={name} />
         </motion.div>
         <motion.div
           className="personalInfo col-12 col-lg-8"
@@ -48,14 +67,25 @@ const AboutMe = ({ name, email, location, availability, brand, CTA }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Hello there! Nice to meet you</h4>
-            <h5>
-            I'm a Full-stack Web Developer with a passion for creating exceptional digital products!
+            <h4 className="titleclick1" onClick={() => handleTitleClick(1)}>
+              Hello there! Nice to meet you
+            </h4>
+            <h5 className={`visible1 ${showH5 ? "active" : ""}`}>
+              I'm a Full-stack Web Developer with a passion for creating
+              exceptional digital products!
             </h5>
             <div className="contentDescription">
-              <p><span className="fun-fact">Here is a fun fact about me:</span> {brand}</p>
-              <p>{CTA}</p>
-           
+              <span
+                className="fun-fact titleclick2"
+                onClick={() => handleTitleClick(2)}
+              >
+                Here is a fun fact about me:
+              </span>{" "}
+              <p className={`visible2 ${showP ? "active" : ""}`}>{brand}</p>
+              <p className={`visible2 ${showP ? "active" : ""}`}>
+                I love to create amazing web experiences for users!
+              </p>
+              <p className={`visible2 ${showP ? "active" : ""}`}>{CTA}</p>
             </div>
             <div className="infoContainer">
               <div className="row">
