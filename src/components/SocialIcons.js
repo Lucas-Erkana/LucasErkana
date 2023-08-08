@@ -13,7 +13,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://github.com/Lucash2022"
+        href="https://github.com/Lucas-Erkana"
         target="_blank"
         rel="noopener noreferrer"
       >
