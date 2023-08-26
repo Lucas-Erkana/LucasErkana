@@ -1,5 +1,16 @@
 [
   {
+    "title": "TaskGenius",
+    "image": "./projectImages/taskgenius.gif",
+    "description": "TodoGenius-app is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. 📝✅",
+    "technologies": "Vue.js | Javascript | HTML | CSS ",
+    "github": "https://github.com/Lucas-Erkana/TodoGenius-app",
+    "deployed": "https://todo-genius-app.vercel.app/",
+    "bgcolor": "#bba9ff",
+    "id": "1"
+  },
+
+  {
     "title": "Bookflix",
     "image": "./projectImages/bookflix.gif",
     "description": "Movie is a platform where users can book tickets to movie premieres, cancel a booking, see the details of a premiere, and rate the premiere. 💰💼",
@@ -7,7 +18,7 @@
     "github": "https://github.com/Lucas-Erkana/BookFlix-Frontend",
     "deployed": "https://book-flix-frontend.vercel.app/",
     "bgcolor": "#baf94a",
-    "id": "1"
+    "id": "2"
   },
   {
     "title": "Spend Smart",
@@ -17,28 +28,28 @@
     "github": "https://github.com/Lucas-Erkana/SpendSmart",
     "deployed": "https://spend-smart.onrender.com/",
     "bgcolor": "#f377e7",
-    "id": "2"
+    "id": "3"
   },
 
   {
     "title": "Tasty Bites",
     "image": "./projectImages/tasty-bites.gif",
-    "description": "Tasty Bites: Organize, Create, and Share Recipes with Ease! Save, track, and manage your recipes, ingredients, and inventory effortlessly. Generate shopping lists based on your recipe needs. Share your favorite recipes with the world by making them public. Cook with confidence and never miss a beat with Tasty Bites!",
+    "description": "Tasty Bites: Organize, Create, and Share Recipes with Ease! Save, track, and manage your recipes, ingredients, and inventory effortlessly. Generate shopping lists based on your recipe needs. Share your favorite recipes with the world by making them public. Cook with confidence and never miss a beat with Tasty Bites! 🍴📝",
     "technologies": "Ruby on Rails | Postgresql | HTML & CSS",
     "github": "https://github.com/Lucas-Erkana/Tasty-Bites",
     "deployed": "https://tasty-bites-4qqm.onrender.com/",
     "bgcolor": "#f37737",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "Math Magicians",
     "image": "./projectImages/math-magic.gif",
     "technologies": "React| JavaScript | CSS",
-    "description": " In this react project I created a full website for the Math magicians app, consisting of several pages and using the components I have already created. By adding a Home page, Calculator page and Quotes page.",
+    "description": " In this react project I created a full website for the Math magicians app, consisting of several pages and using the components I have already created. By adding a Home page, Calculator page and Quotes page.🧮🌐📚💻",
      "github": "https://github.com/Lucas-Erkana/math_magician_react",
     "deployed": "https://math-magicians-s0ze.onrender.com",
     "bgcolor": "#29cbe0",
-    "id": "4"
+    "id": "5"
   },
   {
     "title": "Bookstore",
@@ -48,28 +59,28 @@
     "github": "https://github.com/Lucas-Erkana/Bookstore",
     "deployed": "https://bookstore-mz71.onrender.com",
     "bgcolor": "#6c4bf4",
-    "id": "5"
+    "id": "6"
   },
   {
     "title": "Astro Travelers",
     "image": "./projectImages/astro-travelers.gif",
     "technologies": "React | Redux | CSS3",
-    "description": "In this project I collaborated with Steven Mukama to work with real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+    "description": "In this project I collaborated with Steven Mukama to work with real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.📖📝",
     "github": "https://github.com/Lucas-Erkana/Astro-Travelers",
     "deployed": "https://astro-travelers.onrender.com/",
     "bgcolor": "#f85781",
-    "id": "6"
+    "id": "7"
   },
 
   {
     "title": "TV-hub ",
     "image": "./projectImages/tv-hub.gif",
-    "description": " TV Hub is a TV show database website that displays all the information about a show including the description and the rating of the show. You can search for a show, like it, and comment on any of your favorite shows. This project consumed TVmaze API.",
+    "description": "TV Hub is a TV show database website that displays all the information about a show including the description and the rating of the show. You can search for a show, like it, and comment on any of your favorite shows. This project consumed TVmaze API. 📺🔍",
     "technologies": "JavaScript | HTML5 | CSS3 | Webpack",
      "github": "https://github.com/Lucas-Erkana/TV-hub",
     "deployed": "https://Lucas-Erkana.github.io/TV-hub/dist/",
     "bgcolor": "#ffcc33",
-    "id": "7"
+    "id": "8"
   },
 
   {
@@ -80,7 +91,7 @@
    "github": "https://github.com/Lucas-Erkana/To_Do_List",
     "deployed": "https://Lucas-Erkana.github.io/To_Do_List/version1.4/dist/",
     "bgcolor": "#3e67ff",
-    "id": "8"
+    "id": "9"
   },
   {
     "title": "Awesome Books",
@@ -90,7 +101,7 @@
    "github": "https://github.com/Lucas-Erkana/Awesome_Book",
     "deployed": "https://Lucas-Erkana.github.io/Awesome_Book/",
     "bgcolor": "#2ff3e0",
-    "id": "9"
+    "id": "10"
   }
 
 ]

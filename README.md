@@ -23,7 +23,7 @@
 	- [🤝 Contributing ](#-contributing-)
 	- [⭐️ Show your support ](#️-show-your-support-)
 	- [🙏 Acknowledgments ](#-acknowledgments-)
- 	- [🙏 FAQ ](#-faq-)
+	- [🙏 FAQ ](#-faq-)
 	- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
