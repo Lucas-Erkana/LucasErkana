@@ -36,9 +36,9 @@ const FeedbackCard = ({
       transition={{ duration: 0.5, delay: id * 0.1 }}
     >
       <div className="feedbackCardInner">
-        <div className="imageContainers">
+        {/* <div className="imageContainers">
           <img src={image} alt="Laptop displaying the application" />
-        </div>
+        </div> */}
         <div className="contentContainer" style={{ backgroundColor: bgcolor }}>
           <div className="bubble" style={{ color: textcolor }}>
             <h3 className="name">{name}</h3>
