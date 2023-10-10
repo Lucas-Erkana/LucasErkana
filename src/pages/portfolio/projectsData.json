@@ -26,7 +26,7 @@
     "description": "SpendSmart is a web-based budgeting application built using Ruby on Rails and PostgreSQL. With SpendSmart, users can effortlessly track their income and expenses, gaining full control over their finances. 💰💼",
     "technologies": "Ruby on Rails | Postgresql | HTML | SASS & CSS",
     "github": "https://github.com/Lucas-Erkana/SpendSmart",
-    "deployed": "https://spend-smart.onrender.com/",
+    "deployed": "https://spendsmart-test.onrender.com/",
     "bgcolor": "#f377e7",
     "id": "3"
   },
