@@ -1,5 +1,15 @@
 [
   {
+    "title": "LJTEcc",
+    "image": "./projectImages/ljtecc.gif",
+    "description": "Louks Junior Trading Enterprises cc website is your gateway to our diverse services. Discover expert building construction, stationeries, transport, plumbing, and procurement solutions. Experience our portfolio, explore our offerings, and engage with our team. Welcome to a world of quality and excellence.📝✅",
+    "technologies": "Bootstrap | Javascript | HTML | CSS ",
+    "github": "https://github.com/Lucas-Erkana/LJTEcc",
+    "deployed": "https://ljtecc.pro/",
+    "bgcolor": "#ff3131",
+    "id": "1"
+  },
+  {
     "title": "TaskGenius",
     "image": "./projectImages/taskgenius.gif",
     "description": "TodoGenius-app is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. 📝✅",
@@ -7,7 +17,7 @@
     "github": "https://github.com/Lucas-Erkana/TodoGenius-app",
     "deployed": "https://todo-genius-app.vercel.app/",
     "bgcolor": "#bba9ff",
-    "id": "1"
+    "id": "2"
   },
 
   {
@@ -18,7 +28,7 @@
     "github": "https://github.com/Lucas-Erkana/BookFlix-Frontend",
     "deployed": "https://book-flix-frontend.vercel.app/",
     "bgcolor": "#baf94a",
-    "id": "2"
+    "id": "3"
   },
   {
     "title": "Spend Smart",
@@ -28,7 +38,7 @@
     "github": "https://github.com/Lucas-Erkana/SpendSmart",
     "deployed": "https://www.spendsmart.shop/",
     "bgcolor": "#f377e7",
-    "id": "3"
+    "id": "4"
   },
 
   {
@@ -39,7 +49,7 @@
     "github": "https://github.com/Lucas-Erkana/Tasty-Bites",
     "deployed": "https://tasty-bites-4qqm.onrender.com/",
     "bgcolor": "#f37737",
-    "id": "4"
+    "id": "5"
   },
   {
     "title": "Math Magicians",
@@ -49,7 +59,7 @@
      "github": "https://github.com/Lucas-Erkana/math_magician_react",
     "deployed": "https://math-magicians-s0ze.onrender.com",
     "bgcolor": "#29cbe0",
-    "id": "5"
+    "id": "6"
   },
   {
     "title": "Bookstore",
@@ -59,7 +69,7 @@
     "github": "https://github.com/Lucas-Erkana/Bookstore",
     "deployed": "https://bookstore-mz71.onrender.com",
     "bgcolor": "#6c4bf4",
-    "id": "6"
+    "id": "7"
   },
   {
     "title": "Astro Travelers",
@@ -69,7 +79,7 @@
     "github": "https://github.com/Lucas-Erkana/Astro-Travelers",
     "deployed": "https://astro-travelers.onrender.com/",
     "bgcolor": "#f85781",
-    "id": "7"
+    "id": "8"
   },
 
   {
@@ -80,7 +90,7 @@
      "github": "https://github.com/Lucas-Erkana/TV-hub",
     "deployed": "https://Lucas-Erkana.github.io/TV-hub/dist/",
     "bgcolor": "#ffcc33",
-    "id": "8"
+    "id": "9"
   },
 
   {
@@ -91,7 +101,7 @@
    "github": "https://github.com/Lucas-Erkana/To_Do_List",
     "deployed": "https://Lucas-Erkana.github.io/To_Do_List/version1.4/dist/",
     "bgcolor": "#3e67ff",
-    "id": "9"
+    "id": "10"
   },
   {
     "title": "Awesome Books",
@@ -101,7 +111,7 @@
    "github": "https://github.com/Lucas-Erkana/Awesome_Book",
     "deployed": "https://Lucas-Erkana.github.io/Awesome_Book/",
     "bgcolor": "#2ff3e0",
-    "id": "10"
+    "id": "11"
   }
 
 ]
