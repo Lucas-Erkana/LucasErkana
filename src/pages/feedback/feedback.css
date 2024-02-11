@@ -1,0 +1,71 @@
+.feedback,
+.feedbackCardInner,
+.imageContainers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin-top: calc(var(--spacing) * 0.5);
+    padding-bottom: var(--spacing);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing);
+}
+.feedbackCardInner {
+    align-items: center;
+    justify-content: center;
+    margin: var(--spacing);
+}
+.imageContainers {
+    flex: 0 0 auto;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.imageContainers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.contentContainer {
+    flex: 1;
+}
+.bubble {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0;
+}
+.bubble h3,
+.bubble h4,
+.bubble p {
+    margin: 0;
+}
+.bubble .name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.bubble .company,
+.bubble .description,
+.bubble .github {
+    font-size: 14px;
+}
+.bubble .title {
+    font-size: 16px;
+    font-weight: 700;
+}
+.pageHeader {
+    margin-bottom: calc(var(--spacing) * 0.5);
+}
+.companyTitle {
+    font-weight: 700;
+    color: #13a1a1;
+}

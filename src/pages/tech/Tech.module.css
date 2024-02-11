@@ -1,0 +1,276 @@
+@media screen and (max-width: 750px) {
+
+    .techHead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw;
+        color: #fff;
+        gap: 1rem;
+      
+    }
+    
+    .techHead h1{
+        font-size: 3rem;
+        border-bottom:  3px solid var(--hl-color);
+    }
+    
+    .techHead p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-between;
+        gap: 3rem;
+        padding: 2vw;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 2rem;
+        width: 80%;
+        margin: auto auto;
+        border-radius: 3px;
+    
+        ;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+    }
+
+    .container svg {
+        font-size: 2rem;
+    }
+
+    .container li {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .frontContainer {
+        animation: l-t-r 1.5s ease-in-out;
+        background-color: rgba(243, 119, 55, 0.7);
+        background-image: url(./frontEnd.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 50%;
+
+      /* add transparency */
+
+    }
+
+    .frontContainer:hover {
+        background-color: rgba(243, 119, 55, 0.3);
+        transform: scale(1.05);
+    }
+
+    .backContainer {
+        animation: d-t-u 1.5s ease-in-out;
+        background-color: rgb(41, 203, 224, 0.7);
+        background-image: url(./backEnd.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 50%;
+
+    }
+.backContainer:hover {
+        background-color: rgb(41, 203, 224, 0.3);
+        transform: scale(1.05);
+    }
+    .otherContainer {
+        animation: r-t-l 1.5s ease-in-out;
+        background-color: rgb(108,75,244,0.7);
+        background-image: url(./otherSkills.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 50%;
+    }
+
+    .otherContainer:hover {
+        background-color: rgb(108,75,244,0.3);
+        transform: scale(1.05);
+    }
+
+    }
+        
+    
+    
+
+@media screen and (min-width: 750px) {
+.techHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    color: #fff;
+    gap: 1rem;
+    
+}
+
+.techHead h1{
+    font-size: 36px;
+    border-bottom:  3px solid var(--hl-color);
+}
+
+.techHead p{
+    color: var(--text-color);
+    font-size: 20px;
+
+}
+    .wrapper {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+padding: 2vw;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 30%;
+        /* add a border to the top left and bottom right corner */
+        border-radius: 3px;
+        /* add a white glow box shadow */
+        /* box-shadow: 0 0 10px 5px #2596be; */
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+    }
+
+    .container svg {
+        font-size: 2rem;
+    }
+
+    .container li {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+   
+
+    .frontContainer {
+        animation: l-t-r 1.5s ease-in-out;
+        background-color: rgba(243, 119, 55, 0.7);
+        background-image: url(./frontEnd.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 40%;
+
+      /* add transparency */
+
+    }
+
+    .frontContainer:hover {
+        background-color: rgba(243, 119, 55, 0.3);
+        transform: scale(1.05);
+    }
+
+    .backContainer {
+        animation: d-t-u 1.5s ease-in-out;
+        background-color: rgb(41, 203, 224, 0.7);
+        background-image: url(./backEnd.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 40%;
+
+    }
+.backContainer:hover {
+        background-color: rgb(41, 203, 224, 0.3);
+        transform: scale(1.05);
+    }
+    .otherContainer {
+        animation: r-t-l 1.5s ease-in-out;
+        background-color: rgb(108,75,244,0.7);
+        background-image: url(./otherSkills.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 40%;
+    }
+
+    .otherContainer:hover {
+        background-color: rgb(108,75,244,0.3);
+        transform: scale(1.05);
+    }
+
+
+@keyframes l-t-r{
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes d-t-u{
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes r-t-l{
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+}
